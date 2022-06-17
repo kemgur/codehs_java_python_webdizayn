@@ -1,0 +1,4 @@
+
+char x = 'X', y = 'y', sign = '?';
+ System.out.println(x+y+sign);
+

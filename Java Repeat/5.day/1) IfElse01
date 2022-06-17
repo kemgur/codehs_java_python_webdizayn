@@ -1,0 +1,57 @@
+
+package day05ifelsestatements;
+
+public class IfElse01 {
+
+
+    //    &&  ||
+
+
+    //         ||
+    //  value1  and value2
+    // true          true   => true
+    //true           false   => true
+    // false         true    => true
+    // false         false   => false
+
+
+    public static void main(String[] args) {
+
+        //I can move from North Carolina to Virginia by a car or bus
+//
+//        boolean car = false;
+//
+//        boolean bus = false;
+//
+//
+//        //   false    true
+//        if (  car || bus){
+//            System.out.println("I can go to Virginia");
+//        }
+
+
+
+        //  || one of our conditions must be true
+
+
+        //I have cash money, I also have debit card
+
+        //I will buy a PC
+
+        boolean cashMoney = false;
+        boolean debitCard = false;
+
+            //false      false
+        if(cashMoney || debitCard){
+            System.out.println("I can buy PC");
+        } else {
+            System.out.println("I cannot buy a PC");
+        }
+
+
+
+    }
+
+
+
+}

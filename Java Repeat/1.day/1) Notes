@@ -1,0 +1,44 @@
+
+char character = '1' , 'A', '2';
+
+char first='1', second='A', third='2';
+
+/////////////////////////////
+Q:1)
+Create 3 integer variables,assign values to them, print them on the console one by one.
+(//3 tamsayı değişkeni oluşturun, bunlara değer atayın, tek tek konsolda yazdırın)
+
+A:1)
+int x = 33, y = 24, z = 68;
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
+
+int first =10 ,second= 20,third =30;
+int sum =first+second+third;
+System.out.println("the sum is" + sum );
+
+///////////////////////////////
+Q:2)
+Create 2 integer variables and print their multiplication on the console with a label
+   (2 tamsayı değişkeni oluşturun ve çarpımlarını bir etiketle konsolda yazdırın)
+
+A:2)
+      int x = 5, y =3;
+        System.out.println("The multiplication: " + (x*y));
+
+//////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
