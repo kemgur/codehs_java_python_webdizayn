@@ -1,0 +1,31 @@
+speed(0)
+"""
+Move to bottom row 
+placement at (-100,-200)
+"""
+penup()
+setposition(-100,-200)
+
+# Draw 3 circles for bottom row
+for i in range(3):
+    pendown()
+    circle(50)
+    penup()
+    forward(100)
+
+# Move up for middle row's placement at (-50,-115)
+setposition(-50,-115)
+
+# Draw 2 circles for middle row
+for i in range(2):
+    pendown()
+    circle(50)
+    penup()
+    forward(100)
+
+# Move up for top row's placement at (0,-30)
+setposition(0,-30)
+
+# Draw 1 circle for top row
+pendown()
+circle(50)

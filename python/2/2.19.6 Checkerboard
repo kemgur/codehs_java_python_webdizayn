@@ -1,0 +1,46 @@
+# Set initial variable value
+speed(0)
+color_value = 0
+
+# This function draw a square with sides of length 40
+def draw_square():
+    for i in range(4):
+        forward(40)
+        right(90)
+    forward(40)
+
+# filled in red.
+def apply_color(color_value):
+    if color_value % 2 == 0:
+        color("black")
+        begin_fill()
+        draw_square()
+        end_fill()
+    else:
+        color("red")
+        begin_fill()
+        draw_square()
+        end_fill()
+
+        
+# This function tells Tracy to go to top of next row        
+def return_to_start():
+    right(90)
+    forward(40)
+    right(90)
+    forward(400)
+    right(180)
+
+# Send Tracy to top left corner
+penup()
+setposition(-200,200)
+pendown()
+
+# Draw 10 squares in a row and then move to next row and increase the color-value
+# variable by 1. Repeat this 10 times to draw all rows
+for i in range(10):
+    for i in range(10):
+        apply_color(color_value)
+        color_value = color_value + 1
+    return_to_start()
+    color_value = color_value + 1

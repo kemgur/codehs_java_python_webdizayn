@@ -1,0 +1,20 @@
+#speed(0)
+user_number = int(input("Pls enter your secret number: "))
+secret_number = user_number
+
+def draw_checkmark():
+    penup()
+    backward(50)
+    right(45)
+    pendown()
+    pensize(10)
+    color("green")
+    #left(45)
+    forward(50)
+    left(90)
+    forward(100)
+    penup()
+    
+
+
+draw_checkmark()

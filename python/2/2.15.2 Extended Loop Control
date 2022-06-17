@@ -1,0 +1,42 @@
+2.15.2 Extended Loop Control
+Score: 0 / 2
+Question: 1
+What will the values of i be at each iteration of the loop below?
+
+for i in range(2, 10, 2):
+
+
+0, 2, 4, 6, 8
+
+
+2, 3, 4, 5, 6, 7, 8, 9
+
+
++2, 4, 6, 8
+
+
+2, 4, 6, 8, 10
+
+Question: 2
+What will be the output of the code below?
+
+penup()
+backward(150)
+
+for i in range(10, 50 ,10):
+    forward(i * 2)
+    pendown()
+    circle(i)
+    penup()
+
+
++Loop Code Output 1
+
+
+Loop Code Output 2
+
+
+Loop Code Output 3
+
+
+Loop Code Output 4

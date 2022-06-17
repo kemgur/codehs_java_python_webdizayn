@@ -1,0 +1,49 @@
+2.13.2 Parameters
+Score: 0 / 3
+Question: 1
+Why are parameters useful?
+
+
+
++They allow us to tailor functions to be used in multiple situations
+
+
+They allow us to change the order of commands in a function
+
+
+They give us the ability to use variables in loops
+
+
+They allow the user to give input
+
+Question: 2
+How many parameters can we use in each function?
+
+
+
+1
+
+
+2
+
+
+4
+
+
++As many as we need
+
+Question: 3
+What is the best way to write a program that uses parameters to draw a square with sides that are 50 pixels long?
+
+
+
+Parameters Answer Choice 1
+
+
++Parameters Answer Choice 2
+
+
+Parameters Answer Choice 3
+
+
+Parameters Answer Choice 4

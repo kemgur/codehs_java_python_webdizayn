@@ -1,0 +1,54 @@
+2.19.2 Putting Together Control Structures
+Score: 0 / 3
+Question: 1
+Which of the following does the clear command do?
+A. Clears the screen of any markings left by Tracy
+B. Turns Tracy to face right
+C. Sends Tracy to position (0,0)
+
+
+
++A only
+
+
+A and B
+
+
+A and C
+
+
+A, B, and C
+
+Question: 2
+Which of the following statements is true about control structures?
+
+
+
+Placing a for loop inside another for loop will create an infinite loop.
+
+
+For loops and while loops cannot be used in the same function
+
+
++If/else statements can be used inside for loops.
+
+
+User input must always be turned into an integer value in order to be used to control commands
+
+Question: 3
+What would be the output of the following code?
+Control Structures Code Image
+
+
+
+Control Structures Answer Choice 1
+
+
+Control Structures Answer Choice 2
+
+
+Control Structures Answer Choice 3
+
+
++Control Structures Answer Choice 4
+

@@ -1,0 +1,19 @@
+speed(0)
+length=20
+
+while length<400:
+    penup()
+    right(90)
+    forward(length/2)
+    left(90)
+    backward(length/2)
+    pendown()
+    for i in range(4):
+        forward(length)
+        left(90)
+    penup()
+    forward(length/2)
+    left(90)
+    forward(length/2)
+    right(90)
+    length=length+20

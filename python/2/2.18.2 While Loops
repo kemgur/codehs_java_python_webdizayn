@@ -1,0 +1,78 @@
+2.18.2 While Loops
+Score: 4 / 4
+Question: 1
+Why do we use while loops?
+
+
+
+To repeat code a specific number of times
+
+
+To use if-else statements in a loop
+
+
++To repeat code when the number of times to repeat is unknown
+
+
+To determine if a condition is true
+
+Great work!
+
+
+Question: 2
+How is an infinite loop created?
+
+
+
+By using an infinite value in a for loop
+
+
+By using an infinite value in a while loop
+
+
+By using a condition that will never become false in a for loop
+
+
++By using a condition that will never become false in a while loop
+
+Great work!
+
+
+Question: 3
+What will happen when this code is run?
+While Loops Image
+
+
+
+Tracy will draw 1 circle with a radius of 20.
+
+
+Tracy will draw 50 circles with a radius of 20.
+
+
+Tracy will draw 20 circles with a radius of 50.
+
+
++An infinite loop will occur.
+
+Great work!
+
+
+Question: 4
+What will the output of the following code be?
+While Loops Image
+
+
+
++While Loops Answer Choice 1
+
+
+While Loops Answer Choice 2
+
+
+While Loops Answer Choice 3
+
+
+An infinite loop will be created.
+
+Great work!

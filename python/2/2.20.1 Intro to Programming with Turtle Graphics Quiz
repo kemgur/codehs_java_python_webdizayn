@@ -1,0 +1,539 @@
+2.20.1 Intro to Programming with Turtle Graphics Quiz
+Score: 0 / 25
+Question: 1
+When the following for loop is complete, how many spaces will Tracy have moved?
+
+for i in range(5):
+    forward(10)
+
+
++50 spaces
+
+
+60 spaces
+
+
+10 spaces
+
+
+5 spaces
+
+Question: 2
+Suppose you write a function. How many times can you call the function in your code?
+
+
+
+Once
+
+
+Not more than the number of commands the function holds
+
+
+It depends on the function
+
+
++As many times as you want
+
+Question: 3
+In which of the following situations would it be best to make a function?
+
+
+
++You want Tracy to draw a blue line, and your program requires lots of blue lines.
+
+
+You need Tracy to move forward by 100.
+
+
+You need Tracy to turn right and then turn left.
+
+
+You need to change Tracy’s color.
+
+Question: 4
+Which of the following pieces of code will make Tracy do the following actions three times: go forward, change colors, and then turn around.
+
+
+
+for i in range(4):
+    forward(30)
+    color("blue")
+    left(180)
+
+for i in range(3):
+    forward(30)
+    color("blue")
+    left(180)
+    color("red")
+
+for i in range(3):
+    backward(30)
+    color("blue")
+    left(180)
+
+
++
+forward(30)
+color("blue")
+left(180)
+
+forward(30)
+color("green")
+left(180)
+
+forward(30)
+color("orange")
+left(180)
+
+Question: 5
+Suppose you want to make Tracy draw a mountain range, like the one shown below, starting from the left side.
+
+
+
+Which of the following functions would be the most useful function to write in order to solve this problem?
+
+
+
++# Has Tracy draw a single triangle
+def make_triangle():
+
+# Change's Tracy's color to red
+def change_to_red():
+
+# Moves Tracy forward by 100
+def move_100():
+
+# Draws a square
+def my_function():
+Question: 6
+Which of the following is NOT a command you can give to Tracy?
+
+
+
+color
+
+
++turn
+
+
+backward
+
+
+left
+
+Question: 7
+Which of the statements below is true about indentation in Python?
+
+
+
+Indentation only matters in for loops. Then, everything must be indented one level.
+
+
+Indentation never matters in Python. You can align your code any way you like, but indentation makes your code easier to read.
+
+
++Indentation always matters in Python. Every statement must be aligned correctly.
+
+
+Indentation only matters in functions. Then, everything must be indented one level.
+
+Question: 8
+Which of the following statements are true about for loops?
+
+A. By default, the range function starts at 0
+B. Using for i in range(4) will result in i taking the values 0, 1, 2, 3, 4
+C. For loops let you repeat something any number of times
+D. Statements in a for loop do not need to be indented
+E. It is not possible to have the range values count 6, 12, 18, 24
+F. It is not possible to have the range values count 1, 2, 4, 8, 16
+
+
+
++A, C, and F
+
+
+A, B, C, and F
+
+
+A, B, C, E, and F
+
+
+A and C
+
+Question: 9
+Which of the following functions is defined correctly?
+
+
++
+def draw_edge():
+    forward(100)
+    left(90)
+
+def draw_edge():
+forward(100)
+left(90)
+
+def draw_edge
+    forward(100)
+    left(90)
+
+def draw_edge(){
+    forward(100)
+    left(90)
+}
+Question: 10
+Which of the following is NOT a purpose of using functions?
+
+
+
+Functions let Tracy do new things.
+
+
+Functions help group statements together to make your code more readable.
+
+
++Functions let you execute code a fixed number of times.
+
+
+Functions allow the programmer to reuse code.
+
+Question: 11
+What is the difference between defining and calling a function?
+
+
+
++Defining a function means you are teaching the computer a new word. Calling a function means you are commanding the computer to complete defined actions.
+
+
+There is no difference.
+
+
+Calling a function means you are teaching the computer a new word. Defining a function means you are commanding the computer to complete defined actions.
+
+
+Defining a function must be done each time you want to use the function. Calling a function can only happen once in your code.
+
+Question: 12
+What does the number in the parentheses in a forward or backward command represent?
+
+
+
+How many degrees Tracy is supposed to turn
+
+
+How fast Tracy is supposed to move
+
+
+How many times Tracy should repeat the command
+
+
++How far Tracy is supposed to move
+
+Question: 13
+What control structure would be best to use in the following code?
+
+backward(100)
+right(90)
+backward(100)
+right(90)
+backward(100)
+right(90)
+backward(100)
+right(90)
+
+
+A function
+
+
+A while loop
+
+
++A for loop
+
+
+An if/else statement
+
+Question: 14
+Which of the following commands can be used to turn Tracy to face North if she is initially facing South?
+
+
+
+left(90) 
+right(90)
+
+
++right(180)
+
+
+right(90) 
+left(180)
+
+
+left(360)
+
+
+Question: 15
+Which program below includes no errors?
+
+
+
+#
+Draw a square
+#
+for i in range(4):
+    left(90)
+    forward(40)
+
+# Draw a square
+def draw square:
+for i in range(4):
+    left(90)
+    forward(90)
+
++# Draw a square
+for i in range(4):
+    left(90)
+    forward(90)
+
+# Draw a square
+def draw square():
+for i in range(4):
+    left(90)
+    forward(90)
+Question: 16
+Which of the following commands can NOT be used to draw one square?
+
+
+
+forward(50)
+left(90)
+forward(50)
+left(90)
+forward(50)
+left(90)
+forward(50)
+left(90)
+
+for i in range(4):
+    forward(50)
+    left(90)
+
+circle(50, 360, 4)
+
++for i in range(4):
+    circle(50, 360, 4)
+
+
+Question: 17
+What shape will be drawn with the following command?
+circle(50, 360, 3)
+
+
+
+A circle
+
+
+A hexagon
+
+
++A triangle
+
+
+A diamond
+
+Question: 18
+How can we use variable to control the size of a circle?
+
+
+
++radius = 50
+circle(radius)
+
+
+radius = circle(50)
+
+
+circle(radius)
+radius = 50
+
+
+radius = 50
+circle(50)
+
+Question: 19
+Can a user’s input control the size of a circle? If so, how?
+
+
+
+No, user input is a string.
+
+
+Yes
+circle(user_input=50)
+
+
++Yes
+radius = int(input("Radius: ")) 
+
+circle(radius)
+
+
+Yes
+radius = input("Radius: ") 
+
+circle(radius)
+
+Question: 20
+What is the most effective way to draw three circles in a row of different colors?
+
+
+
+for i in range(3):
+    circle(50)
+    penup()
+    forward(100)
+    pendown()
+    color("red")
+
+def draw_circle(color_choice):
+    pendown()
+    begin_fill()
+    circle(50)
+    end_fill()
+    penup()
+    forward(50)
+color("red")
+draw_circle()
+color("blue")
+draw_circle()
+color("yellow")
+draw_circle()
+
++def draw_circle(color_choice):
+    pendown()
+    color(color_choice)
+    begin_fill()
+    circle(50)
+    end_fill()
+    penup()
+    forward(100)
+draw_circle("red")
+draw_circle("blue")
+draw_circle("yellow")
+
+def draw_circle(color_choice):
+    pendown()
+    color(color_choice)
+    begin_fill()
+    circle(50)
+    end_fill()
+    penup()
+    forward(50)
+draw_circle("red")
+draw_circle("blue")
+draw_circle("yellow")
+
+
+Question: 21
+What will be the output of the following program?
+
+for i in range(3, 7, 2):
+    circle(50, 360, i)
+
+
+Three circles with radii of 3, 7 and 2.
+
+
+Three shapes- a triangle (3 sides), a heptagon (7 sides), and a line (2 sides).
+
+
+Three shapes- a triangle (3 sides), a pentagon (5 sides), and a heptagon (7 sides).
+
+
++Two shapes- a triangle (3 sides) and a pentagon (5 sides).
+
+Question: 22
+What will be the radii of the circles drawn from the following code?
+
+for i in range(10, 55, 10):
+    circle(i)
+
+
++10, 20, 30, 40, 50
+
+
+10, 15, 20, 25, 30, 35, 40, 45, 50, 55
+
+
+10, 55, 10
+
+
+10, 20, 30, 40, 50, 55
+
+Question: 23
+Which command will Tracy perform when given the following code?
+
+count = 200
+count = count + 1
+if count % 2 == 0:
+     forward(count)
+backward(count)
+
+
+forward(200)
+
+
+backward(200)
+
+
+forward(201)
+
+
++backward(201)
+
+Question: 24
+Which command will Tracy perform when given the following code?
+
+count = 5
+count = count * 2
+if count < 10:
+     forward(count)
+elif count < 20:
+    backward(count)
+else:
+    circle(count)
+
+
+forward(10)
+
+
++backward(10)
+
+
+backward(10) 
+
+circle(10)
+
+
+circle(10)
+
+Question: 25
+What will be the output of the following code?
+
+count = 5
+while count > 0:
+    circle(50)
+    forward(100)
+
+
+5 circles in a row
+
+
+4 circles in a row
+
+
+A slinky with 5 circles
+
+
++An infinite loop will occur
+

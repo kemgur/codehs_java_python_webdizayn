@@ -1,0 +1,83 @@
+2.11.2 Variables
+Score: 0 / 3
+Question: 1
+Variables allow us to:
+
+
+
+Name different parts of our programs
+
+
+Use english words to communicate with Tracy
+
+
++Store information to use in our programs
+
+
+Change the words Tracy recognizes
+
+Question: 2
+Which program will have Tracy move forward 10, then turn left and move forward 20?
+
+
++
+distance = 10
+forward(distance)
+left(90)
+distance = distance * 2
+forward(distance)
+
+
+distance = 10
+forward(distance)
+left(90)
+forward(distance)
+
+
+distance = 10
+distance = distance * 2
+forward(distance)
+left(90)
+forward(distance)
+
+
+distance = 10
+forward(distance)
+left(90)
+forward(distance)
+distance = distance * 2
+
+Question: 3
+Which of the following programs would produce this output?
+Four Squares Output
+
+
+
+square_length = 20
+for i in range(4):
+    forward(square_length)
+    left(90)
+square_length = square_length * 2
+
++
+square_length = 20
+for i in range(4):
+    for i in range(4):
+        forward(square_length)
+        left(90)
+    square_length = square_length * 2
+
+
+square_length = 20
+for i in range(4):
+    forward(square_length)
+    left(90)
+    square_length = square_length * 2
+
+
+square_length = 20
+for i in range(4):
+    for i in range(4):
+        forward(square_length)
+        left(90)
+        square_length = square_length * 2

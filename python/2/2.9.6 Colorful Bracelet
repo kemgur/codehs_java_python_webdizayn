@@ -1,0 +1,30 @@
+"""
+This program will draw a circle of colorful beads around Tracy.
+"""
+
+speed(0)
+
+# This function will move forward, draw one circle, and move backward
+def make_bead():
+    forward(100)
+    pendown()
+    begin_fill()
+    circle(10)
+    end_fill()
+    penup()
+    backward(100)
+    
+
+# Calls the make bead function for blue, red, and purple and spins Tracy 10 degrees to the left between each
+# This will loop 12 times to complete a 360 degree circle
+penup()
+for i in range (12):
+    color("blue")
+    make_bead()
+    left(10)
+    color("red")
+    make_bead()
+    left(10)
+    color("purple")
+    make_bead()
+    left(10)

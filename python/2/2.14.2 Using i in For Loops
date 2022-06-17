@@ -1,0 +1,51 @@
+2.14.2 Using i in For Loops
+Score: 0 / 3
+Question: 1
+What is the default starting value of i in a for loop?
+
+
+
++0
+
+
+1
+
+
+2
+
+
+10
+
+Question: 2
+What will the values of i be at each iteration of the loop below?
+Loop Values Image
+
+
+
+1, 2, 3
+
+
+0, 1, 2, 3
+
+
++0, 1, 2
+
+
+2, 3
+
+Question: 3
+What will happen when the value of i reaches 5 in the loop below?
+Loop Values Image 2
+
+
+
+Tracy will turn 5 degrees to the right
+
+
+Tracy will turn 5 degrees to the left
+
+
++Tracy will turn 90 degrees to the right
+
+
+Tracy will turn 90 degrees to the left

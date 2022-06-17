@@ -1,0 +1,35 @@
+"""
+This code draws an alternating stack of squares and circles
+from the bottom to top of canvas.
+"""
+
+#speed(0)
+
+# This function draws a square and then moves to the position to draw circle on top.
+def draw_square():
+    pendown()
+    for i in range(4):
+        forward(50)
+        left(90)
+    penup()
+    left(90)
+    forward(50)
+    right(90)
+    forward(25)
+
+# This function draws a circle and then moves to the position to draw a square on top.
+def draw_circle():
+    pendown()
+    circle(25)
+    penup()
+    backward(25)
+    left(90)
+    forward(50)
+    right(90)
+    
+# Tracy is set to start position then draws 4 squares and 4 circles, alternating.
+penup()    
+setposition(-25,-200)
+for i in range(4):
+    draw_square()
+    draw_circle()

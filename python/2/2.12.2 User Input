@@ -1,0 +1,40 @@
+2.12.2 User Input
+Score: 0 / 3
+Question: 1
+How would I collect a number from the user to use for the radius of a circle?
+
+
+
+int(input("What is the radius?: "))
+
+radius = int("What is the radius?: ")
+
++radius = int(input("What is the radius?: "))
+
+radius = int input("What is the radius?: ")
+
+
+Question: 2
+What is the correct way to ask a user for a color and store the answer as a variable?
+
+color = input("Give a color: ")
+
+user_color = "Give a color: "
+
+input("Give a color: ")
+
++user_color = input("Give a color: ")
+
+Question: 3
+The name color cannot be used for our variable because:
+
+Variable names cannot only be 1 word
+
+
++The word color is already used as a Tracy command
+
+
+The word color needs to be capitalized to be used as a variable name
+
+
+Variable names must include underscores

@@ -1,0 +1,78 @@
+2.5.2 Turning Tracy Using Angles
+Score: 4 / 4
+Question: 1
+If I use the command right(180), which way will Tracy turn?
+
+
+
+She will turn in a circle
+
+
++She will turn around
+
+
+She will turn to face up
+
+
+She will turn to face left
+
+Great work!
+
+
+Question: 2
+The setposition() command moves Tracy to a coordinate and:
+
+
+
+turns her to face left
+
+
++does not turn her
+
+
+turns her to face up
+
+
+turns her to face down
+
+Great work!
+
+
+Question: 3
+If you wanted Tracy to complete her command immediately, which speed value would you use?
+
+
+
++0
+
+
+1
+
+
+5
+
+
+10
+
+Great work!
+
+
+Question: 4
+If you want three circles to be drawn next to each other (as seen in the image below), after drawing the first circle, how far would you need to move Tracy before drawing the next circle?
+
+three circles
+
+
+
+100 pixels
+
+
+50 pixels
+
+
+The circle’s radius
+
+
++The circle’s diameter
+
+Great work!

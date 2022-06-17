@@ -1,0 +1,24 @@
+"""
+This code will draw 4 circles, with radaii that increase by 25 on
+each iteration.
+"""
+
+# Set initial value of variable to 25
+#speed(0)
+radius = 25
+
+# This function will move Tracy to the position to draw each circle
+def move_down():
+    penup()
+    right(90)
+    forward(25)
+    left(90)    
+    pendown()
+    
+
+# Draw a circle, move to position, and increase the radius variable by 25
+# Repeat this 4 times
+for i in range(4):
+    move_down()
+    circle(radius)
+    radius = radius + 25

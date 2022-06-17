@@ -1,0 +1,27 @@
+"""
+This program will draw four tri-colored triangles in a row.
+"""
+
+#speed(0)
+pensize(5)
+
+# This function draws a triangle with each side a different color and then moves forward
+def draw_triangle():
+    pendown()
+    color("red")
+    forward(50)
+    left(120)
+    color("blue")
+    forward(50)
+    left(120)
+    color("green")
+    forward(50)
+    left(120)
+    penup()
+    forward(50)
+
+# Move backward and then draw 4 triangles in a row
+penup()
+backward(100)
+for i in range(4):
+    draw_triangle()

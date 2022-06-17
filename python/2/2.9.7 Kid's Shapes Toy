@@ -1,0 +1,61 @@
+"""
+This program will draw 4 different colored shapes on the canvas.
+"""
+
+#speed(0)
+
+# This function draws a red square
+def red_square():
+    begin_fill()
+    color("red")
+    circle(60,360,4)
+    end_fill()
+
+# This function draws a blue circle
+def blue_circle():
+    begin_fill()
+    color("blue")
+    circle(60)
+    end_fill()
+
+# This function draws a yellow semicircle
+def yellow_semicircle():
+    begin_fill()
+    color("yellow")
+    circle(60,180)
+    left(90)
+    forward(120)
+    left(90)
+    end_fill()
+
+# This function draws a green pentagon
+def green_pentagon():
+    begin_fill()
+    color("green")
+    circle(60,360,5)
+    end_fill()
+
+
+# Go to top left position and draw red square
+penup()
+setposition(-100,50)
+pendown()
+red_square()
+
+# Go to top right position and draw a blue circle
+penup()
+setposition(100, 50)
+pendown()
+blue_circle()
+
+# Go to bottom left position and draw a yellow semicircle
+penup()
+setposition(-125,-150)
+pendown()
+yellow_semicircle()
+
+# Go to bottom right position and draw a green pentagon
+penup()
+setposition(100,-150)
+pendown()
+green_pentagon()

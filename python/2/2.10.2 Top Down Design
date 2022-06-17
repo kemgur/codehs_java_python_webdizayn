@@ -1,0 +1,41 @@
+2.10.2 Top Down Design
+Score: 2 / 2
+Question: 1
+Top Down Design makes it easier to solve a problem by:
+
+
+
++Breaking the problem down into smaller parts
+
+
+Starting your code from the first command
+
+
+Starting with the biggest function and then moving to smaller ones
+
+
+Making each function hold only one command
+
+Great work!
+
+
+Question: 2
+Which of the following is NOT an example of using Top Down Design?
+
+
+
+Breaking a large code up into functions
+
+
+Writing code for one part of a function before tackling the whole thing
+
+
++Using descriptive names for variables
+
+
+Separating a large problems into smaller ones
+
+Great work!
+
+
+Introduction

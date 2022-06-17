@@ -1,0 +1,25 @@
+"""
+This code will draw a line of 5 blocks that each increase in side length
+by 10 pixels.
+"""
+#speed(0)
+length = 10
+
+# This function draws one block based on the variable 'length', then
+# move Tracy forward twice the length value.
+def draw_block():
+    pendown()
+    for i in range(4):
+        forward(length)
+        left(90)
+    penup()
+    forward(length*2)
+
+# Set Tracy to starting position
+penup()
+setposition(-150,0)
+
+# Draw 5 blocks, increasing the length variable each iteration
+for i in range(5):
+    draw_block()
+    length = length + 10

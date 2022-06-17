@@ -1,0 +1,29 @@
+"""
+This code will have Tracy draw a sidewalk around the perimeter of the canvas.
+"""
+
+speed(0)
+
+# This function draws one square of the sidewalk
+def draw_square():
+    for i in range(4):
+        forward(50)
+        left(90)
+
+# This function draw a line of squares calling the draw square
+# function and then turns Tracy
+def draw_sidewalk():
+    pendown()
+    for i in range(7):
+        draw_square()
+        forward(50)
+    penup()
+    forward(50)
+    left(90)
+
+# Sets Tracy to the starting position and then calls the sidewalk function
+# 4 times for each side of the canvas.       
+penup()
+setposition(-200,-200)
+for i in range(4):
+    draw_sidewalk()

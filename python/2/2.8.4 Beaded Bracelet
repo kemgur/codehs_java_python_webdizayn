@@ -1,0 +1,20 @@
+"""
+This program will draw a circle of beads around Tracy.
+"""
+
+#speed(0)
+
+# This function will move forward, draw one circle, and move backward
+def make_bead():
+    forward(100)
+    pendown()
+    circle(10)
+    penup()
+    backward(100)
+
+# Calls the make bead function and then turns Tracy 10 degrees to the left
+# This will loop 36 times to complete a 360 degree circle
+penup()
+for i in range(36):
+    make_bead()
+    left(10)

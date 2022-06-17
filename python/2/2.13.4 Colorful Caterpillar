@@ -1,0 +1,24 @@
+#speed(0)
+
+# This function will draw one circle and move forward
+def make_body_circle(color_choice):
+    color(color_choice)
+    pendown()
+    begin_fill()
+    circle(20)
+    end_fill()
+    penup()
+    
+
+
+penup()
+backward(140)
+for i in range (2):
+    make_body_circle("blue")
+    forward(40)
+    make_body_circle("green")
+    forward(40)
+    make_body_circle("yellow")
+    forward(40)
+    make_body_circle("red")
+    forward(40)

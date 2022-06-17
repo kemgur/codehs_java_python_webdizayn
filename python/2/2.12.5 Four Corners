@@ -1,0 +1,21 @@
+#inputs = [100]
+#speed(0)
+
+def draw_square():
+    pendown()
+    for i in range(4):
+        forward(square_length)
+        left(90)
+
+def move_to_corner():
+    penup()
+    forward(400)
+    left(90)
+    
+penup()
+setposition(-200,-200)
+square_length = int(input("How big should each square be?:(10-200) "))
+
+for i in range(4):
+    draw_square()
+    move_to_corner()
