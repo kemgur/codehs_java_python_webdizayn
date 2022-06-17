@@ -1,0 +1,83 @@
+2.2.2 Tracy's Grid World
+Score: 0 / 5
+Question: 1
+Where does Tracy always start in the grid world?
+
+
+
+At the (0,0) coordinate in the bottom left hand corner of the canvas
+
+
+At the (-200,-200) coordinate in the bottom left hand corner of the canvas
+
+
++At the (0,0) coordinate in the middle of the canvas
+
+
+At the (-200,-200) coordinate in the middle of the canvas
+
+Question: 2
+What are the dimensions of Tracy’s world?
+
+
+
+200 pixels x 200 pixels
+
+
+400 pixels x 200 pixels
+
+
++400 pixels x 400 pixels
+
+
+200 pixels x 400 pixels
+
+Question: 3
+Which commands would move Tracy forward 100 pixels?
+A. forward(100)
+B. backward(-100)
+C. forward(-100)
+
+
+
+A, B, and C
+
+
+A only
+
+
+B and C
+
+
++A and B
+
+Question: 4
+How far does Tracy need to move from the starting position to reach the end of the right side of the canvas?
+
+
+
+50 pixels
+
+
+100 pixels
+
+
++200 pixels
+
+
+400 pixels
+
+Question: 5
+If you want Tracy to move forward 100 pixels without making a line, what set of commands should you write?
+
+
+
++penup()
++forward(100)
+
+forward(100)
+penup()
+
+penup(100)
+
+forward(-100)

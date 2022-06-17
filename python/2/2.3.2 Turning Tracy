@@ -1,0 +1,64 @@
+2.3.2 Turning Tracy
+Score: 3 / 3
+Question: 1
+Tracy always starts facing which direction?
+
+
+
+North
+
+
+South
+
+
++East
+
+
+West
+
+Great work!
+
+
+Question: 2
+If Tracy is facing right, which of the following commands can be used to turn her to face up?
+A. left(90)
+B. turn(up)
+C. right(270)
+D. setposition(90)
+
+
+
+A only
+
+
++A and C
+
+
+A, B, and C
+
+
+A, B, C, and D
+
+Great work!
+
+
+Question: 3
+If Tracy started facing right, which direction would she be facing after we ran the following code?
+turning code
+
+
+
++Up
+
+
+Down
+
+
+Right
+
+
+Left
+
+Great work!
+
+

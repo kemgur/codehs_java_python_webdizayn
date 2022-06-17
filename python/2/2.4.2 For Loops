@@ -1,0 +1,102 @@
+2.4.2 For Loops
+Score: 5 / 5
+Question: 1
+Which of the following is NOT a reason for loops are useful when writing code?
+
+
+
+Loops help us write the same program with fewer lines of code
+
+
++Loops let us make shapes of multiple sizes
+
+
+Loops make it easier to alter code once it’s written
+
+
+Loops make our code easier to read
+
+Great work!
+
+
+Question: 2
+The following loop draws 3 circles on the screen. If I wanted to alter this loop to draw 10 circles, how many lines would my code be?
+
+For i in range(3):
+    circle(25)
+    forward(50)
+
+
+1 line
+
+
++3 lines
+
+
+10 lines
+
+
+30 lines
+
+Great work!
+
+
+Question: 3
+If Tracy starts at the left edge of the canvas and moves forward 50 pixels, how many times will this code need to be repeated to have Tracy reach the right edge of the canvas?
+
+
+
+4 times
+
+
++8 times
+
+
+10 times
+
+
+50 times
+
+Great work!
+
+Question: 4
+Which lines of the code below will be repeated 4 times?
+
+penup()
+for i in range(4):
+    pendown()
+    circle(25)
+    forward(50)
+backward(200)
+
+
+
+3 and 4
+
+
+2, 3, and 4
+
+
++3, 4, and 5
+
+
+3, 4, 5, and 6
+
+Great work!
+
+
+Question: 5
+Why do certain words change color in Python?
+
+
+
++To show that they are recognized as keywords
+
+
+To tell you that these words cannot be used in Python code
+
+
+To show you that these words can be clicked
+
+
+To tell Python to skip these words when running the code
