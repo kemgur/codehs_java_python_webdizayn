@@ -1,17 +1,22 @@
 """
+Assignment:
+Write a program that will have Tracy draw a row of circles across the canvas.
+Make sure that:
+
+-Each circle has a radius of 10
+-There are 20 circles drawn along the x-axis
+
+Hint: Remember that in order to have the circles sit next to one another, you need to move forward the diameter between each circle.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
 penup()
 backward(190)
 
-for i in range(20):
-    pendown()
-    circle(10)
-    penup()
-    forward(20)
-"""    
-penup()
-backward(190)
-
-for i in range(20):
+for i in range (20):
     pendown()
     circle(10)
     penup()
