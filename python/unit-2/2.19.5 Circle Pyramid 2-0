@@ -1,3 +1,21 @@
+"""
+Assignment:
+Write a program that draws a pyramid of circles based on user input.
+Ask the user how many circles they want on the bottom of the pyramid and then draw a pyramid of circles, subtracting one circle from each row.
+
+Follow these guidelines:
+
+-Create a variable called row_value to keep track of rows of circles
+-Use a variable called radius to set the radius value to 25 at the start of your code. This will make it easier to manipulate in the future.
+
+Hint: The Block Pyramid example program may be a good place to start!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
 # This line of code is included to satisfy the autograders- it will not be included in student code.
 inputs = [6]
 

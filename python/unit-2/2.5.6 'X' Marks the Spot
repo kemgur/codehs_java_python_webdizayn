@@ -1,3 +1,18 @@
+"""
+Assignment:
+Have Tracy draw an ‘X’ on the canvas to mark where the treasure is hidden!
+Your code should:
+
+-Use a for loop that repeats 4 times
+-Draw an X with a total diagonal distance of 200 pixels
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
 speed(0)
 
 left(45)

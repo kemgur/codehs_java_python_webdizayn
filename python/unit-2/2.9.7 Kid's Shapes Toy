@@ -1,4 +1,27 @@
 """
+Assignment:
+Write a program that represents a popular kid’s toy that teaches them about different shapes and colors.
+Your toy should include:
+
+-a red square
+-a blue circle
+-a yellow semicircle
+-a green pentagon
+These shapes should be centered in a square formation on the canvas and should each have radii of 60 pixels. You should use only the circle() command to create all shapes. (Remember the extended parameters we learned about!)
+
+Hint:
+-Tackle this problem one shape at a time. You should write four different functions to keep your code as readable as possible!
+-To draw a circle, do not use extended parameters. Ideally our circle would have an infinite number of points, and the only way to simulate this is to leave point values off completely.
+-Your end result does not have to exaclty match the given solution, but should include all of the same features.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
+"""
 This program will draw 4 different colored shapes on the canvas.
 """
 

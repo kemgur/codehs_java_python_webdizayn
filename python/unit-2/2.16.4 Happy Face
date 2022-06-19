@@ -1,3 +1,22 @@
+"""
+Assignment:
+Write a program that draws a smiley face!
+Prompt the user to enter “Yes” if they are happy. Otherwise, the user should answer “No”. Save the user input to a variable called happy.
+
+Only draw the smiley face if the user responds “Yes” that they are happy!
+
+Hints:
+-First determine how to draw the smiley face.
+-Then use an if statement to decide whether or not to call the functions!
+
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
 # This line of code is included to satisfy the autograders- it will not be included in student code.
 inputs = ["Yes"]
 

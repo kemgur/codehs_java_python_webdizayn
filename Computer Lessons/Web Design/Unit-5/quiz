@@ -1,0 +1,25 @@
+
+1) d
+2) a - Embedding a map from Google Maps in your website
+3) b - <div>
+4) d - div .footer {...}
+5) a - div > a {...}
+6) d - All of the above
+7) c - p::first-letter {color: blue;}
+8) a img:hover {width: 350px; height: 350px;}
+9) b appearance: off
+10) b False
+11) a True
+12) d border: 10px 5px 10px 5px
+13) d img.inverted {filter: invert(100%);}
+14) a @keyframes change-color {
+    from {color: green;}
+    to {color: red;}
+}
+15) h1 {
+     color: green;
+     transition: color 2s;
+}
+h1:active {
+     color: red;
+}

@@ -1,0 +1,18 @@
+
+Iteration:yenileme
+
+1) While loop a programing construct that allows you to repeatedly check a condition and execute code. 
+With the while loop we can execute the code as long as a condition is true. 
+(while döngüsü ile bir koşul doğru olduğu sürece kodu çalıştırabiliriz.)
+
+As long as i is less than 6, the code will work.
+
+There are some points that we need to consider when using the while loop.
+When we use the while loop, we should not forget the increment or decrement part.
+If we forget this, the code goes into a forever loop.
+
+predict(predikt): Tahmin etmek
+fairly(feyirli): oldukca 
+sophisticated(sıfistıkeytid):karmaşık
+
+denominator(dinamıneydır): payda

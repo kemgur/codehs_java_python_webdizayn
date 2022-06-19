@@ -1,4 +1,25 @@
 """
+Assignment:
+Have Tracy draw a stack of squares and circles from the bottom of the canvas to the top.
+Keep in mind:
+
+-Each shape should have a height and width of 50 pixels
+-Shapes should be stacked in the center of the canvas
+-The first shape in the bottom of the stack should be a square (see the image below)
+
+Hints:
+-To keep your code from getting cluttered, create 2 functions- one to draw a square and one to draw a circle! Don’t forget naming rules!
+-You can move Tracy to the next position inside your functions
+-Tracy draws circles starting at the bottom center of the circle when she’s facing right
+-A for loop can help repeat your shape stack to the top of the canvas!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+"""
 This code draws an alternating stack of squares and circles
 from the bottom to top of canvas.
 """

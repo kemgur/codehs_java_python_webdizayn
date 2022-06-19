@@ -1,0 +1,53 @@
+1:
+Scenario:
+You are writing a class to do mathematical operations for you. 
+(Sizin için matematiksel işlemler yapacak bir sınıf yazıyorsunuz.)
+
+You want to provide methods that sum together 2 parameters. 
+(2 parametreyi bir araya getiren yöntemler sağlamak istiyorsunuz.)
+	
+	int sum(int one, int two)
+   	int sumDoubles(double one, double two)
+	int sumIntAndDoubles(double one, int two)
+
+
+2:
+Method Overloading
+Class can have multiple methods with the same name, as long as the argument to those methods are different. (Bu yöntemlerin argümanları farklı olduğu sürece, sınıfın aynı ada sahip birden çok yöntemi olabilir.)
+
+3:
+Methods in a class can have the same name as long as their parameters are different. 
+(Bir sınıftaki yöntemler, parametreleri farklı olduğu sürece aynı ada sahip olabilir.)
+	int sum(int one, int two)
+   	int sum(double one, double two)
+	int sum(double one, int two)
+You can call all three of these methods sum, because their method signatures are different. 
+(Yöntem imzaları farklı olduğu için bu yöntemlerin üçünü de "sum" olarak adlandırabilirsiniz.)
+
+One of them takes two ints, one of them takes two doubles and one of them takes a mix. 
+(Biri iki ints alır, biri iki duble alır ve biri mix alır.)
+
+Java can figure out which method is being called based on the types of  parameters and the order of parameters.  (Java, parametre türlerine ve parametrelerin sırasına göre hangi yöntemin çağrıldığını anlayabilir.)
+	
+	int result = sum(1,2);
+	double result = sum(2.0, 1.0);
+
+How can we perform Method overloading?(Method overloading'i nasıl gerçekleştirebiliriz?)
+
+We can have two methods with the same name that have different types. 
+(Aynı isimde farklı türleri olan iki yöntemimiz olabilir.)
+
+Method Overloading:
+	1) Different type of parameters
+	2) Different ordering of parameters type
+	3) Different number of parameters
+Method Overloading:
+1) Farklı türde parametreler
+2) Parametre tipinin farklı sıralaması
+3) Farklı sayıda parametre
+
+Method overloading can be very useful for providing more convenient methods to programs that are using the classes that we write. 
+
+
+
+

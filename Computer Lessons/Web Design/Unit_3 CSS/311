@@ -1,0 +1,91 @@
+
+Hi in this lesson we will be learning to CSS
+
+1:CSS means,
+CSS stands for Cascading style sheets.
+stands for: anlamına gelmek, 
+
+Cascading(käskeydîng)(basamakli)
+Style(stil)
+Sheets(sablonu)
+cascading style sheets
+-Among these words, we will use "style" very often.
+(Bu kelimler icerisinden "style"i cok sik kullanacagiz. )
+
+3:
+CSS is a brand new language separate from HTML.
+(CSS, HTML'den ayrı yepyeni bir dildir.)
+
+We can use to add style to our web pages.
+
+4:
+Content vs Style
+vs(vies): ve
+
+HTML was never intended to style webpages, normally HTML defines the structure and content of a webpage. 
+(HTML hiçbir zaman web sayfalarına stil vermek için tasarlanmamıştır HTML, bir web sayfasının yapısını ve içeriğini tanımlar.)
+
+-> Style should be in a separate place from html codes, because it takes up a lot of space in html.
+(style, html'in icerisinde cok buyuk bir alan kapladigi icin , html cod'larindan ayri bir yerde olmalidir.)
+
+
+5:
+Tedious to add style="..." To every single tag. Not scalable(won't work at  a large scale.) 
+Tedious(tidiıs): sıkıcı
+scale(skeyl):ölçek
+
+6:
+CSS was developed to define the style of the webpage.
+(CSS, web sayfasının stilini tanımlamak için geliştirilmiştir.)
+
+Separate content(HTML) from style(CSS)
+(İçeriği (HTML) stilden (CSS) ayırın)
+
+-In this lesson, we will separate styles from HTML content.
+
+7:
+If we only use HTML, our website will look like this.
+
+8:
+But when we add CSS style, our website will change like this.
+
+11:
+CSS is great for designing our web pages for adding things like colors, fonts, spacing , alignment, size and more.
+
+12:
+This whole things is a CSS rule.
+
+For example, when you use the h1 tag in HTML, you can use the h1 tag in CSS like that.
+Örneğin, HTML'de h1 etiketini kullandığınızda, CSS'de h1 etiketini bu şekilde kullanabilirsiniz.
+
+13:
+The selector defines which HTML elements this rule applies to.
+(Seçici, bu kuralın hangi HTML öğelerine uygulanacağını tanımlar.)
+
+First part of CSS rule is the CSS selector(h1).
+
+Selector defines exactly which HTML elements this rule is going to apply to,
+So this is saying this will apply to all h1's on the page. 
+(Seçici, bu kuralın tam olarak hangi HTML öğelerine uygulanacağını tanımlar,
+Yani bu, bunun sayfadaki tüm h1'ler için geçerli olacağını söylüyor.)
+
+14:
+After the CSS selector we have curly braces and inside the curly braces we have one or more CSS declarations.
+(CSS seçicisinden sonra küme parantezleri ve küme parantezlerinin içinde bir veya daha fazla CSS bildirimi var.)
+
+property -value pair.
+
+19:
+How many h1 tags there are in HTML is affected by this style.
+24:
+How can we add CSS to our code well.
+
+There is a special tag in HTML the style tag.
+(HTML'de stil etiketi olan özel bir etiket vardır.)
+
+All we have to do is make an opening style tag and closing style tag and put all of CSS rules inside the style tag,
+(Tek yapmamız gereken bir açılış stili etiketi ve kapanış stili etiketi yapmak ve tüm CSS kurallarını stil etiketinin içine koymak,)
+
+25: Where should the style tag be?
+
+

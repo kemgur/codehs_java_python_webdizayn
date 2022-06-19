@@ -1,0 +1,67 @@
+
+1:
+The dictionary: A data structure used to store key/value pairs.
+A dictionary is a set of key value pairs. 
+
+I can declare ana empty dictionary like this: 
+restaurants={}
+It is similar to the way we declare an empty list except it uses curly braces instead of square brackets.
+(Köşeli parantezler yerine küme parantezleri kullanması dışında boş bir liste bildirme şeklimize benzer.)
+
+We can then insert key value pairs into our dictionary like this. 
+(Daha sonra bu şekilde sözlüğümüze anahtar değer çiftlerini ekleyebiliriz.)
+
+2:
+ my_dict = {}
+
+We can make an empty one like this and we can set the value of a particular key like this.
+
+my_dict["abc"] = 3
+
+3:
+We can also give the dictionary some initial keys and values like this. 
+(Ayrıca sözlüğe bunun gibi bazı başlangıç ​​anahtarları ve değerleri verebiliriz.)
+
+my_dict = {
+     "abc":4,
+     "bcd":5
+}
+Inside the curly braces we put a comma separated list of key value pairs where the key and its value are separated by a colom.
+(Kıvrımlı parantezlerin içine, anahtarın ve değerinin bir sütun ile ayrıldığı, virgülle ayrılmış bir anahtar değer çiftleri listesi koyarız.)
+
+4:
+In this example then the last line doesn't add the key abc to dictionary rather it changes the value of the key "abc" from 4 to 3.
+(Bu örnekte, son satır abc anahtarını sözlüğe eklemiyor, bunun yerine "abc" anahtarının değerini 4'ten 3'e değiştiriyor.)
+
+my_dict = {
+     "abc":4,
+     "bcd":5
+}
+my_dict["abc"]=3 #In this way, we can change the value of "abc".
+#But we cannot add a key/value to the end of the dictionary like this.
+
+5:
+my_dict[[1,2,3]] =45
+You can not however use mutable things as key.
+(Ancak değiştirilebilir şeyleri anahtar olarak kullanamazsınız.)
+
+6:
+This program attempts to add a list as a key with a value of 45.
+If you try to run this the error that appears complains about an unhashable type.
+(Bunu çalıştırmayı denerseniz, görünen hata, çözülemez bir türden şikayet eder.)
+
+
+
+
+
+
+
+The keys in a dictionary can be of different types 
+
+
+
+
+
+
+
+	

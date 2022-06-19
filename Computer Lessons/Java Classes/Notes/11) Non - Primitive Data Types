@@ -1,0 +1,22 @@
+Non - Primitive Data Types
+
+Non-primitive data types: The non-primitive data types include String. =>String name="John"
+There is no limit non=primitive data type. 
+
+String Data Type: String is a sequence(siikwıns-dizi,sira) of connected characters.
+                  (Dize, bağlı karakterlerin bir dizisidir.)
+
+String nameOfSchool = “Dade College”;
+String characters = “12!?<”;
+String characters = “1”;
+If you tell java even it is single character, I wanna use String data type, Java accepts it. 
+
+Note: Put the String value between double quotes. I am typing the code between
+ the double quotes. It is must.For chars you will use single quotes, for String you will use double quotes. 
+Note: There are other non-primitive data types, we will learn them later.
+
+///////////////////
+String: How to Create a String
+
+Data Type VariableName = Value;
+String       firstName = “John” ;

@@ -1,4 +1,24 @@
 """
+Assignment:
+Let’s make our bubble wrap more believable!
+You’ve been given a starter code that will fill the canvas with light blue bubbles. It’s now your turn to add a highlight to the top right corner of each bubble.
+
+To do this:
+
+-Don’t alter Tracy’s first step of filling the canvas with circles. Instead, add another function that will be used after all circles are drawn.
+-Write a function called make_highlight that will draw a white quarter-circle with a radius of 10
+-Make sure you include a way to be sure the highlight is being drawn in the correct location
+
+Hint: You should be able to reuse the move_up_a_row function that has already been defined.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
+"""
 This code will fill the canvas with light blue circles with a highlight on each.
 """
 speed(0)

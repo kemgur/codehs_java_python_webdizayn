@@ -1,0 +1,95 @@
+
+Iteration:yenileme
+
+2:
+In this lesson, we will repeat the if statement.
+
+An if statement is a way to have Tracy make decisions.
+(Bir if ifadesi, Tracy'nin karar vermesini sağlamanın bir yoludur.)
+
+3:
+How does Tracy read if statement?
+
+command(kımänd):emretmek, buyurmak,
+
+Tracy check the condition.
+ If it is true, she performs the commands below. 
+(Eğer doğruysa aşağıdaki komutları yerine getirir.)
+
+Below(bilō): asagi, asagida. 
+
+If the condition is false, she skip to the next commands.
+
+4:
+How do we write conditions?
+
+In order to write a condition, we need to compare something to something else.
+(Bir koşul yazmak için) 
+
+We do this by using comparison operators some of the operators Tracy understands that equal sign...
+
+5:
+Comparison Operators: Conditions must use comparison operators.
+(Koşullar, karşılaştırma operatörlerini kullanmalıdır.)
+
+
+6:
+Mathematical Operators:
+Here are some mathematical operators that you can use to alter values.
+(Değerleri değiştirmek için kullanabileceğiniz bazı matematiksel operatörler aşağıda verilmiştir.)
+
+You know these operators from your math class.
+
+It is necessary to pay attention to the percent sign.
+
+We can use the percent sign to get the remainder of one value divided by another. 
+(Bir değerin kalanını diğerine bölmek için yüzde işaretini kullanabiliriz.)
+
+Exponent: To take the power of any number.
+
+For example:
+quotient(kwōşınt):bölüm
+If I wrote 10 modulus 2 my remainder would be 0;
+Similarly if I write 10 modulus 5 my remainder is still 0,
+
+10:
+Enhance(enhäns): Genişletmek, 
+
+1-In this example, Tracy adjusts her position and turns to the right.
+Bu ornekte Tracy pozisyonun ayarlıyor ve saga donuyor. 
+
+2-Then we call the hash_marks() function.
+Sonra hash_marks() fonksiyonunu cagiriyoruz.
+
+3-There is a for loop inside the function.
+Fonksiyonun içerisinde for loop var. 
+
+4-For loop completes the loop 16 times.
+For loop 16 kez donguyu tamamlıyor. 
+
+5-After 3 commands, Tracy checks if condition.
+3 commands sonra Tracy if condition'i kontrol ediyor. 
+  if count % 2 == 0:
+6-If condition is True then pensize(5) becomes 5, which condition is true.
+Eğer condition True ise pensize(5) 5 oluyor, ki condition true.
+
+7-In this example, Tracy adjusts her position and turns to the right.
+
+Then we call the hash_marks() function.
+
+There is a for loop inside the function.
+
+For loop completes the loop 16 times.
+
+After 3 commands, Tracy checks if condition.
+
+  if count % 2 == 0:
+
+If condition is True then pensize(5) becomes 5, which condition is true.
+
+Then pensize(1) becomes 1 and count increases by 1.
+Sonra pensize(1) 1 oluyor ve count 1 artıyor.
+
+Pensize() changes according to if condition.
+Pensize() if condition'a gore degisiyor. 
+

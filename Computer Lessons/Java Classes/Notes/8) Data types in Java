@@ -1,0 +1,128 @@
+ 
+Data Types in Java:
+
+There are two types of data types in Java:
+
+A. Primitive data types are 8: The primitive data types include boolean, char, byte, short, int, long, float and double.
+Age-27; initial= 'A';
+
+Everybody you have to memorize those datatypes.
+
+1) boolean: Java created boolean data type, Boolean values are true and false. 
+How many values are there for boolean. Just two right(true and false). You have just 2 options.
+boolean isOld = true; 
+
+/////////////
+2) char:  char is used single character. 
+char initial = 'a';
+For chars, you may use just letter no if you want, you can put '!' (exclamation mark.)  for example.
+char exclamationMark = '!';
+
+The rule for chars is being single character. If it is single character, it can be everything.
+For example: You wanna assign 2, after putting single quot, it is char. 
+Char two = '2'; it is char , it is not number. 
+If you want you can put @ annotation, it is single character right.
+char ch = '@'; It can be char.There is no any restriction(kisitlama);
+Is it clear?
+
+/////////////
+3) byte: This is data type. 8 bit = 1byte is different than data type byte. 
+Everybody if a number is between from -127 to +128. It is called byte. 
+Let us create a byte variable. Type the name of variable=> byte age = 112;
+ Over here age is byte, the value is 112, it is good value for byte right.
+Because it is between -127 to +128. That one as an example for byte. 
+No need to memorize those. 
+
+/////////////
+4) short: Let us focus on short.Short starts from –32,768 to +32,767.
+If a number between –32,768 to +32,767, it can be sort data type. 
+I will create a sort variable: sort pop = 20000;
+20000 is a good value for short. Because it is between from –32,768 to +32,767.
+
+What do you think, can I assign short pop =112; 112 is ok for short or no?
+Everybody pay attention 112 is okay for sort and 112 is okay for byte as well.
+So fo 112, you can tell, it is sort and it is byte. Both are possible. 
+Which one should I use, pay attention.
+Byte uses memory less than short. 
+A byte of memory uses 8-bits, while a sort of memory uses 16 bytes.  
+In coding area, using memory less, it it better than other. Because memory has a capacity.
+If you use it more, it will be full application memory, and than your application will give out of memory error. You should be careful about it. 
+Every time you should try to use the memory as possible as less.  
+Could you understand guys what I mean. 
+
+short Data Type: Its value-range lies between -32,768 to 32,767 (inclusive).Represents only 16 bits.
+
+////////////
+5) integer(int) Data Type: Its value-range lies between -2,147,483,648 to 2,147,483,647 (inclusive).Represents only 32 bit
+
+int profitOfApple = $1,342,345,000;
+int lossOfNokia = -1,125,675,765;
+
+/////////////
+6) long Data Type: Its value-range lies between -9,223,372,036,854,755,808 to 9,223,372,036,854,755,807 (inclusive). 
+Represents only 64 bits.
+
+long profitOfApple = $1,342,345,000,000,;
+long lossOfNokia = -1,125,675,765,000;
+ 
+/////////////////
+Byte, short  and int data type don't accept decimal numbers. If you wanna work with decimal numbers,  you can use float data type or double data type.
+As you float data type is using 32 bits in memory and double us using 64 bits in the memory. 
+When you use decimal numbers you have two option. Which one is better,
+It is possible the float, because it is using the memory less. 
+There is negative side of float which is, you have to put "f" and the end. It is not good. Programmer don't use the float mostly.
+
+If you type this code like float var = 2.3; When you forget the "f" letter, Java will give you red underline error. 
+When you see red underline error, it is meaning ,you made a mistake.
+How can you solve this error, you need to put over here letter "f". Java will remove that one. 
+
+  
+ 
+7) float Data Type: The float data type is up to 7 decimal digits. 
+Represents only 32 bits.
+
+float floatVar1 = 2.123 f; 
+float floatVar2 = -2.1 2 3 4 5 6 f;
+
+Note: Put “f” at the end of the float value, otherwise it is accepted as double.
+
+ /////////////////
+double Data Type: The float data type is up to 16 decimal digits. Represents only 64 bit
+double doubleVar1 = 2.123;
+double doubleVar2 = -2.12345679078000000000123;
+ 
+double is more sensitive than float. Because float has 7 decimal numbers but double has 16 decimal number. 
+ 
+//////////////
+byte < short < int < long < float < double
+Byte is the smallest one. 
+Short is the smaller than int.
+Int is smaller than long.
+Long is smaller than float.
+Float is smaller than double.
+
+Short is containing the byte data type.
+Int is containing the short data type.
+Long is containing the int data type.
+Float is containing the data type.
+Double is containing the data type.
+
+
+
+
+///////////////////////////////////////////////
+B. Non-primitive data types: The non-primitive data types include String. =>String name="John"
+There is no limit non=primitive data type. 
+
+
+/////////////////
+
+Difference between “primitive” and “non-primitive” data types:
+1) Primitives contain just values, non-primitives contain values and methods inside the container.
+
+2) Primitives start with lower case, non-primitives start with upper case.
+
+3) Primitives are created by Java, we cannot create primitive data types. 
+Non-primitives can be created by programmer, java created some as String.
+
+4) The size of primitive types depend on the data type, non-primitives types have all the same size.

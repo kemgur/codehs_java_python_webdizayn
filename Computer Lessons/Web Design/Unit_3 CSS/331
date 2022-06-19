@@ -1,0 +1,59 @@
+
+Hi in this lesson we will be learning to CSS
+
+1:CSS means,
+CSS stands for Cascading style sheets.
+stands for: anlamına gelmek, 
+
+Cascading(käskeydîng)(basamakli)
+Style(stil)
+Sheets(sablonu)
+cascading style sheets
+-Among these words, we will use "style" very often.
+(Bu kelimler icerisinden "style"i cok sik kullanacagiz. )
+
+3:
+We can write any tag name instead of selector.
+Instead of property, we can type color, background-color, 
+
+5:
+This rule applies to all <h1> elements.
+
+When we write a <h1> tag instead of the Selector, all the h1 tags are affected in the html by it.
+
+
+7:
+This rule applies to all HTML elements with the class "alert"
+
+The word "class" is a new concept for you. 
+
+Class is an attribute we can add to HTML tags in order to style a specific grup of elements.
+(Sınıf, belirli bir öğe grubuna stil vermek için HTML etiketlerine ekleyebileceğimiz bir niteliktir.)
+
+"class" allows(ılauz) us to separate elements of the same tag into different groups.
+("class" ayni tag'dan olusan elementleri, farkli gruplara ayirmamizi saglar.)
+
+11:
+"class" is a keyword of css and it does not change.
+but "alert" is a value and you can change it to any word you want.
+
+We can add the same "class" and its value to multiple same and different tags.
+(ayni "class" ve deferini birden cok ayni ve farkli taglara ekleyebiliriz.)
+
+What did I do in this example?
+using class value, I grouped multiple same tags.
+
+14:
+This rule applies to only <p> elements with the class "alert"
+If you put p before (.), it means tag name should be p, class value should "alert"
+
+16:
+The "class" attribute can have multiple values. 
+And there should be a space between these values.
+
+Width:
+Height:
+
+28:
+html prefers the specific one first and runs its color.
+

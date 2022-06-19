@@ -1,0 +1,29 @@
+
+How to write a class?(Class basil yazilir)
+1)  What defines this class? Bu sınıfı ne tanımlar?
+
+2)  What are the attributes(atrîbyuts) that all things in the class share?
+   (Sınıftaki her şeyin paylaştığı nitelikler nelerdir?)
+      A student has a First Name, Last Name  Grade Level.
+
+3) What are the types and names of the attributes?
+   (Niteliklerin türleri ve adları nelerdir?)
+
+4) How to we create an object?(Bir nesneyi nasıl oluştururuz?)
+
+5) What is the behavior this class should have?
+   (Bu sınıfın sahip olması gereken davranış nedir?)
+
+6) How do we store attributes of a class?
+   (Bir sınıfın niteliklerini nasıl saklarız?)
+   Well to do that, we use instance variable.
+   So introducing(întrōdusîng) instance variable: 
+   Instance variable: A variable defined in a class for which each object of the class has its own copy, or instance. (Sınıfın her nesnesinin kendi kopyasına veya örneğine sahip olduğu bir sınıfta tanımlanan değişken.)
+
+7) How do we create new object?
+   To do this, We are going to introduce constructors.
+   Constructors help you create new objects of a class and set the initial values of instance variable.(Constructors, bir sınıfın yeni nesnelerini oluşturmanıza ve örnek değişkeninin başlangıç ​​değerlerini ayarlamanıza yardımcı olur.)
+
+8) toString is a method on a class that return a String representation of your object. 
+
+

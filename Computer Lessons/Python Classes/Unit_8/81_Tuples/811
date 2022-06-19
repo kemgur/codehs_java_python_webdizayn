@@ -1,0 +1,37 @@
+
+1) A heterogenoues, immutable data type that stores an ordered sequence(sikwıns) of things. 
+   (Sıralı bir şeyler dizisini depolayan heterojen, değişmez bir veri türü.)
+    heterogenoues(hederaciniyıs): heterojen, farklı yapıda, 
+    _sequence(siikwıns):sıra, art arda sıralama, 
+    
+2) You can use indices and slices. 
+   (İndeksleri ve dilimleri kullanabilirsiniz.)
+   indices(indisiz): indexler
+   slices(slaysız): dilimleri
+
+3) You can use concatenate tuples.
+   (Birleştirilmiş tuple'ları kullanabilirsiniz.)
+   But only with other tuples.(Ama sadece diğer tuples)
+
+4) Tuples are heterogenous.(Tuples heterojendir.)
+
+5) Tuples are immutable.(Tuple'lar değişmezdir.)
+
+6) Make an empty table.(Boş bir tuple yapın.)
+  When you create an empty tuple and try to find its length, the result is 0.
+  (Bos bir tuple olusturup onun uzunlugunu bulmak istediginizde , sonuc 0 olur.)
+  
+  Can't access anything in it, it doesn't have anything. 
+  (İçinde hiçbir şeye erişilemiyor, hiçbir şeyi yok.)
+
+7)   
+
+Diving Contest(dayving content): Dalis yarismasi
+
+8:
+TypeError: 'tuple' does not support item assignment on line 7.
+(TypeError: 'tuple', 7. satırdaki öğe atamasını desteklemiyor. )
+
+   
+
+ı  

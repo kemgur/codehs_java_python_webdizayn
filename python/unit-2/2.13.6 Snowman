@@ -1,3 +1,28 @@
+"""
+Assignment:
+Write a program that has Tracy draw a snowman.
+Make sure your snowman:
+
+-Is made of three gray circles
+-Is sized based off user input. You should ask the user for the radius of the bottom of the snowman’s body. The middle circle should have a radius that is half the bottom and the top should have a radius that is half the middle.
+
+Example:
+-The bottom has a radius of 100
+-The middle has a radius of 50
+-The top has a radius of 25
+
+Hints:
+-It would be helpful to draw out a few scenarios based off different user input and determine a correlation before coding.
+-Determine where Tracy needs to move in order to get on top of a circle to draw the next one!
+-Be sure to use a function to draw each part of the snowman!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
 #speed(0)
 
 def draw_circle(radius):

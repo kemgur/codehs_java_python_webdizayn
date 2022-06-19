@@ -1,0 +1,10 @@
+
+Difference between “primitive” and “non-primitive” data types:
+1) Primitives contain just values, non-primitives contain values and methods inside the container.
+
+2) Primitives start with lower case, non-primitives start with upper case.
+
+3) Primitives are created by Java, we cannot create primitive data types. 
+Non-primitives can be created by programmer, java created some as String.
+
+4) The size of primitive types depend on the data type, non-primitives types have all the same size.

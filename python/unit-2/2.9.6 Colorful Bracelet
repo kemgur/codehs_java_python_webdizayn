@@ -1,4 +1,26 @@
 """
+Assignment:
+Tracy wants a colored bead bracelet!
+Tracy liked the bracelet you made her for her birthday but now she wants you to make it with colored beads.
+
+The beads of your bracelet should:
+
+-Alternate between blue, red, and purple
+-Be the same size and structure as your previous code
+
+Hint:
+-You can start by copy and pasting the code you wrote in our previous lesson. Then find a way to fill the beads with color.
+-A for loop will help shorten your code!
+-Remember to return to the center of the bracelet circle between drawing each bead!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
+"""
 This program will draw a circle of colorful beads around Tracy.
 """
 

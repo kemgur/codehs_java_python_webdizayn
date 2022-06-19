@@ -1,0 +1,16 @@
+
+1-c
+2-a
+3-c -> 12 
+4-c -> for i in range(0, 10):
+5-d -> for i in range(5, 0, 1):
+6-d It’s still a nice day(4 times)
+7-d -> while num < 12 and num > 3:
+8-b
+9-c When you don’t know how many times something will need to repeat
+10-a 0-1-0-1 
+11-b ->9
+12-b ->150
+13-b
+14-b The program will break out of the loop as soon as the user enters the magic_number
+15-d On line 9

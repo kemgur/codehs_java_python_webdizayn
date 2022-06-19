@@ -1,0 +1,81 @@
+
+3.3.1 Method and Return Values
+
+->In this presentation we are going to talk more about methods and Return values in java.
+
+-> So this is a really really important topic, make sure you understand everything.
+->So start by introducing(întrōdusîng) return values.
+
+1)
+-> Methods take in parameters and can give back result calls return values.  
+
+2) This method sums x and y and print out the result. What if we wanted to keep that result?
+   (2) Bu yöntem x ve y'yi toplar ve sonucu yazdırır. Peki ya bu sonucu korumak istiyorsak?)
+
+What if wanted to keep that some and do something with it.
+(Ya bunu biraz tutmak ve onunla bir şeyler yapmak istersek.)
+
+So this is where we need return values.
+(İşte bu noktada dönüş değerlerine ihtiyacımız var.)
+
+Let's look at some with return values.
+Dönüş değerleriyle bazılarına bakalım.
+
+We will say:
+ private int sum(int first, int second){
+
+Int total = first + second;
+Return total;
+}
+
+-> So there is two big differences here:
+ 1) one is returned total that's the return statement which is actually giving value back and.
+ 2) The other part is int up at the top right here.
+    Diğer kısım tam burada üstte.
+  This int is actually the type that we are returning. 
+
+So let's get sort of visual idea of what a method with a return value looks like.
+Öyleyse, dönüş değeri olan bir yöntemin nasıl göründüğüne dair bir çeşit görsel fikir edinelim.
+
+So remember we think about methods as boxes right.
+
+Where we can give some inputs in to that method and then we will get something back.(Bu yönteme bazı girdiler verebileceğimiz ve sonra bir şeyler geri alacağız.)
+
+5 and 8 those are parameters to our some method and then what do we get out the sum which is the value 13.(5 ve 8 bunlar bizim bazı yöntemimizin parametreleridir ve sonra 13 değeri olan toplamdan ne elde ederiz.)
+
+So that orange box there that's the return value then we call  a method we actually get that number back. 
+(Yani o turuncu kutu oradaki dönüş değeridir, o zaman bir metot çağırırız ve aslında o sayıyı geri alırız.)
+
+We can do something with it. 
+
+Double number: 
+
+-> Look at one more example so let's say,
+We have a double number method and 5 comes in as a parameter into our double number box and then it does the work, it needs to do and it gives us back the result which is 10.
+
+10 is return value. 
+
+Let's look at the defining this method will say:
+
+Private int doubleNumber(int x)
+{
+Int doubledX = 2*x;
+Return doubledX;
+}
+
+///////////////
+Method signature;
+A method signature is name of method and parameter list.
+   
+Private     int         square          (int x){}
+Visibility  Return type  method name.    Parameters
+
+Visibility: So that first word "private" that's the visibility will go into that more and then in a further unit.(Böylece, görünürlük olan ilk "özel" kelimesi buna daha fazla ve daha sonra başka bir birimde geçecektir.)
+
+Int: We know what that is that's the return type that's what the method gives back to us. (Bunun ne olduğunu biliyoruz, yöntemin bize geri verdiği dönüş türü budur.)
+
+
+1) ___ means making judgements about other societies or groups based on one’s cultural bias and/or beliefs.
+
+Discrimination degil
+

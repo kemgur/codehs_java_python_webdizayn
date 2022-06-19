@@ -1,3 +1,20 @@
+"""
+Assignment:
+Write a program that has Tracy draw a square in each corner of the canvas.
+The user should give a one length dimension to be used for the sides of all squares.
+
+Hints:
+-Your sidewalk program may give you a bit of help with this program!
+-Save the user input in a variable named square_length.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
+
 #inputs = [100]
 #speed(0)
 

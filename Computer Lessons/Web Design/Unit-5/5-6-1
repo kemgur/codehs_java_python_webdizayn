@@ -1,0 +1,61 @@
+
+1) in this video we will be talking about combining(kombayning) CSS Selectors. 
+
+2:
+We can get even more specific with our selectors.
+(Seçicilerimizle daha da spesifik olabiliriz.)
+ even more: hatta daha fazla.
+
+3:
+Select all elements with class logo and makes them italic.
+(Sınıf logolu tüm öğeleri seçin ve italik hale getirin.)
+
+4: 
+Select all h1 elements with class logo and makes italic.
+
+5:
+Select all h1 elements with both the class logo and the class important and makes them italic.
+
+6: 
+Which of them is affected by the css sytle.
+
+11:
+How can we select only these img tag?
+
+12:
+We could make a new class called "paragraph-img" and style that class.
+("paragraph-img" adında yeni bir sınıf oluşturabilir ve bu sınıfa stil verebiliriz.)
+
+13:
+OR we could select only the <img> tags that are inside of <p> tags.
+VEYA sadece <p> etiketlerinin içindeki <img> etiketlerini seçebiliriz.
+
+We can only select <img> tags inside the <p> tag, apply a CSS style to them.
+
+14:
+CSS Combinators combine two simple selectors to make more specific selector.
+
+15:
+We will be looking at 3 combinators:
+	-Descendant(dîsendınt) selectors(space)(If we use descendant selector, we should use space.)
+	-Child selector (>) (If we use child selector, we should use greater than.)
+	-Next Sibling selector (+) (If we use Next Sibling selector, we should use + sign.)
+
+
+34:
+Div > a{}
+Select all a tags that are immediate children of div tags.
+(Div etiketlerinin hemen alt öğeleri olan tüm etiketleri seçin.)
+
+I have a question for you?
+So, is this a tag affected by this style?(Last one)
+
+
+Questions:
+Is the <li> tag the Descendant, child or sibling of the <ul> tag?
+
+What is the relationship between <li> tag and <ul>?
+
+The <a> tag is the child of the <p> tag.
+
+

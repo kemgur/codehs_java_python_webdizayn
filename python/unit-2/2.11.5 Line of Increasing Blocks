@@ -1,4 +1,26 @@
 """
+Assignment:
+Write a program that will draw a line of 5 blocks that increase in size.
+Follow these guidelines:
+
+-The first block should have sides of length 10
+-Each consecutive block should have its side length increase by 10
+-There should be a space between each block that is as long as the block’s length before it (ie: if a block with sides of length 10 was drawn, the space should be 10 pixels wide)
+-Tracy should start at position (-150,0)
+Your program should also be broken down into functions!
+
+Hints:
+-Pay close attention to when you should increase your length variable.
+-Don’t forget that you can use mathematical operators to alter the value of your variables!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
+"""
 This code will draw a line of 5 blocks that each increase in side length
 by 10 pixels.
 """

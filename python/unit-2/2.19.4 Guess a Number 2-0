@@ -1,3 +1,22 @@
+"""
+Assignment:
+Enhance your ‘Guess a Number’ program to tell the user if their guess was high or low.
+Follow these guidelines:
+
+-Ask user for a number 1 - 10.
+-If they did not guess the secret number, the user will be shown:
+  -an up arrow if the secret number is higher than their guess
+  -a down arrow if the secret number is lower than their guess
+-When they guess the secret number, a checkmark will appear and the user will stop being asked to guess.
+
+Hint: Start with the ‘Guess a Number’ program you already wrote and add in an if-elif-else statement!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
 # Set value of secret number
 speed(0)
 secret_number = 7
@@ -63,4 +82,4 @@ while user_number != secret_number:
     else:
         draw_up_arrow()
         user_number = int(input("That is not the number. Enter a number 1-10: "))        
-draw_checkmark()
+draw_checkmark(

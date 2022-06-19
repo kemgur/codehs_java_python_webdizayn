@@ -1,0 +1,135 @@
+
+Memory Usage in Java
+1)
+In Java, there are two memories.
+First one is The Stack(stek) Memory, second one is The Heap(hiip) memory. 
+Stack memory contains primitive data type values and references for objects. 
+   If you create int variable, Java will put it inside Stack Memory.
+	
+Note : Non - Primitive data types are object
+Heap memory is used to store (non=primitive dt)objects in Java.
+
+=>Example: When you create a String name="Lee"; 
+    1) Java creates a container(kinteynir) for it. 
+    2) inside the container, you put "Lee" of course there are method as well. 
+    3) Java put them inside the Heap memory.But heap memory is very huge. Because of that Java create an address for that data. Java put the address in Stack Memory. 
+    4) Why does Java generate this address?
+    Because to find it easily when you call String.   
+    If you need to name "Lee", Java will come to Stack Memory, will find the address of String, then will go Heap memory to find it, and then give the name to you. 
+    Could you understand the logic guys. 
+In Stack memory we have two things.First one primitive DT and second one addresses of the non-primitive DT.
+
+ 
+  
+
+ 
+Stack is very small according to the Heap.
+
+////////////////
+How many memories do we have in java?
+2 memories.Stack Memory is small, Heap memory is large.
+  1) When you create a String, Java is coming into Heap memory.
+  2) Java creates a container in Heap memory.
+  3) Puts the string inside this container.
+  4) Java puts the container's address(reference(riförins) address) in the Stack memory.
+  5) When you create one more same String, java creates a container inside the Heap Memory.
+
+When you use "==" java checks two things.
+  1) Values
+Let us check values, Both of them Monday, right.
+Shortly values are same.You get "True"
+They are equal to each other.
+
+   2) references:
+Java checks references as well.
+What is the reference of first string?
+It is r1
+What is the reference of second string?
+It is r2
+As you see those are different addresses.
+They are not equal to each other.
+You get "False"
+
+Because of that,  java returns "False"
+If you use "=="
+
+Shortly, When you use "==" it means:
+You are telling to Java, Hey Java check the values, check the references(addresses)  
+
+//////
+But when you use "equals()" keyword, 
+equals() checks only values.
+When equals() keyword checks the two values of String. 
+Monday is equal Monday. All of them same. 
+Java will give you that, result is True.
+
+That's why we should use the equals() keyword when we compare Strings.
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////
+In this video we will see the difference between primitive data type and object data type.
+(Bu video da primitive data type ile object data type arasindaki farki gorecegiz.)
+
+We will learn how advanced Object data types are compared to primitive data types.
+(Object data type'larin primitive data type'ara gore ne kadar gelismis olduklarini ogrenecegiz. )
+
+
+
+
+
+I'll be taking you through objects versus primitives.
+(Seni nesnelere karşı ilkellere götüreceğim.)
+
+We have been using primitives and objects a lot and our Java programs but we don't know too much about the differences between them.
+(İlkelleri ve nesneleri ve Java programlarımızı çok kullanıyoruz ama aralarındaki farklar hakkında fazla bir şey bilmiyoruz.)
+
+We know that with primitives the type is written in lowercase. Object data types begin with a capital letter.
+(We know that with primitives the type is written in lowercase. Object data type'lar ise buyuk harf ile baslar.)
+
+The exception of string actually have to use this "new" keyword to make a new object we are constructing a new object.
+(Dize istisnası, aslında yeni bir nesne oluşturmak için yeni bir nesne oluşturmak için bu "yeni" anahtar sözcüğü kullanmak zorundadır.)
+
+The reason we don't need of a string is because Java puts it in behind the scenes. 
+(Bir dizgeye ihtiyacımız olmamasının nedeni, Java'nın onu perde arkasına koymasıdır.)
+
+Made up of other data types.A Person might be made up of:
+(Diğer veri türlerinden oluşur. Bir Kişi şunlardan oluşabilir:)
+String y="Hello";
+Person Alan = new Person("Alan");
+
+2)
+Basic data inherent to Java
+(Java'ya özgü temel veriler)
+
+Instance of class. Has state and behavior. 
+(Sınıf örneği. Durum ve davranışa sahiptir.)
+
+The "atoms" of data types.(Veri türlerinin "atomları".)
+
+The "molecules(molükuyus)" of data types.(Veri türlerinin "molekülleri".)
+
+
+3:
+Object Storage
+In memory, the variable simply stores a location or a reference to where the actual object data is located. 
+(Bellekte, değişken basitçe bir konumu veya gerçek nesne verilerinin bulunduğu yere ilişkin bir referansı saklar.)
+
+4:
+Comparing objects
+With primitives, we can use == to compare
+(İlkellerle, karşılaştırmak için == kullanabiliriz)
+
+With objects, == compares the pointer rather than the actual object. This is why we need to use .equals
+(Nesnelerle ==, gerçek nesne yerine işaretçiyi karşılaştırır. Bu yüzden .equals kullanmamız gerekiyor)
+
+
+ 

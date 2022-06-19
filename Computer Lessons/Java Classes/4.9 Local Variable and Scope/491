@@ -1,0 +1,90 @@
+1:
+You may notice the voice in this video is different. 
+(Bu videodaki sesin farklı olduğunu fark edebilirsiniz.)
+
+That's because this video is a guest lecture. 
+(Çünkü bu video bir konuk dersidir.)
+
+2:
+When you declare a variable inside of a method, you are making a local variable. 
+(Bir yöntemin içinde bir değişken tanımladığınızda, yerel bir değişken oluşturuyorsunuz.)
+
+What is a local variable?
+A local variable is variable only exists inside of a method. 
+(Yerel bir değişken değişkendir, yalnızca bir yöntemin içinde bulunur.)
+
+3:
+Example:
+Even though these variables have the same name, they are not related at all. 
+(Bu değişkenler aynı isme sahip olsalar da, hiçbir şekilde ilişkili değildirler.)
+
+They exist inside different functions. They have different scope.
+(Farklı işlevlerin içinde bulunurlar. Farklı kapsamları var.)
+
+4:
+Scope:
+Scope refers to where a variable exists. 
+(Kapsam, bir değişkenin bulunduğu yeri ifade eder.)
+
+Every variable exists inside a certain scope. 
+(Her değişken belirli bir kapsam içinde bulunur.)
+
+This is known as the variable's scope. 
+(Bu, değişkenin kapsamı olarak bilinir.)
+
+4:
+Scope:
+In general, a variable exists from the point where it is declared, until the end of the block it is declared inside of. (Genel olarak, bir değişken bildirildiği noktadan, içinde bildirildiği bloğun sonuna kadar vardır.)
+
+A block refers to code enclosed in curly braces. 
+(Bir blok, küme parantezleri içine alınmış kodu ifade eder.)
+
+5:
+Naming Conflicts.(Adlandırma Çatışmaları.)
+If two variables have the same name inside go the same scope:
+(Aynı kapsam içinde iki değişken aynı ada sahipse:)
+
+The variable with the more specific scope takes precedence.
+(Daha spesifik kapsamı olan değişken önceliklidir.)
+precedence(presıdıns):öncelik, önde gelme
+
+The variable with the more general scope no longer exists in that location. 
+(Daha genel kapsamı olan değişken artık o konumda mevcut değil.)
+
+This is called shadowing. 
+
+Notes: 
+1) Since Java codes work from top to bottom, the "counter" number increased by one.
+   (Java codlari yukaridan asagiya dogru calistigi icin oncelikle "counter" bir sayi artti.)
+
+2) Then, as method1 and method2 were called from the run method in turn, the "counter" was increased twice.
+(Sonra method1 ve method2 sirayla run method'dan cagrildigi icin "counter" iki kez arttirilmis oldu.)
+
+
+3)There is no local variable in the printInstanceVar() method. But this method can call instance variable. 
+(printInstanceVar() methodunun içerisinde local variable yoktur. Ama bu method instance variable'i cagirabilir.)
+
+4) printLocalVar() method can assign a new value to the instance variable. This method can run this new value when called.
+(printLocalVar() method instance variable'a yeni bir deger atayabilir. Bu method cagrildiginda bu yeni değeri run edebilir.)
+
+5) The printParameter() method can take the instance variable as a parameter and run this new value assigned to the instance variable when this method is called. 
+(printParameter() method, instance variable'i parametre olarak alabilir ve bu method cagrildiginda instance variable'a atadigi bu yeni degeri run edebilir.) 
+
+Question:1
+6). The run() method can call the instance variable and its local variable from this point. 
+run() method instance variable'i ve kendisinin local variable'ing bu noktadan cagirabilir. 
+
+
+7).  But the run() method cannot call the i inside the for loop. Because i is a local variable and i's scope is limited to for loop only.	 
+Ama run() method, for loop içerisindeki i'yi cagiramaz. Çünkü i bir local variable'dir ve i'ninscop'u sadece for loop ile sinirlidir.  
+
+8)Also, run() method cannot call resul variable from POINTA because resul method is not defined yet.
+(Ayrica run() method, resul variable'ini da  POINTA'dan cagiramaz cunku resul method henuz tanimlanmamis.)
+
+
+Question:2
+
+
+
+
+

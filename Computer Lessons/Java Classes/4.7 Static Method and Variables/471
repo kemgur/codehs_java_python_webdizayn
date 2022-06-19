@@ -1,0 +1,79 @@
+1:
+Instance Methods
+Review:
+Instance methods need to be called with an object of the class as a receiver, like rectangle.getArea().
+(Örnek yöntemlerin, rectangle.getArea() gibi bir alıcı olarak sınıfın bir nesnesiyle çağrılması gerekir.)
+
+They depend on the state of the object. 
+(Nesnenin durumuna bağlıdırlar.)
+
+2:
+What if you want to keep track of something across an entire class?
+(Ya tüm bir sınıfta bir şeyi takip etmek istiyorsanız?)
+
+If a variable or method belongs to the class and not the instance, it is considered a class variable or class method. (Bir değişken veya yöntem, örneğe değil de sınıfa aitse, bir sınıf değişkeni veya sınıf yöntemi olarak kabul edilir.)
+
+These can also be called static variables or static methods. 
+(Bunlara statik değişkenler veya statik yöntemler de denilebilir.)
+
+3:
+Class Variable:
+A variable or attribute of a class that common to all instances of class. 
+(Tüm sınıf örnekleri için ortak olan bir sınıfın değişkeni veya niteliği.)
+
+4:
+Class Methods
+A method of a class that common to all instances of a class , and is nor called on an object instance. 
+(Bir sınıfın tüm örnekleri için ortak olan ve bir nesne örneğinde çağrılmayan bir sınıf yöntemi.)
+
+5:
+This variable is the same for all instances variable:
+(Bu değişken, tüm örnekler değişkeni için aynıdır:)
+Private static int totalStudents = 0;
+
+6:
+Using the Randomizer Class:
+Randomizer Class is a static class.
+The methods of Randomizer Class are also static methods.
+(Randomizer Class'in methodlari da static methodlardir.)
+
+Static methods can be called and used by all classes without creating an object.
+Static method'lar obje olusturulmadan tum class'lar tarafindan cagrilabilir ve kullanilabilir. 
+
+When we create a static variable, we have to write the "static" keyword between "private" and "int".
+(Static variable olusturdugunda "private" ile "int" arasina "static" keyword'ini yazmak zorundayiz. 
+
+
+So every time a Student object is created, we're incrementing this counter. 
+(Yani her Student nesnesi oluşturulduğunda, bu sayacı artırıyoruz.)
+
+So before I run this, a couple important things.
+(Bunu çalıştırmadan önce, birkaç önemli şey.)
+
+It's being called on the name of the class. 
+(Sınıf adına sesleniyor.)
+And that's because it's a static method. 
+(Ve bunun nedeni statik bir yöntem olmasıdır.)
+
+7:
+double squared = Math.pow(10, 2);
+System.out.println("10^2 = " + squared);
+So that's saying 10 to the second power. 
+(Yani bu 10 üzeri ikinci kuvvet demek.)
+
+8:
+  double cubed = Math.pow(9, 3);
+  System.out.println("9^3 = " + cubed);
+Now let's try nine cubed. We'll say double cubed equals Math.pow 9 to 3
+(Şimdi dokuz küp deneyelim. Çift küpün Math.pow 9'dan 3'e eşit olduğunu söyleyeceğiz)
+
+/////////////////////////////////////
+Now let's review the examples.
+(Simdi ornekleri bir gozden gecirelim. )
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+
+Iteration:yenileme
+
+1:
+In this lesson we are going to learn about how we can further control the value of i in for loops.
+(Bu derste i in for döngülerinin değerini nasıl daha fazla kontrol edebileceğimizi öğreneceğiz.)
+
+further(fırdhır): daha ileri, data öte, daha öteye
+We know that the value of i is counting from zero to an ending value by ones.
+
+3:
+We can further control the value of i by using more parameters.
+-We can further control :Daha fazla kontrol edebiliriz.
+
+First one, Starting number, Ending number, Amount to increase by
+
+4:
+This code is creating a loop where i starts at 10, goes up to a 100 and increases by 10 each time. 
+(Bu kod, 10'da başladığım, 100'e çıktığı ve her seferinde 10 arttığı bir döngü oluşturuyor.)
+
+The value of i is controlling the radius of the circles being drawn. 
+(i değeri, çizilen dairelerin yarıçapını kontrol ediyor.)
+
+So the first circle Tract draws has a radius of 10 and then i increases by 10 and becomes 20.
+(Yani Tract'ın çizdiği ilk dairenin yarıçapı 10'dur ve sonra i 10 artar ve 20 olur.)
+
+The value of i keeps increasing this way 10-20-30-40 until it reaches a 100 when it ends.
+(Bittiğinde 100'e ulaşana kadar i değeri bu şekilde 10-20-30-40 artmaya devam ediyor.)
+
+100  is not included in our loop.
+
+So if we wanted our final circle  to have a radius of a 100, we need to make the ending value greater than a 100.
+
+square swirl(skuar swirl)

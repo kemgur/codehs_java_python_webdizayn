@@ -1,0 +1,92 @@
+
+1) s= "hello!"
+
+For letter in s:
+    print(letter)
+h
+e
+l
+l
+o
+!
+
+name= ["Rita", "Mo", "Maya"]
+
+For i in range(len(name)): 
+	print(str(i)+ ": "+name[i])
+
+1) It's the enumerate function.
+Take a look at the for loop in the upper right and notice a couple things. 
+(Sağ üstteki for döngüsüne bakın ve birkaç şeye dikkat edin.)
+  1) First the list name is now put in a call to this new function called enumerate.
+     (Önce liste adı şimdi numaralandırma adı verilen bu yeni işleve yapılan bir çağrıya konur.)
+
+  2) There are now two variables I and name separated by a comma.
+     (Şimdi virgülle ayrılmış iki değişken I ve name var.)
+
+  3) This basically acts like two for loops at once.   
+     (Bu temelde aynı anda iki for döngüsü gibi davranır.)
+
+  4) One which creates the variable I and assigns it each possible 
+    index from zero to two and which creates the variable name and assigns it each name in the list
+    (I değişkenini yaratan ve mümkün olan her birini atayan biri
+    sıfırdan ikiye ve değişken adını oluşturan ve ona listedeki her adı atayan dizin)
+
+  5) When I is 0 name is Rita,   when I ia 1 name is "Mo"
+
+////////////////
+Lists of Tuples and Tuples of Lists
+
+1) What you can and can't do when you have a list that contains a tuple and when you have a tuple that contains a list.
+(Bir demet içeren bir listeniz olduğunda ve bir liste içeren bir demetiniz olduğunda neler yapabileceğiniz ve yapamayacağınız.)
+
+2) Let's start with the case where you have a list that contains a tuple. 
+   (Tuple içeren bir listenizin olduğu durumla başlayalım.)
+
+3) Remember lists are mutable and tuples are immutable. 
+   (Listelerin değişken olduğunu ve demetlerin değiştirilemez olduğunu unutmayın.)
+
+4) What can you do with this list? 
+   (Bu listeyle ne yapabilirsiniz?)
+
+5) Even if the tuple is in a list, it retains its "immutable" property and throws a "TypeError" exception.
+   (Tuple, bir list icerisinde olsa bile "immutable" ozelligini korur ve "TypeError" hatasi verir.)
+
+   my_tuple[0]=10
+6) Since the tuple is "immutable", we cannot change its elements using this sintex.
+   (Tuple "değişmez" olduğundan, bu sintex'i kullanarak öğelerini değiştiremeyiz.)
+
+my_tuple[2]=[4,5]
+7) You still cannot change the list in the tuple using this sintex.
+   (Bu sintex'i kullanarak tuple icerisindeki list'i yine degistiremezsiniz.)
+
+8) my_tupe[2][0] =[30] 
+You can modify the list in the tuple using this sintex.
+(Bu sintex'i kullanarak tuple icerisindeki list'i  degistirebilirsiniz.)
+
+9) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

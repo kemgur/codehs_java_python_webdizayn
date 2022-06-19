@@ -1,4 +1,23 @@
 """
+Assignment:
+Write a program that has Tracy draw a line of black and white squares.
+Your code should:
+
+-Draw 6 squares in a line in the middle of the canvas
+-Have every other square filled in based on the value of a variable being even or odd
+
+Hints:
+-A white square is the same as a square that is not filled in!
+-The modulus operator will be a big help with this code.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
+"""
 This program will draw a line of 6 squares with every other square colored black.
 """
 

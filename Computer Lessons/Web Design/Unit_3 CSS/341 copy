@@ -1,0 +1,27 @@
+
+Hi in this lesson we will be learning about selecting by ID with CSS.
+
+1:CSS means,
+CSS stands for Cascading style sheets.
+stands for: anlamına gelmek, 
+
+Cascading(käskeydîng)(basamakli)
+Style(stil)
+Sheets(sablonu)
+cascading style sheets
+-Among these words, we will use "style" very often.
+(Bu kelimler icerisinden "style"i cok sik kullanacagiz. )
+
+3:
+The selector defines which HTML elements this rule applies to.
+
+4:
+This rule applies to all HTML elements with the class "alert"
+
+7:id
+This rule applies to the single HTML element with the id "logo"
+
+8:
+Id is an attribute we can add to an HTML tag to style that specific element.
+
+

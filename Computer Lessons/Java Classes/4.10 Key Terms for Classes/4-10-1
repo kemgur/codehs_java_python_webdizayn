@@ -1,0 +1,87 @@
+
+Object Oriented Vocabulary
+1:
+An object is something that contains both state and behavior. It is instance of a class. 
+(Nesne, hem durumu hem de davranışı içeren bir şeydir. Bir sınıfın örneğidir.)
+
+A class is template for creating an object. 
+(Sınıf, bir nesne oluşturmak için şablondur.)
+
+An instance is what you call a specific version of a class. Instances and objects generally refer to the same thing. 
+(Örnek, bir sınıfın belirli bir sürümü olarak adlandırdığınız şeydir. Örnekler ve nesneler genellikle aynı şeye atıfta bulunur.)
+
+2:
+An instance method is a method called on an instance of a class or an object, that helps define the behavior of the class.
+(Örnek yöntemi, bir sınıfın veya bir nesnenin örneğinde çağrılan ve sınıfın davranışını tanımlamaya yardımcı olan bir yöntemdir.)
+
+An instance variable is a variable belonging to an instance of a class, or an object, that helps define the state of the class. 
+(Örnek değişken, sınıfın durumunu tanımlamaya yardımcı olan bir sınıf örneğine veya bir nesneye ait bir değişkendir.)
+
+An class method or state method is a method called on the class. It does not have an object as the receiver. It is accessible to all instances of the class. 
+(Bir sınıf yöntemi veya durum yöntemi, sınıfta çağrılan bir yöntemdir. Alıcı olarak bir nesnesi yoktur. Sınıfın tüm örneklerine erişilebilir.)
+
+A class variable or static variable is a variable belonging to the class, not any object instance It is accessible to all instances to all instances of the class. 
+(Bir sınıf değişkeni veya statik değişken, herhangi bir nesne örneğine değil, sınıfa ait bir değişkendir. Sınıfın tüm örneklerine tüm örnekler tarafından erişilebilir.)
+
+3:
+Packages
+In Java , related classes are grouped into packages.
+(Java'da ilgili sınıflar paketler halinde gruplandırılmıştır.)
+
+You import classes from a package like:
+Import packageName.*;
+(Sınıfları aşağıdaki gibi bir paketten içe aktarırsınız:
+Paket Adını içe aktar.*;)
+
+
+You import a single class like
+Import packageName.ClassName;
+(Gibi tek bir sınıfı içe aktarıyorsunuz
+PaketAdı.SınıfAdı içe aktar;)
+
+4:
+Visibility:
+Visibility (usually public or private) tells you who has access, whether it is to  a variable or a method.
+(Görünürlük (genellikle genel veya özel), bir değişkene mi yoksa bir yönteme mi, kimin erişimi olduğunu söyler.)
+
+5:
+Public visibility modifier
+The classes we write will generally be public, which means usable by everyone.
+(Yazdığımız sınıflar genel olarak public olacaktır, yani herkes tarafından kullanılabilir.)
+Though it's possible to write classes that aren't public. 
+(Herkese açık olmayan sınıflar yazmak mümkün olsa da.)
+That's why our classes start like:
+Public class Student
+
+6:
+Private visibility modifier
+The instance variables we where will generally be private, which means just usable in this class. 
+(Örnek değişkenlerimiz genellikle özel olacaktır, bu da sadece bu sınıfta kullanılabilir anlamına gelir.)
+
+Though it's possible to hire instance variable that aren't private. That's why our instance variables are written like:
+Private String firtName:
+(Özel olmayan örnek değişkeni kiralamak mümkün olsa da. Bu yüzden örnek değişkenlerimiz şöyle yazılmıştır:
+Özel Dize adı:)
+
+7:
+Who has access?
+	 Class.   Package.     World	
+Public.   Yes.      Yes.          Yes
+private.  Yes       No		No
+
+8:
+What is the this keyword?
+"this" is a reference to the current object. 
+("bu", geçerli nesneye bir referanstır.)
+
+9:
+Why use this?
+Sometimes the this keyword makes it very clear that you are referring to the current instance, or to resolve naming conflicts. 
+(Bazen this anahtar sözcüğü, geçerli örneğe atıfta bulunduğunuzu veya adlandırma çakışmalarını çözmeyi çok net bir şekilde ortaya koyar.)
+
+
+
+
+
+
+

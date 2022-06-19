@@ -1,3 +1,22 @@
+"""
+Assignment:
+Write a program that draws a colorful caterpillar.
+Your caterpillar should:
+
+-Have 8 body circles
+-Have circles that alternate between 4 different colors
+
+Hints:
+-Write one function to draw a body circle and fill in its color using a parameter named color_choice.
+-A for loop can also shorten your code!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
 #speed(0)
 
 # This function will draw one circle and move forward

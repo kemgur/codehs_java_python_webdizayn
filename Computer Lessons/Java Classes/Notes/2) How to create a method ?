@@ -1,0 +1,193 @@
+Kemgur
+To create a method, we need to 5 steps.
+1) public,  it is access modifier (Other access modifiers: protected, default(same package), private)
+
+-> An access modifier restricts(ristrîkts) the access of a method.(Bir erişim değiştiricisi, bir methodun erişimini kısıtlar)
+  -> Public,Protected(open the child classes), Default(specific grup), Private
+
+  -> If the access modifier is public, this class can be accessed by anyone.
+  -> If you put private for a method, no body can use it. 
+  -> If a method is private, it can be used just inside the class.In that area in the class body. 
+  -> Can you see, if a method is private, it's scope is very narrow. You can use it just inside the class. 
+    
+
+2) int => int is return type, That one is called return type.
+return type is the type of the thing which method produce. 
+ -> When you created a method, you should type, that method will create what?
+It will create a sentence, it will create a image, it will create a number,
+You should declare(dikleyir) it. 
+  -> I am creating a method, That method will produce(praduys) a number, that method will produce a sentence. You should declare(diklayer) it. 
+  -> I created a method and its producing integer, 
+In java understood, I created a method and its return type is integer. 
+  -> return => result
+     Return type => data type of result
+     2+3=5
+     What is the addition operation is returning:5
+     What is the return type of addition operation => integer.    
+
+////////////////////////////////////
+
+Let us talk about third step:
+3) myFirstClass is class name, start eith lowercase to name it. 
+   A) Method name should be suitable with method functionality.
+   -> If your method is doing addition operation, name is addition method.
+   -> If your method is doing division operation, name is division method.
+
+   B) Method name will start lowercase. First character should be lowercase, 
+If you are using one more world for method name, they should start uppercase.
+There should be no spaces between words.
+
+Camel Case:  The name must begin with a capital letter, if it consists of more than one word, the next first letters of words are also capitalized. (Isim mutlaka buyuk harfle baslar, birden fazla kelimeden olusursa sonraki kelimelerin ilk harfleri de buyuk harf yazilir ) 
+
+//////////////////
+
+Let us talk about forth step and parentheses:
+4) After the method name you have to put there parentheses.
+   ->If you don't use parentheses, java can not understand it is method. 
+   -> When we create a class, we were telling that public class classname and {}, Java was understanding it is a class.
+   ->Over here I didn't tell the java it is a method. Public int methodName best
+   -> There is no method keyword.
+   -> How will java understand, it is method, by looking that parentheses
+   -> You have to put parentheses.Otherwise java will complain(kımpleyn). 
+   -> It will not understand it. What is that. 
+   -> It is not class because you did not use "class" keyword. 
+   -> It is not method because you did not put there parentheses.
+   -> Java confused and sent you a red message. 
+
+Everybody I am repeating that part. If you wana create a method, You have to type method parentheses. 
+
+ /////////////////////
+
+5) The part starts with "{" and ends with"}" is called body. 
+
+And end to end as you see you need to use Curly bracket({}).(Curly brace)
+The part between the curly braces is called method body. 
+Inside the method body you will type your codes and you will tell the java,
+  Do addition operation, do multiplication, do division.
+What do you wait from your method, you will type the codes between the curly braces. 
+
+Is there any question about that slide?
+
+I will proceed(prosiid-ilerlemek) one more step.   
+
+///////////////////////////////////
+///////////////////////////////////
+///////////////////////////////////
+
+Advanced Placement Computer Science (Gelişmiş Yerleştirme Bilgisayar Bilimi)
+
+Hello friends, today we will look at java methods over codehs.
+Merhaba arkadaşlar codehs uzerinden bugun java metotlara bakacagiz.
+
+Please open your codehs account and enter class code and then join our class.
+
+
+
+What topic did you last stay on?(
+En son hangi konu da kaldiniz?)
+
+Where can we continue?
+Nereden devam edebiliriz.
+
+
+ Last one click on the java methods section.
+Lutfen codehs hesabinizi acin ve java methods bolunu tiklayin. 
+
+->In this presentation we are going to talk more about methods in java.
+->So start by introducing(întrōdusîng) methods. 
+
+
+1) Advanced Placement Computer Science (Gelişmiş Yerleştirme Bilgisayar Bilimi)
+
+2) 
+Methods allow(elau) us to break down  our code  into reusable parts.  
+Yöntemler, kodumuzu yeniden kullanılabilir parçalara ayırmamızı sağlar.
+
+3) 
+We can make our code easier to understand by breaking it into methods.
+Kodumuzu yöntemlere ayırarak daha kolay anlaşılır hale getirebiliriz.
+
+4) 
+We  can avoid writing repeated code, and make our code reusable by using methods.
+Tekrarlanan kod yazmaktan kaçınabilir, metotları kullanarak kodumuzu yeniden kullanılabilir hale getirebiliriz.
+
+5) 
+We can simplify(simplifay) ""code by using method.
+Yöntemi kullanarak kodunuzu basitleştirebiliriz.
+
+6) 
+Basically, There is lots of reasons to use methods.
+Yöntemleri kullanmak için birçok neden var.
+-> They you know as our programs get more complicated.We actually need to use them.(Biliyorsunuz ki programlarımız karmaşıklaştıkça bunları kullanmamız gerekiyor.)
+
+7) 
+->So, let's take a look at this codes.
+  
+Do you see the similarities in these lines of codes.
+Oradaki kod satırlarındaki benzerlikleri görüyor musunuz?
+similarities(sîmılerıtiz): benzerlik, benzer özellikler
+
+I am wondering(wandırîng), do you see the similarities in these line of code. We actually have to repeated lines.
+
+The method will help us. When we need the same codes over and over again.
+
+Well you wrote "java" from top to bottom.
+So can you write java side by side?
+
+ 
+8)transt
+Remembering Karel Methods. 
+  
+when we created methods in Karel, it was like teaching the dog a new word. 
+(Karel'de yöntemler yarattığımızda, köpeğe yeni bir kelime öğretmek gibiydi.)
+
+Now we create methods when we want to do one specific thing, and make our code easier to understand. 
+(Şimdi belirli bir şey yapmak istediğimizde yöntemler oluşturuyoruz ve kodumuzu daha kolay anlaşılır hale getiriyoruz.)
+
+9)
+-> Let's look at what it, looks like to define a method in java. 
+And it looks just like our methods from Carol. 
+
+So we write private void printLineBreak open close parentheses and between curly brackets. We actually have two lines that represent our method.  
+  
+Java Methods - Defining  a method.
+Private void printLineBreak(){
+System.out.println("=========");
+System.out.println("*********");
+
+
+10) private void myMethod(){
+
+//Code  goes here
+
+}
+
+->So if we look in a more general method you just put the the name myMethod, which could be any valid name but write them in lower camel case.
+
+11)
+->We will look at calling a method, so here what do to call a method is you write printLineBreak(); So just like calling a method in java.
+
+Now let's go into our code editor and look more at this time. 
+
+12) So here I have program called line break which is a console program and I'll 
+Run it first to see, what it does, so basically what you can see, it does, is it prints our line break one and line break 2 and then part 3.
+
+
+
+
+Well you wrote "java" from top to bottom.
+So can you write java side by side?
+
+As you can see, we did not write a method again to write A.
+
+
+
+
+
+
+
+
+
+
+
+

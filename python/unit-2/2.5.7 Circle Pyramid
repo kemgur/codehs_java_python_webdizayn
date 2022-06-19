@@ -1,3 +1,23 @@
+"""
+Assignment:
+Have Tracy create a pyramid of circles with 3 circles on the bottom row, 2 on the middle row, and 1 on the top.
+Your pyramid should:
+
+-rest on the bottom of the canvas
+-be centered in the x direction
+-have circles of radius 50
+-use for loops
+
+Hints:
+It would be very helpful to plan out the placement of your pyramid on graph paper and label your coordinates before starting your code!
+You can write one for loop to draw the row of 3 circles and reuse it to draw the row of 2 circles- just change the for loop value!
+[Extra Challenge: Our circle pyramid has some space between each row (ie: The circle rows are not all touching). Determine a way to make your pyramid rows all touch.]
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
 speed(0)
 
 # Move to bottom row placement at (-100,-200)
@@ -5,21 +25,25 @@ penup()
 setposition(-100,-200)
 
 # Draw 3 circles for bottom row
-for i in range(3):
+for i in range (3):
     pendown()
     circle(50)
     penup()
     forward(100)
-    
-setposition(-50,-100)   
-for i in range(2):
+
+# Move up for middle row's placement at (-50,-100)
+setposition(-50,-100)
+
+# Draw 2 circles for middle row
+for i in range (2):
     pendown()
     circle(50)
     penup()
     forward(100)
-    
-setposition(0,0)   
-for i in range(1):
-    pendown()
-    circle(50)
-    penup()
+
+# Move up for top row's placement at (0,0)
+setposition(0,0)
+
+# Draw 1 circle for top row
+pendown()
+circle(50)

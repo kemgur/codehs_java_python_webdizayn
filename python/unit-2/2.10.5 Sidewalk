@@ -1,4 +1,23 @@
 """
+Assignment:
+Have Tracy draw a sidewalk around the perimeter of the canvas.
+The sidewalk should consist of:
+
+-8 squares along each side of the canvas
+
+Hints:
+-Use Top Down Design to break this problem down into smaller problems before writing any code
+-Determine how long each square’s side should be to fit 8 from edge to edge. Remember, the entire width of the canvas is 400 pixels!
+-This entire problem can be solved with 16 lines of code, so determine which parts of your code can be repeated and write functions and loops to accomplish this!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
+"""
 This code will have Tracy draw a sidewalk around the perimeter of the canvas.
 """
 

@@ -1,0 +1,28 @@
+
+Hi in this lesson we will be learning about HTML styling.
+
+4:
+Style attribute lets us add several different types of styles to our HTML elements.
+(Style niteliği, HTML öğelerimize birkaç farklı stil türü eklememize izin verir.)
+
+5:
+Ho do we use this well.
+We have to do is insert into the opening tag the style attribute.
+(Yapmamız gereken açılış etiketine style niteliğini eklemek.)
+
+The sintex should be like that. 
+<tagname  style="property:value;">
+
+6:
+We see that we define the property that we're styling colon then the value and then a semicolon.
+
+7:
+We can have multiple styles on one tag all we have to do is separate out these property value pairs with semicolons.
+
+As long as all in double quotes we can have style equals and then a massive string defining several 
+Different values.
+
+10:
+So using this strategy we can add several styles to a single tag.  
+
+text-align changes the position of the word.

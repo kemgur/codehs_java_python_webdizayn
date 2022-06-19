@@ -1,0 +1,35 @@
+
+horizontal(hôrızäntıl): yatay, 
+vertical(vırtîkıl): dikey
+diagonals(dayaagınılz):kosegenler, bir koseden digerine
+consist: Meydana gelmek
+ prediction(pridikşın) section: tahmin bölümü
+ success(sıkses):basari
+
+
+Demo:
+-Our final project starts today. It will continue for 5 days.
+-In this lesson, we will try to understand the logic of the project.
+We can extend it if we need more time.
+
+-We will do a project demo for this lesson.
+-The name of the project is Guess the Word.
+-When I click the Run button, there are 3 lines at the bottom.
+-I see how many letters the word consists of on the 1st line.
+-I see how many guesses to make on line 2.
+-There's a Guess section on the 3rd line. Here I write the letter I guessed.
+-When I type multiple letters in the Guess section, I get this message.
+-I get this message when I enter a special character in the Guess section.
+-I get this message when I enter the correct letter in the Guess section.
+-In addition, the correct letter replaces the dash.
+-In addition, my right to guess has not decreased.
+
+-I got this message when I entered the wrong letter.
+-In addition, my right to guess has decreased by 1 point.
+
+-I got this message when I knew the word.
+-Let's play this game by trying different options in this lesson.
+-Let's try to understand the code logic in the game.
+We can start writing the codes tomorrow.
+
+

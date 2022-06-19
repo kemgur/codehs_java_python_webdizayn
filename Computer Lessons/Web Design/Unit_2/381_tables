@@ -1,0 +1,90 @@
+
+Hi in this lesson we will be learning about HTML tables.
+
+2:
+Our tables are a great way for us to display information in a grid on our webpages.
+(Tablolarımız, bilgileri göstermemiz için harika bir yoldur.)
+
+We see tables all the time on the internet we see them on websites like ESPN to display sport rankings. 
+(Tabloları her zaman internette görüyoruz, onları spor sıralamalarını görüntülemek için ESPN gibi web sitelerinde görüyoruz.)
+=>ranking(renking): siralama
+
+3:
+Here we have a table of all the national birds in the world.
+
+So tables can be a really useful tool for us to display information on our webpages. 
+
+4: 
+This is a table.
+Inside the table we have several table rows so every single one of these is a table. 
+(Tablonun içinde birkaç tablo satırımız var, bu yüzden bunların her biri bir tablo.)
+
+Within the table rows we have table headers.
+The table headers described what information is in each column so here. 
+(Tablo başlıkları, her sütunda hangi bilgilerin olduğunu açıkladı, yani burada.)
+
+11:
+Here we have RANK in the first column the title of the song the artist of the song and in the last column we have which year that this song hit its peak in the Billboard rankings. 
+
+15:
+So each row in the table has several pieces of the table data that describe the actual information in the table. 
+
+20: 
+So build these tables in HTML we are going to need  tag for each one of these terms. 
+
+21:
+So first we will have the table tag and the table is the container for all of the table should be inside the table tag.<table>
+
+22: 
+We will have  a <tr> tag which stands for table row.
+The <tr> tag is container for a single row.
+
+24:
+Inside the first table row will have a <th> tag for table header. 
+The <th> single table header element.  
+
+26:
+Below the table headers we will have  the actual table data. 
+(Tablo başlıklarının altında gerçek tablo verilerine sahip olacağız.)
+
+<td> tag is single table data element. 
+
+28:
+Let's look at an example of this.
+
+So firs of we will need the table opening tag<table> and table closing tag</table> and table tag will contain all the information for the table. 
+
+(İlk olarak, tablo açılış etiketine<table> ve tablo kapanış etiketine</table> ihtiyacımız olacak ve tablo etiketi tablo için tüm bilgileri içerecek.)
+
+29:
+
+So inside here let's put in a <tr> tag for our first row and we will put in another <tr> tag for our second row.
+
+30:
+
+First one will hold all the information for the first 
+Second one will hold all the information for second row.
+
+32:
+On the first row we usually put <th> tags the firs row usually contains headers and for headers we use the <th> tag.
+
+So this is an actual table data. First column will have "name"
+And second colomn will have the points. 
+
+34:
+
+
+<td> The rest of the rows contain data(<td>)
+
+The first column will have the name and secondd column will have the points.
+
+In the second row and every future row will have actual data and for the data we will use <td> tags so in this row the name Coral and Coral has scored 32 points those are each pieces of data in the table the result of this looks like that let me see in the first row we have  name and points those are headers and in the next rows we have the actual table data Carol has scored 32 points now  
+
+
+   
+
+
+
+
+
+

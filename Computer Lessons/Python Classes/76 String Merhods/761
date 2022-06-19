@@ -1,0 +1,172 @@
+
+In this example no variable holds the lowercase version of eggplant
+Slides
+1.
+In this lesson I'm going to teach you about something similar to a function called a method. 
+  (Bu derste size metod denen fonksiyona benzer bir şey öğreteceğim.)
+
+I'm also going to show you how method can be applied to strings.
+(Ayrıca size yöntemin stringlere nasıl uygulanabileceğini göstereceğim.)
+
+2.
+In a previous module you learned how to make and use functions.
+(Önceki bir modülde fonksiyonların nasıl yapıldığını ve kullanılacağını öğrenmiştiniz.)
+You also learned how to make functions that take parameters and to then call those functions with arguments.(Ayrıca, parametre alan işlevlerin nasıl oluşturulacağını ve ardından bu işlevleri bağımsız değişkenlerle nasıl çağıracağınızı da öğrendiniz.)
+
+4.
+Finally you'll learn how to make and use functions and return values.
+(Sonunda, işlevlerin nasıl oluşturulacağını ve kullanılacağını ve değerlerin nasıl döndürüleceğini öğreneceksiniz.)
+Calls to these functions are ultimately replaced by the return value.
+(Bu işlevlere yapılan çağrılar, sonuçta dönüş değeriyle değiştirilir.)
+
+5.
+Okay. Now let's look at an example of this thing called a method.
+(Peki. Şimdi bu şeyin metod denen bir örneğine bakalım.)
+
+In this example we see the piece of code that says first_string.upper
+(Bu örnekte first_string.upper yazan kod parçasını görüyoruz.)
+
+upper() is a method and in this program we are calling it. 
+(üst() bir yöntemdir ve bu programda onu çağırıyoruz.)
+
+The method call, looks something like a function call it's got a name and some parentheses.
+(Yöntem çağrısı, bir işlev çağrısına benziyor, bir adı ve bazı parantezleri var.)
+
+The weird thing about it is the fact that it's preceded by a variable and a dot.
+(Bununla ilgili garip olan şey, önünde bir değişken ve bir nokta olması.)
+
+This is a characteristic of method calls.
+(Bu, yöntem çağrılarının bir özelliğidir.) 
+
+Can you guess what this program does.   
+(Bu programın ne yaptığını tahmin edebilir misiniz?)
+
+6.
+Let's run it. When we do, we see the original "hello" in all uppercase.  
+ Question: What does the upper() method do?
+ (Soru: Upper() metodu ne işe yarar?)
+(converts lowercase letters to uppercase letters.)
+(küçük harfleri büyük harflere dönüştürür.)
+
+7.
+Notes that if we print the original string it hasn't changed
+it is only second string that has capital letters.
+
+8.
+You can think of the method call on the second line like a call a function that has a return value, 
+
+9.
+What makes a method a method is the fact that you call it on a thing
+(Bir yöntemi yöntem yapan şey, onu bir şey üzerinde çağırmanızdır.) 
+In this case the thing is a variable
+A method call always takes the form something.method name.   
+(Bir yöntem çağrısı her zaman bir şey.yöntem adı biçimini alır)
+
+
+You can think of the thing to the left of the dot as a secret argument.
+(Noktanın solundaki şeyi gizli bir argüman olarak düşünebilirsiniz.)
+
+Methods are related to object oriented programing something you'll learn more about in a later module.(Yöntemler, daha sonraki bir modülde daha fazlasını öğreneceğiniz nesne yönelimli programlama ile ilgilidir.)
+
+In this example the upper method is able to create a new string that is identical to first string except with all capital letters.(Bu örnekte, üst yöntem, tüm büyük harfler dışında ilk dizeyle aynı olan yeni bir dize oluşturabilir.)
+
+Upper is method that you can call on any string. 
+(Upper, herhangi bir dizgede arayabileceğiniz yöntemdir.)
+
+10.
+If we change the value of first string the upper case method still works as expected.
+(İlk dizgenin değerini değiştirirsek, büyük harf yöntemi hala beklendiği gibi çalışır.)
+
+11.
+We can even call the method on a string literal like this. 
+(Hatta böyle bir dizge üzerinde metodu çağırabiliriz.)
+
+In this example no variable holds the lowercase version of eggplant.
+(Bu örnekte hiçbir değişken patlıcanın küçük harfli versiyonunu tutmuyor)
+
+All we have is a variable that holds the return of upper Which in this case is the uppercase version of eggplant.
+Elimizdeki tek şey, bu durumda patlıcanın büyük harfli versiyonu olan üst dönüşü tutan bir değişken.
+
+12.
+Let's take a look at some other methods.
+(Diğer yöntemlere bir göz atalım)
+
+You can call on strings as one would guess.
+(Tahmin edebileceğiniz gibi dizeleri arayabilirsiniz.)
+
+In addition to the upper method there is also a lower case method which return a lowercase version of the string it's called on.(Üst yönteme ek olarak, çağrıldığı dizenin küçük harfli bir sürümünü döndüren bir küçük harf yöntemi de vardır.)
+
+13.
+isupper() Method:
+The isupper() method return True if a string is all uppercase letters and False otherwise.
+(isupper() yöntemi, bir dize tamamı büyük harflerden oluşuyorsa True, aksi takdirde False döndürür.)
+
+So, in this case first name.isupper() return true because first string consists of all uppercase letters.(Dolayısıyla, bu durumda first name.issupper() işlevi true değerini döndürür, çünkü ilk dize tamamı büyük harflerden oluşur.)
+
+14.
+islower() method returns True if a string is all lowercase letters and False otherwise.
+(islower() yöntemi, bir dizenin tamamı küçük harflerden oluşuyorsa True, aksi takdirde False döndürür.)
+
+15.
+swapcase() method returns a string in which each letter is the opposite case as the original string. 
+(swapcase() yöntemi, her harfin orijinal dizenin tersi olduğu bir dize döndürür.)
+
+When you check the result letter by letter, you will see how it changes.
+(Sonucu harf harf kontrol ettiğinizde nasil değiştiğini göreceksiniz.)
+
+16.
+strip() method returns a copy of the string you call it on, without any whitespace at the beginning or end.(strip() yöntemi, başında veya sonunda herhangi bir boşluk olmadan, onu çağırdığınız dizenin bir kopyasını döndürür.)
+
+
+Additionally, this method does not touch spaces between words.
+(Ayrica ek olarak, Bu method kelimeler arasindaki bosluklara dokunmaz.)
+
+16.
+find() method:
+The last method I'll show you in this lesson is different from the other ones in that it doesn't return a string. (Bu derste size göstereceğim son yöntem, bir dize döndürmemesi bakımından diğerlerinden farklıdır.)
+
+
+The method is called find() and it can be used to find an instance of one string(bir dize örneği) inside another string. (Yöntemin adı find() ve bir dizgenin örneğini başka bir dizgenin içinde bulmak için kullanılabilir.)
+Here is, how it works(İşte, nasıl çalıştığı)
+
+When you call the find() method, you call it on a string and you also pass it a string as an argument.  (find() yöntemini çağırdığınızda, onu bir dizge üzerinde çağırırsınız ve aynı zamanda bir dizgeyi argüman olarak iletirsiniz.)
+
+It looks in the string you call it on for the first instance of the argument string. 
+(Argüman dizesinin ilk örneği için onu çağırdığınız dizeye bakar.)
+
+In this example it'll look in my_string for the first instance of plant.
+(Bu örnekte, bitkinin ilk örneği için my_string'e bakacaktır.)
+
+It returns the index at which the argument string starts.
+(Argüman dizesinin başladığı dizini döndürür.)
+
+3
+Here plant starts at index 3 in eggplant. So the find method returns three.
+
+-1
+If the argument string is not found the method return negative one. 
+( Argüman dizesi bulunamazsa, yöntem negatif olanı döndürür.)
+
+Note that even thought negative one is technically a valid index. 
+(Negatif olanı bile teknik olarak geçerli bir indeks olduğunu unutmayın.)
+
+It's the index of the last character in a string.
+(Bir dizedeki son karakterin dizinidir.)
+
+It is still used as the value that represents the case where the argument string wasn't found.
+(Hala argüman dizesinin bulunmadığı durumu temsil eden değer olarak kullanılır.)
+
+If the argument string was found the return value will be 0 or greater.
+(Argüman dizesi bulunursa, dönüş değeri 0 veya daha büyük olacaktır.)
+
+So beware of using the index return by find.
+(Bu nedenle, bul ile dizin dönüşünü kullanmaya dikkat edin.)
+
+You shouldn't expect it to necessarily be usable as an index.
+(Mutlaka bir dizin olarak kullanılabilir olmasını beklememelisiniz.)
+
+
+
+
+
+

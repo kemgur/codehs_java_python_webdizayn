@@ -1,0 +1,73 @@
+
+Packing and Unpacking
+
+1) Packing: Pack some variables into a list.
+
+x=0
+y=1
+z=2
+my_list= [z,y,z]
+print(my_list)
+
+The concept of packing is pretty straightforward you can take existing variables and pack them into  a list like this.
+(Paketleme kavramı oldukça basittir, mevcut değişkenleri alabilir ve bunları aşağıdaki gibi bir listede paketleyebilirsiniz.)
+
+straightforward(streytfôrwırd):basit, anlasilir, kolay
+
+2:
+We can't modify x because strings are immutable.
+(Dizeler değişmez olduğu için x'i değiştiremeyiz)
+
+When you have immutable thing in a list, you don't have to worry about the issue of changing one reference and having that change be reflected in another reference.   
+(Bir listede değişmez bir şeye sahip olduğunuzda, bir referansı değiştirme ve bu değişikliğin başka bir referansa yansıtılması konusunda endişelenmenize gerek yoktur.)
+
+All you can do with immutable things is replace them when we replace x's string with efg.
+(Değişmez şeylerle yapabileceğiniz tek şey, x'in dizesini efg ile değiştirdiğimizde onları değiştirmek.)
+
+
+ x and the zero thing in my list no longer refer to the same thing x is now a reference to something else entirely. 
+(x ve listemdeki sıfır şey artık aynı şeye atıfta bulunmuyor x artık tamamen başka bir şeye atıfta bulunuyor.)
+entirely(entayrli): Bastan sona
+
+/////////////////////////////////
+2) Unpacking: Some variables from a list. 
+
+my_list = [0, 1, 2]
+print(my_list)
+
+x,y,z = my_list
+print(x+y+z) # [1,2,3]
+
+In this case we assign to x, y  an z all at once z gets 0 thing in my list, y gets 1 and z gets 2 in my list.
+(Bu durumda x'e, y'ye ve z'ye bir kerede z'yi listemde 0, y'yi 1 ve z'yi 2'yi atadık.)
+
+Note that the number of variables on the left side of the assignment statement has to match the number of things on the right side. 
+(Atama ifadesinin sol tarafındaki değişkenlerin sayısının sağ taraftaki şeylerin sayısıyla eşleşmesi gerektiğine dikkat edin.)
+
+If we try to unpack too many things python yell at us. 
+(Çok fazla şeyi açmaya çalışırsak, python bize bağırır.)
+my_list = [0, 1, 2]
+print(my_list)
+
+a,b,c,d = my_list
+print(a+b+c+d) 
+
+You will get ValueError: Need more than 3 values to unpack on line 4
+
+////////////////////////////////////////
+3:
+Now for something really bizarre we can unpack the elements of a list and pass them as arguments to a function by putting an asterisk before my list we effectively split it into its three elements which then get assigned to the parameters x y and z.
+
+(Now for something really bizarre we can unpack the elements of a list and pass them as arguments to a function by putting an asterisk before my list we effectively split it into its three elements which then get assigned to the parameters x y and z 
+) 
+
+def func(x,y,z):
+    print(x+y+z)
+my_list = [1,2,3]    
+print(func(*my_list))    
+
+
+
+
+
+ 

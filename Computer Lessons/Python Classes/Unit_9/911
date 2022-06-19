@@ -1,0 +1,87 @@
+
+Creates a list of specified amount of list elements.
+(Belirtilen miktarda liste öğelerinin bir listesini oluşturur.)
+
+1) In this video we'll look at some examples of 2D lists or lists of lists.
+   (1) Bu videoda bazı 2D liste örneklerine bakacağız.)
+
+2)
+In python a really convenient way to store a grid of numbers is as a list of lists.
+(Python'da bir sayı ızgarasını saklamanın gerçekten uygun bir yolu, bir liste listesidir.)
+convenient(kınvinyınt):müsait, elverişli, uygun
+
+3)
+Technically python would let us just squish everything together. 
+(Teknik olarak python, her şeyi birlikte ezmemize izin verirdi.)
+
+But it's harder to see the underlying grid here.
+(Ancak burada altta yatan ızgarayı görmek daha zordur.)
+
+So when you have  list of lists like this, it's nice to try to space things out. 
+(Bu nedenle, böyle listeler listeniz olduğunda, bir şeyleri birbirinden ayırmaya çalışmak güzel.)
+
+print(my_grid[0])
+When we run this program what we see is the zero list in our list of lists.
+(Bu programı çalıştırdığımızda liste listemizdeki sıfır listesini görüyoruz.)
+
+We go to index 0 in my grid and what we find is a list that contains negative 3,2,,,
+(Izgaramda indeks 0'a gidiyoruz ve bulduğumuz şey negatif 3,2,,,, içeren bir liste.)
+
+We can use another set of square brackets to be even more specific if we want to access a particular integer, we need to fit specify which list it is in and then specify where it is in that list.
+(Belirli bir tamsayıya erişmek istiyorsak daha da spesifik olmak için başka bir köşeli parantez seti kullanabiliriz, hangi listede olduğunu belirtmemiz ve sonra o listede nerede olduğunu belirtmemiz gerekir.)
+
+4)
+print(my_grid[0][1])
+In this example we are getting the list at index 0 and within that list we are getting the integer index 1.
+(Bu örnekte, 0 dizinindeki listeyi alıyoruz ve bu listenin içinde tam sayı dizini 1'i alıyoruz.)
+
+5)
+print(my_grid[3][4])
+Here we're taking the list index 3 and then the number index 4 within that list. 
+(Burada liste indeksi 3'ü ve ardından bu listedeki sayı indeksi 4'ü alıyoruz.)
+
+6) 
+print(my_grid[3][4:])
+We can use slices with 2D lists and they work in the same way as with 1d lists.
+(Dilimleri 2 boyutlu listelerle kullanabiliriz ve bunlar 1 boyutlu listelerle aynı şekilde çalışırlar.)
+
+print(my_grid[3][4:])
+In this example we take the list at index 3 and then we take a slice in that list starting at index four.
+(Bu örnekte, indeks 3'teki listeyi alıyoruz ve sonra indeks 4'ten başlayarak bu listeden bir dilim alıyoruz.)
+
+print(my_grid[:2])
+We can also just take a slice of the whole grid, in this case we take all the things up to but not including index 2 In our grid. 
+(Ayrıca tüm ızgaradan sadece bir dilim alabiliriz, bu durumda ızgaramıza dizin 2'yi dahil etmeyen her şeyi alırız.)
+
+7)
+
+Let's look at another way to create a list of lists. 
+Bir liste listesi oluşturmanın başka bir yoluna bakalım.
+
+my_grid=[]
+We can start out with empty list.
+(Boş listeyle başlayabiliriz.)
+
+my_list = []
+my_list.append([1, 2, 3])
+my_list.append([4, 5, 6])
+We can then append lists to it. 
+(Daha sonra buna listeler ekleyebiliriz.)
+
+For list_of_numbers in my_grid:
+print(list_of_numbers)
+Also write a for loop over a grid in order to print out each 1D list individually.
+(Ayrıca her 1B listeyi ayrı ayrı yazdırmak için ızgara üzerine bir for döngüsü yazın.)
+
+For list_of_numbers in my_grid:
+    For number in list_of_numbers:	
+print(number)
+And then finally you can write a doubly nested for loop in order to print put each number individually. 
+(Ve son olarak, her bir sayıyı ayrı ayrı yazdırmak için iki kez iç içe geçmiş bir for döngüsü yazabilirsiniz.)
+
+Explore:kesfetmek
+
+
+
+
+

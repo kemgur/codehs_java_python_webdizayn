@@ -1,0 +1,158 @@
+
+Main Method is the Entry(entri) Point of any java program.
+
+Everybody, when you type a java code, you want to run it. 
+To run any code in java, you need main method. 
+If you don't have main method, you cannot run your code. 
+
+Example: Main method is smiliar with engine(encın) in a car.  
+For example, you have a mustang car. It is brand(brend) new.  
+Everything is okay. AC is ok, mirrors are ok, seats are ok, music system is ok, secure set is ok,
+But you don't have engine. You cannot run the car guys. 
+It is same in java. You type all code about your application, 
+You created 1000 classes, inside the classes 5000 methods, 10.000 variables.
+Everything is done, but you don't have main method. Noting works guys. 
+Because of that we are naming it MAIN METHOD.
+What is main part in a car? It is engine. 
+You have engine but you don't have AC. The car works.  
+Same in java. If you don't have main method, all codes are nothing work.  
+
+How will create Main Method.
+Look at the syntax(sinteks).
+
+public static void main(String[ ] args) { }
+  1.      2.    3.  4         5.          6. 
+
+In six steps, you can create main method.  
+
+Everybody, in main method everything which you see over here is must. 
+
+1) public: Main method must be public,(You cannot make it proceed, You cannot make it private.) 
+
+2) static: Main method must be static( I will not explain the meaning of static right now, it is a little bit complicated subject, we will learn it future, Just memorize it right now. )
+
+3) void: Void is return type. In the main method, you have to type void as return type. 
+   You cannot change that one to integer,    You cannot change that one to another one. 
+   It must be void. 
+ => What is meaning of void?
+   Sometime method works but produces(prıduysız) nothing. (Bazen yöntem işe yarar ama hiçbir şey üretmez.) It does not produce anything. It does not produce new data. That kind of method should have void return type. 
+
+4) main: Main is the method name. I told you. You may change method names. You can put any name to a method but for main mathod, you have to use "main" keyword. If you put over here Ayse , it means, it not main method. It is another method. Okay. If you wanna make it main method, Method name should be "main" okay.
+
+
+5) Inside the parentheses, you have to type that one, (String[brekits] args) , you should put that syntax. It is must. Everybody everything is must in the main method syntax. You cannot change anything.String is starting uppercase. If it is starting lowercase. The code does not work. (String is a data type. We will talk about later. Word and centenses is string data type.)
+Args is stand for arguments. 
+
+6) {}; inside the curly braces, we will type something. 
+
+Is there any question about so far? 
+
+Everybody  pls memorize that syntax. => public static void main(String[ ] args) { }
+
+We will create methods to run them, we need main method. 
+How we will call or how we will run the method by using main method, we will learn it later.  
+
+
+
+
+
+
+
+
+
+
+///////////////////////////
+
+To create a method, we need to 5 steps.
+1) public,  it is access modifier (Other access modifiers: protected, default(same package), private)
+
+-> An access modifier restricts(ristrîkts) the access of a method.(Bir erişim değiştiricisi, bir methodun erişimini kısıtlar)
+  -> Public,Protected(open the child classes), Default(specific grup), Private
+
+  -> If the access modifier is public, this class can be accessed by anyone.
+  -> If you put private for a method, no body can use it. 
+  -> If a method is private, it can be used just inside the class.In that area in the class body. 
+  -> Can you see, if a method is private, it's scope is very narrow. You can use it just inside the class. 
+    
+
+2) int => int is return type, That one is called return type.
+return type is the type of the thing which method produce. 
+ -> When you created a method, you should type, that method will create what?
+It will create a sentence, it will create a image, it will create a number,
+You should declare(dikleyir) it. 
+  -> I am creating a method, That method will produce(praduys) a number, that method will produce a sentence. You should declare(diklayer) it. 
+  -> I created a method and its producing integer, 
+In java understood, I created a method and its return type is integer. 
+  -> return => result
+     Return type => data type of result
+     2+3=5
+     What is the addition operation is returning:5
+     What is the return type of addition operation => integer.    
+
+////////////////////////////////////
+
+Let us talk about third step:
+3) myFirstClass is class name, start eith lowercase to name it. 
+   A) Method name should be suitable with method functionality.
+   -> If your method is doing addition operation, name is addition method.
+   -> If your method is doing division operation, name is division method.
+
+   B) Method name will start lowercase. First character should be lowercase, 
+If you are using one more world for method name, they should start uppercase.
+There should be no spaces between words.
+
+Camel Case:  The name must begin with a capital letter, if it consists of more than one word, the next first letters of words are also capitalized. (Isim mutlaka buyuk harfle baslar, birden fazla kelimeden olusursa sonraki kelimelerin ilk harfleri de buyuk harf yazilir ) 
+
+//////////////////
+
+Let us talk about forth step and parentheses:
+4) After the method name you have to put there parentheses.
+   ->If you don't use parentheses, java can not understand it is method. 
+   -> When we create a class, we were telling that public class classname and {}, Java was understanding it is a class.
+   ->Over here I didn't tell the java it is a method. Public int methodName best
+   -> There is no method keyword.
+   -> How will java understand, it is method, by looking that parentheses
+   -> You have to put parentheses.Otherwise java will complain(kımpleyn). 
+   -> It will not understand it. What is that. 
+   -> It is not class because you did not use "class" keyword. 
+   -> It is not method because you did not put there parentheses.
+   -> Java confused and sent you a red message. 
+
+Everybody I am repeating that part. If you wana create a method, You have to type method parentheses. 
+
+ /////////////////////
+
+5) The part starts with "{" and ends with"}" is called body. 
+
+And end to end as you see you need to use Curly bracket({}).(Curly brace)
+The part between the curly braces is called method body. 
+Inside the method body you will type your codes and you will tell the java,
+  Do addition operation, do multiplication, do division.
+What do you wait from your method, you will type the codes between the curly braces. 
+
+Is there any question about that slide?
+
+I will proceed(prosiid-ilerlemek) one more step.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

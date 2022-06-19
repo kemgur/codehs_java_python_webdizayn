@@ -1,0 +1,21 @@
+
+3:
+CSS Pseudo-classes allow you to select elements that are in a certain state, such as when the mouse is hovering over an element.
+
+(CSS Sözde sınıfları, örneğin fare bir öğenin üzerine geldiğinde olduğu gibi belirli bir durumda olan öğeleri seçmenize olanak tanır.)
+
+4:
+Select all p tags and gives them the color red.
+
+5:
+Select all p tags that the mouse is hovering over and gives them the color red.
+(Farenin üzerine geldiği tüm p etiketlerini seçin ve onlara kırmızı rengi verir.)
+
+	-hovering over(havıring ōvır):üzerinde gezinmek
+6:
+So the general format for CSS pseudo class is selector which can be any CSS selector including tag class,
+
+7: What other pseudo-classes are there?
+:link - select unvisited links
+:visited - select visited links
+:active - select element Currently being.

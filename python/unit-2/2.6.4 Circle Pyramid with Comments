@@ -1,3 +1,18 @@
+"""
+Assignment:
+Add comments to your ‘Circle Pyramid’ program.
+You just wrote a program that told Tracy how to create a pyramid of circles with 3 circles on the bottom row, 2 on the middle row, and 1 on the top.
+
+Copy and paste your code here and include:
+
+-a multiline comment at the beginning that describes what the overall program does
+-a few inline comments that describe the different parts of your code (at least 2!)
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
 speed(0)
 """
 Move to bottom row 

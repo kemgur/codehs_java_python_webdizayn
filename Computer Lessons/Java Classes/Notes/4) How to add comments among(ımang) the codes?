@@ -1,0 +1,22 @@
+How to add comments among the codes ?
+
+1) One line comment: If your comment is just a single line, using that one, it is a good option.
+
+// After double forward slash type your comment
+
+2) Multi-line comments: Sometimes we need to type multiple sentenses. Can you see line 1,2,3... 
+No need to more forward slashes for every line. Instead of doing that one, you can do /*(forward slash, asterisk and asterisk, forward slash ) between that too notations, you can type one more comments line.
+
+Between /* and */ type your multi line comments
+/*
+Comment line 1 
+Comment line 2 
+Comment line 3
+*/
+
+When you create your java code, you should obey(ōbey) all rules.If you think, some part is complicated,
+You should put some explanation sentences before the code or after the codes. 
+
+When you use forward slash, java will skip that comment, 
+When you use  forward slash, asterisk and asterisk, forward slash, java will skip all comments. 
+ 

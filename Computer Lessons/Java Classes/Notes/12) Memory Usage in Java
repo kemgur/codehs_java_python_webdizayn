@@ -1,0 +1,11 @@
+Memory Usage in Java:
+
+There are two types of memory in Java, one is Stack memory, the other is Heap memory.
+
+Stack memory contains primitive data type values and references for objects.
+
+Note : Non - Primitive data types are object.
+ 
+Heap memory is used to store objects in Java.
+
+Stack is very small according to the Heap memory.

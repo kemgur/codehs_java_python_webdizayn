@@ -1,0 +1,28 @@
+
+Every computer has memory. Memories are separated into small squares like that. 
+Every square is called bit. Soma data can be put inside this area. 
+But some data is larger.You need to use two bits for example. It depends of the size your data. 
+What can we put inside a bit?
+
+I told you, JDK(Java Development Kit) compile our java codes and convert them to 0 and 1.
+In every bit, you can put inside 0 or 1. 
+What is the meaning of one, one is, there is electricity(elektrisiti) in that square. 
+What is the meaning of zero, there is no electricity(elektrisiti) in that square. 
+Every bit can contain 0 or 1
+
+
+Note: 8 bits are called 1 byte.
+
+ 
+Bit
+A bit is the smallest unit of data in a computer. 
+(Bit, bilgisayardaki en küçük veri birimidir.)
+
+A bit has a single binary value, either 0 or 1.
+(Bir bit, 0 veya 1 olmak üzere tek bir ikili değere sahiptir.)
+
+
+
+Note: 8 bits are called 1 byte.
+
+I hope data, bit and byte are clear for everyone. 

@@ -1,3 +1,23 @@
+"""
+Assignment:
+Write a program that will draw 7 shapes.
+Your shapes should:
+
+-Start with 0 points
+-Each increase the number of points by 1 (ie: line- 2 points, triangle- 3 points, square- 4 points, etc.)
+-Start with a radius of 20 and increase in radius by 20 pixels each time
+-All be drawn from the same starting position
+-Initialize Tracy’s starting position using: setposition(0, -150)
+
+Hint: It is difficult to use the value of i to control both the radius of the shape and the number of points so you may use a variable called radius to control this.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
 radius = 20
 
 penup()

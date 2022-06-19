@@ -1,3 +1,24 @@
+"""
+Assignment:
+Draw a representation of your phone signal using the value of i!
+Make sure your depiction:
+
+-Has 5 bars that are each 10 pixels wide
+-Has 15 pixels between each bar
+-Makes the first bar 10 pixels tall
+-Increases each bar’s height by 10 pixels, with the tallest bar being 50 pixels
+
+Hints:
+-Determine a way to have your value of i control the height of your bars by holding only the needed values of 10, 20, 30, 40 and 50.
+-Start Tracy from the center of the canvas.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
 speed(0)
 penup()
 setposition(-180,-50)

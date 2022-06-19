@@ -1,3 +1,21 @@
+"""
+Assignment:
+Here you will complete the same task as in the dartboard exercise, using the value of i instead of an outside variable.
+Make sure your dartboard:
+
+Consists of 4 concentric circles
+Has the center circle placed in the middle of the canvas with a radius of 25
+Has three circles surrounding the middle, that each increase in radius by 25 pixels
+Use the value of i to control the radius of the circles
+Hint: Determine how to use extended for loop parameters to produce the exact radius values you need (25, 50, 75, 100).
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
 #speed(0)
 
 penup()

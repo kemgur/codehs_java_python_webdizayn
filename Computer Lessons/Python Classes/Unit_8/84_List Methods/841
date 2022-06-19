@@ -1,0 +1,81 @@
+
+1) 
+Methods are sort of like functions except that you call them on something.
+(Yöntemler, onları bir şey üzerinde çağırmanız dışında bir tür benzer işlevlerdir.)
+
+Method calls of the form thing.method()
+(Things.method() formunun yöntem çağrıları)
+
+Method can also have arguments just like functions. 
+(Yöntemin de tıpkı işlevler gibi argümanları olabilir.)
+
+list() also have method
+
+count() method: You can call it like this and returns the number of times the argument in the list.
+(Bu şekilde çağırabilirsiniz ve argümanın listedeki sayısını döndürür.)
+
+This is the feature of the count() method.
+(count() method'un ozelligi budur.)
+
+In this case the number two occurs twice in the list so count return two. 
+(Bu durumda, iki numara listede iki kez geçer, bu nedenle ikiyi sayın.)
+
+2:
+append() Method: its profile is similar to that of count.
+append() Yöntem: profili, count()'a benzer.
+
+You call it on list and you give it a single argument.
+(Onu listeden çağırırsınız ve ona tek bir argüman verirsiniz.)
+
+What it does is it takes that argument and sticks it on the end of the list. 
+(Yaptığı şey, bu argümanı alıp listenin sonuna yapıştırmak.)
+
+You can call it multiple time and it will append something each time. 
+(Bunu birden çok kez arayabilirsiniz ve her seferinde bir şey ekler.)
+
+=>When you add a list with the append() method, it creates a nestlist.
+(append() yöntemiyle bir liste eklediğinizde, icice listesi oluşturur.)
+
+Even if that argument is itself a list fortunately there's another method we can use call extend which does exactly what we want. 
+(Bu argümanın kendisi bir liste olsa bile, neyse ki, tam olarak istediğimizi yapan call extension kullanabileceğimiz başka bir yöntem var.)
+
+there's another method we can use call extend which does exactly what we want.
+
+When we use extend we have to give it a list well or a tuple.  
+(Extend kullandığımızda, ona bir liste kuyusu veya bir demet vermeliyiz.)
+
+3:
+sort() Method:
+Remember that strings are sorted in python's order which is sort of like alphabetical order except for instance all capital letters come before all lowercase letters.   
+(Dizelerin, örneğin tüm büyük harflerin tüm küçük harflerden önce gelmesi dışında, bir tür alfabetik sıra gibi olan python sırasına göre sıralandığını unutmayın.)
+
+This is Python's sorting logic.(Python'in siralama mantigi bu sekildedir. )
+
+4:
+reverse() Method: It just changes the list to be in reverse order. 
+(Sadece listeyi ters sırada olacak şekilde değiştirir.)
+
+Note that this is not reverse sorted order if you want to put your list in reverse sorter order you can do something like this sort first and then put it in reverse order. 
+(Bunun ters sıralama olmadığını unutmayın, listenizi ters sıralamaya koymak istiyorsanız, önce bu sıralamaya benzer bir şey yapabilir ve sonra ters sıraya koyabilirsiniz.)
+
+5:
+remove() Method:Finally you can use the remove method to remove something.  
+(Son olarak, bir şeyi kaldırmak için remove yöntemini kullanabilirsiniz.)
+
+Note that it just removes the first instance of that thing.
+(Sadece o şeyin ilk örneğini kaldırdığını unutmayın.)
+
+In this case it only removes the first instance of the number two.
+(Bu durumda, yalnızca iki sayısının ilk örneğini kaldırır.)
+
+The second instance of the number two right at the end of list stays put. 
+(Listenin hemen sonundaki iki sayısının ikinci örneği yerinde kalır.)
+
+
+
+
+
+
+
+
+

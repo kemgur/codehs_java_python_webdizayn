@@ -1,3 +1,18 @@
+"""
+Assignment:
+Write a program that will draw a red and black checkerboard on the canvas.
+Squares should have side lengths of 40 pixels. They should alternate between black and red and each row should start with a different color.
+
+Hints:
+- You should use a variable called color_value to control the color of each square.
+- The Bubble Wrap program might be a good place to start. You can find it here!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
 # Set initial variable value
 speed(0)
 color_value = 0

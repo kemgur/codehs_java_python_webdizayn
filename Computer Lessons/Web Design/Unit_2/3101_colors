@@ -1,0 +1,110 @@
+
+Hi in this lesson we will be learning about HTML colors.
+
+We will watch this video together.
+This subject is very important. 
+You should not miss any detail.
+
+1:
+In this example we used style attribute. We set the style have color: blue.
+
+When you run the code, the color of text has changed to blue. 
+When you run the code, the color of text has changed to red.
+
+5:
+cyan(sayan):
+blanchedalmind(blençdelmind)
+
+6:
+Aren't there Way more than 140 colors?
+140'tan fazla renk yok mu?
+
+7:
+Html color codes.
+
+Color in html can either be:
+(Html'deki renk şunlardan biri olabilir:)
+
+Are there only 140 colors or could there be more?
+
+* A valid color name: red, green, cyan,
+
+In the previous presentation, we saw that there are 140 different colors on the w3school website.
+By the way, what is your favorite color?
+
+* An RGB value.(rgb(0,255,0))
+
+* A Hexadecimal(heksi-desimil) (aka "hex") color code.
+  #FF00FF
+
+9:
+RGB Color Encoding(kodlama)
+The RGB Color Encoding system allows us to create colors by specifying the amount of red, green and blue in the color.
+(RGB Renk Kodlama sistemi, renkteki kırmızı, yeşil ve mavi miktarını belirterek renkler oluşturmamızı sağlar.)
+
+10:
+Any color can be created by combining Red Green and Blue light at varying intensities.
+ -at varying(vering) intensities(intensitis)
+ -combining(kımbaynîng):birleştiren
+
+
+11:
+What do you see in this picture?
+When red and green are mixed, yellow color occurs.
+
+12:
+Every single picture has red, green and blue color. 
+
+What color can this rgb value be?
+
+
+14:
+A color has 3 values
+This is ARB system. 
+
+17:
+Each "color channel" gets a value in the range 0 - 255
+
+18:
+0 -255
+That's 256^3 = 3 over 256 = almost 17 milyon different colors.
+
+
+23:
+Hexadecimal(hekzıdesimil) Color Codes:()Onaltılık Renk Kodları:
+What is the hexadecimal color system?
+
+
+24:
+The decimal numbering system has 10 digits.(0-1-2-3-4-5-6-7-8-9)
+
+25:
+It is starting 0 base 10.
+We can write all numbers as two-digit numbers base 10.
+
+
+43:
+Hexadecimal numbering system has 16 digits.
+0-16(0base 16), 1-16(1 base 16)
+
+70:
+00 base 16 = 0 base 10
+FF base 16 = 255 base 10
+
+It is very difficult for us to keep all of them in mind.
+(Hepsini akilda tutmamiz cok zordur.)
+
+ 
+=>
+There are many options in rgb and hexadecimal.
+ı
+
+
+
+
+
+
+
+
+
+

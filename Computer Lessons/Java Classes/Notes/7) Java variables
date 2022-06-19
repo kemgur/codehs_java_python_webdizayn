@@ -1,0 +1,156 @@
+                    
+                                        Java Variables
+Variable is the name of reserved area allocated(älıkeytîd-tahsis edilmis) in memory. 
+(Değişken, bellekte ayrılan ayrılmış alanın adıdır.)
+
+In other words, it is a name of memory location.
+(Başka bir deyişle, hafıza konumunun bir adıdır.)
+
+A variable is a container which holds the value while the java program is executed.
+(Değişken, Java programı yürütülürken değeri tutan bir kapsayıcıdır.)
+
+
+HOW TO CREATE A VARIABLE?
+To create a variable, you will do two main things. 
+
+1) => Data Type: You will type the data type. 
+2) => Variable Name : You will put tne name, for your variable. 
+
+I told you,  everything which you created needs name in java. 
+If you are creating a variable, it needs name. You should tell  java, its data type.  
+
+Variable Declaration :
+DataType VariableName ;
+int        age ;
+char       initial ;
+
+If I am creating a variable for age, its data type will be int.
+  
+
+
+Note: If you will declare more than one variable with the same data type;
+
+DataType    VariableNames ;
+int         age, height, distance ;
+
+
+
+If you completed your sentence, you will put dat(.) over here. 
+In java instead of dat(.) we used semi column(;) Same functionality. 
+
+////////////////
+
+DEGER ATAMA:
+
+When you type that  code (int age;) it means, you created a container.
+But can you see, I didn't tell java the value of age.
+Java thinks like that , you didn't give the value for age , I will put over here 0, 
+This is default value for integer. 
+If you create integer variable, java put inside the container as default. 
+Because of that over here, I drove image like that. 
+Age is name of the variable. Orange part is the container, 0(zero) inside the orange part is default value. 0(zero) is coming from java.  
+
+If I tell java age is 15, Java will change that one to 15. 
+If you don't tell anything, Java will put over here 0(zero). 
+
+////////////////
+
+CHAR'A DEGER ATAMA:
+
+Look at here. I typed that code => char initial; 
+What does it mean?
+Java went to memory, it created a container like that. It put something weird in the container.
+What is that?
+For every character, java has a code. When you type a(ey), java doesn't know a(ey).
+Java works with numbers. Java accept(eksept)  a(ey) as 97,
+When you type b(bi), java doesn't know b(bi), Java knows b(bi) ->98
+For every character, java has specific values.
+For example for !(exclamation mark) java has a value, value is 33, 
+If it is char , Java will put default zeros in the container. 
+Those numbers are called ascii number. 
+Ascii code is international number. When you go to Japan country,  
+If you ask the java developer, What is ascii code of a(ey), He will tell you 97.
+It is international value. It doesn't change. 
+
+Do if you create a variable without assigning any number, it is called VARIABLE DECLARATION.  
+I declared a variable, but I didn't assign any number for the variables.   
+   
+ In coding area, typing codes short, it is better.
+
+Note: For every data type, Java prints something deferent. 
+      For integer and char, java prints 0(zero).  
+
+If data type is deferent, there is no short way.  
+Short way is valid, if the data type is same.  
+  
+//////////////
+
+HOW TO ASSIGN A VALUE TO A VARIABLE.
+
+Data Type VariableName = Value;
+If yo wanna make age type =(equal) 27;
+int age = 27;
+What will java do? Java will get the value over here(27)
+And then java puts the value in the container.
+
+
+char initial = 'A';
+ 1      2    3  4 5 Steps(How many steps are there?)
+For initial put(=)equal sign and put the character.
+Why did I put over there single quot?
+Because for chars value must be between single quot.
+Otherwise java not understand it is char or not. 
+When you type that code('A') in memory, you will have a  container like that,
+Inside the container have 'A',
+
+
+///////////////////
+Deferent Way:
+For assignment there are different ways.
+int age; => Over here, I created age variable in the first line.  
+age = 27 ; => I am making assignment second line, it works. 
+If you see something like that, no need to surprise.  
+
+
+int age, height, distance ; 
+age = 27 ;
+height = 185 ;
+distance = 470 ; 
+
+//////////////////////
+Note: Declaration(aciklama) and assignment can be done in different ways like;
+
+1)
+int age; 
+age = 27 ;
+
+2) 
+int age, height, distance ; 
+age = 27 ;
+height = 185 ;
+distance = 470 ;
+
+3) This way is best way.It is our dream code.It is sorter than other. 
+int age=27, height=185, distance=470 ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

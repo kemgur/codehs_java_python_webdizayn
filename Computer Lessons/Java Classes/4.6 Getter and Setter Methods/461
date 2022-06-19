@@ -1,0 +1,72 @@
+
+An object is something that has both state and behavior. 
+(Nesne, hem durumu hem de davranışı olan bir şeydir.)
+=>state: The state is represented by the instance variables.
+=>behavior: The behavior is represented by the methods.
+
+How to get access to instance variables?
+(Örnek değişkenlere nasıl erişilir?)
+
+So far, when we've created instance variables, they have always been private, meaning a client of the class can't get the value.
+(Şimdiye kadar, örnek değişkenler oluşturduğumuzda, bunlar her zaman özel olmuştur, yani sınıfın bir istemcisi değeri alamaz.)
+
+So there are special methods that let you get access to these variables to get or set their value.(Bu nedenle, değerlerini almak veya ayarlamak için bu değişkenlere erişmenizi sağlayan özel yöntemler vardır.)
+
+Getter ans Setter Methods
+These methods let you get and set the values of instance variables as a client of the class.(Bu yöntemler, sınıfın bir istemcisi olarak örnek değişkenlerin değerlerini almanıza ve ayarlamanıza izin verir.)
+
+Getter Methods:
+A getter method lets you get access to some instance variables of an object. Getter methods can also be called "accessor methods".(Bir alıcı yöntemi, bir nesnenin bazı örnek değişkenlerine erişmenizi sağlar. Getter yöntemleri erişimci yöntemleri olarak da adlandırılabilir.)
+
+Convention(Ortak Dusunce): Getter Methods
+So if you want to return the values of an instance variable called firstName you would name the method:(Bu nedenle, firstName adlı bir örnek değişkenin değerlerini döndürmek istiyorsanız, yöntemi adlandırırsınız:) => getFirstName()
+
+Setter Methods:
+A setter method lets you set the values of instance variables of an object. (Bir ayarlayıcı yöntemi, bir nesnenin örnek değişkenlerinin değerlerini ayarlamanıza izin verir.)
+
+Setter methods can also be called "modifier methods".
+(Setter metotları "değiştirici metotlar" olarak da adlandırılabilir.)
+
+Convention(Ortak Dusunce): Setter Methods:
+The convention for setter methods is to name them set plus the name of instance variable. 
+
+So if you want to return the values of an instance variable called firstName you would name the method:(Bu nedenle, firstName adlı bir örnek değişkenin değerlerini döndürmek istiyorsanız, yöntemi adlandırırsınız:) => setFirstName()
+
+Why Use getters and setters?
+There are lot of reasons to use getters and setters, and a lot of them become clearer as your applications get more complicated. (Alıcıları ve ayarlayıcıları kullanmak için birçok neden vardır ve birçoğu uygulamalarınız daha karmaşık hale geldikçe daha net hale gelir.)
+
+1) Validation(Dogrulama)
+
+2) Can hide internal representation(provides a nice abstraction)
+   (Dahili temsili gizleyebilir) (güzel bir soyutlama sağlar)
+
+3) May need to add more logic to these methods.
+   (Bu yöntemlere daha fazla mantık eklemeniz gerekebilir.)
+
+4) Safety -- can control better what a client can access. 
+   (Güvenlik -- bir müşterinin neye erişebileceğini daha iyi kontrol edebilir.)
+
+=> We will understand its importance better as we use it forward.
+   (Ileriye dogru kullandikca onemini daha iyi anlayacagiz.)
+
+What is the difference between a getter method and an accessor method?
+1) A getter method allows you to get the value of a field while a   accessor method sets the value of the field.
+   (Bir alıcı yöntemi, bir alanın değerini almanıza izin verirken, bir erişimci yöntemi alanın değerini ayarlar.)
+
+2) A getter method allows you to get the value of a field while a accessor method is not often used in Java.
+   Bir alıcı yöntemi, bir alanın değerini almanıza izin verirken, bir erişimci yöntemi Java'da sıklıkla kullanılmaz.
+
+3) A getter method gets the name of the class while an accessor method gets the value of the field.
+  Bir alıcı yöntemi sınıfın adını alırken erişimci yöntemi alanın değerini alır.
+ 
+
+Now let's do another example with getter and setter method. 
+
+
+
+
+
+
+
+
+ 

@@ -1,5 +1,19 @@
+"""
+Assignment:
+Write a program that will have Tracy draw a hexagon.
+You should:
+
+-Have hexagon sides that are 50 pixels long
+-Use a for loop
+Hint: Figure out how much Tracy will need to turn after drawing each side of the shape to add up to the total 360 degrees.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
 speed(0)
 
-for i in range(6):
+for i in range (6):
     forward(50)
     left(60)

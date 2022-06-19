@@ -1,0 +1,41 @@
+
+Iteration:yenileme
+
+4:
+For loop is a programing construct that allows you to execute code a predetermined number of times. 
+(For döngüsü, kodu önceden belirlenmiş sayıda çalıştırmanıza izin veren bir programlama yapısıdır.)
+
+construct(kınstrakt):yapi, insa etmek, 
+predetermined(priditırmînd):önceden belirlenmiş, 
+
+5:
+The for loop
+Here is a simple example of a for loop. 
+
+Let's look at a program that has a simple example of a for loop in it. 
+(İçinde basit bir for döngüsü örneği olan bir programa bakalım.)
+
+
+For loop printed "Hello" 4 times. 
+Because it says 4 in the for loop parenthesis.
+
+11:
+ End of the for loop line we have to apply indented by one level.
+
+12:
+i is actually a variable.
+More specifically it's an int variable.
+ It starts  at 0(zero).
+
+14:
+The range function
+I goes from 0 up to but not including the number in range parenthesis.
+
+15:
+In this example, the variable i will start at the (1)one and it will gradually be incremented up to to but not including six.
+gradually(gräculi):yavaşlar yavaşlar, derece derece, aşamalı olarak, 
+
+16:
+In this example i still starts at one and goes up two but not including six.  
+Go up: yükselmek
+

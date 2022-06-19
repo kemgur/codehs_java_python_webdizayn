@@ -1,4 +1,27 @@
 """
+Assignment:
+Write a program that will draw four tri-colored triangles next to one another in the center of the canvas.
+Make sure your triangles:
+
+-Have sides of different colors (red, green and blue!)
+-Have sides that are 50 pixels long
+-Are centered around the y-axis
+-Have sides drawn with a thickness of 5 pixels
+
+Hints:
+-Tracy is drawing 4 triangles, which means that 2 should be left of center and 2 should be right of center. Each triangle has a width of 50. This should help you figure out where to place Tracy to center your triangles!
+-Try to figure out how you can use a for loop to shorten your code!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
+
+
+"""
 This program will draw four tri-colored triangles in a row.
 """
 

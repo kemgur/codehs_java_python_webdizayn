@@ -1,0 +1,91 @@
+
+Hi in this video we will be learning about HTML lists.
+We see lists a lot on webpages.
+In fact here's a list of reasons.
+(Aslında burada bir nedenler listesi var.)
+2:
+HTML lists allow us to group a set of related items in lists.
+List of reasons to use lists.
+	* Organize information
+	* Simple structure
+	* Easy to read and write
+
+	1.Arrange things in order.
+	(1. İşleri sırayla düzenleyin.)
+     	   a) Most important
+	   b) Less impontantint
+	   c) Least important	
+
+3) All time we see them all over internet. 
+(Onları her zaman internet üzerinden görüyoruz.)
+Let's go to the wikipedia
+As you see lists of list of list.
+This website holds most of list articles 
+
+
+4:
+So There are two types of lists in HTML,
+When you use the Unordered list, you may see different marks at the beginning of the line.
+
+An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+
+
+When you use the ordered list, you may see number  or letter  at the beginning of the line.
+
+
+5:
+The <ul> Tag
+The <ul> tag defines an unordered list. 
+
+6:
+There is one more tag we're going to need and 
+That is <li> tag that stands for list item. 
+The <li> tag defines a list item inside a list. 
+
+So using the <ul> tag and <li> tag we can make unordered list. 
+
+8:
+So inside the <ul> tag we're gonna have an <li> tag
+For each item in the list. 
+
+9:
+The result looks like this we have an unordered list apple babana milk bread.
+Each of them have a bullet(bûlıt) point.  
+
+
+10: 
+What about order lists. 
+The <ol> tag stand for ordered list. 
+The <ol> tag defines an ordered list. 
+So just like with the <ul> tag we have an opening and closing <ol> tag.
+
+12:
+So inside the <ol> tag we're gonna have an <li> tag
+For each item in the list. 
+
+13:
+<li> is used regardless of what type of list we're making.
+(<li> ne tür bir liste oluşturduğumuzdan bağımsız olarak kullanılır.)
+
+=>regardless of(rıgärdlıs ıv): hiç önem vermeyerek , umursamayarak , -e bakmayarak 2-her şeye rağmen , ne olursa olsun, e bakılmaksızın, gözetilmeksizin
+
+14:
+The result here we have 1 2 3 4 instead of bullet.
+=> bullet(boolıt):
+
+16:
+Nesting List
+For example there is list. I can put a list inside of list. 
+
+20:
+Inside this example there are more detail. 
+ 
+inside the cookies we can add nested list. 
+
+But we should use <ul> tag as a first step.
+second we can add a list inside the cookies by using <li> tag.
+
+
+
+
+

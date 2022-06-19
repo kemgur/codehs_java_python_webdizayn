@@ -1,0 +1,39 @@
+
+1) in this lesson, we will learn about HTML images. 
+
+Q: Who wants to share their answers?
+
+Let's review the presentation together.
+
+2) Introducing the image tag IMG.
+The <img> tag allows(elauz) us to add images to our web pages. 
+(<img> etiketi, web sayfalarımıza resim eklememizi sağlar.)
+
+	Features of <img> tag:
+	  a) No closing tag.(No need for </img>)
+
+	  b) No text being annotated(açıklamalı) by the <img> tag.
+	 (<img> etiketi tarafından açıklama eklenmiş metin yok.)
+
+	  c) Simly the <img> tag and some attributes(Öznitellikler).
+
+	  d) The <img> tag has a src attribute.
+
+	  e) src specifies where to get the image from.  
+	      (Görüntünün nereden alınacağını belirtir.)
+
+	  f) The source(src) is the URL for an image. 
+    	  g) src attribute specifies where should get the image from and 
+	     this is the URL for an image.
+
+	  h) The <img> tag also have width and height attributes.
+ 	     They specify the size of the image in pixels. 
+           i) The <img> tag has alt attribute. 
+	      The alt attribute tells us about the image. 
+ 
+Pixels are the unit of measurement(mejırmınt).
+We will be using to size our images. 
+
+Logo Kopyalama:
+Let's go ahead and go to the page, so thisi is the logo we want,  
+What you can do right-click on the logo and choose this option right here copy image addresses. This is the address for the image the url for that image 

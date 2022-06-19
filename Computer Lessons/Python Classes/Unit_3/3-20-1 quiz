@@ -1,0 +1,26 @@
+
+Iteration:yenileme
+
+1-d 19
+2-b 9.5
+3-d print(name + ": " + num)
+4-b ans = “hi” + 9
+5-a <type 'str'>
+6-a str
+7-d language = "Python"
+print("I'm learning " + language)
+
+8-c Numbers that can have decimal components
+9-b 3 and 4.4
+10-b 8
+11-a
+12-d How far Tracy is supposed to move
+13-c A binary operator needs two things, while a unary operator only needs one.
+
+14-b Line 2
+15-c A, C, D, B
+16-c FlorenceFernandez 
+17-c I, II, IV
+18-a user_age
+19-d number
+20-c  pi = 3.14

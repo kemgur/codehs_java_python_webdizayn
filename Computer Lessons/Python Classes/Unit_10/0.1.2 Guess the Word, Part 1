@@ -1,0 +1,8 @@
+You’re going to build this program in parts. In this exercise, you will build a program that stores a secret word and allows the user to guess 10 letters. 
+(Bu programı parçalar halinde oluşturacaksınız. Bu alıştırmada, gizli bir kelimeyi saklayan ve kullanıcının 10 harf tahmin etmesini sağlayan bir program oluşturacaksınız.)
+
+Each time the user makes a guess, your program will report whether or not that letter is in the secret word.
+(Kullanıcı her tahminde bulunduğunda, programınız o harfin gizli kelimede olup olmadığını rapor edecektir.)
+
+An interaction with your final program for Part 1 might look like this:
+(Bölüm 1 için son programınızla etkileşim şöyle görünebilir:)

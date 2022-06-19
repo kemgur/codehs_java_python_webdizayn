@@ -1,3 +1,17 @@
+"""
+Assignment:
+Write a program that draws a happy or sad face based on the user’s mood.
+Alter your ‘Happy Face’ program to draw a frown if the user does not answer that they are happy. Don’t forget to use a variable called happy to save user input.
+
+Hint: All you need to change from happy to sad is the smile!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
 speed(0)
 
 # This function draws one of the smiley face's eyes

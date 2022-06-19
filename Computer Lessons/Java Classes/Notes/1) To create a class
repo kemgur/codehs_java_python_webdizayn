@@ -1,0 +1,24 @@
+To create a class, we need to 4 steps.
+1) public,  it is access modifier (Other access modifiers: protected, default(same package), private)
+
+-> An access modifier restricts(ristrîkts) the access of a class.(Bir erişim değiştiricisi, bir sınıfın erişimini kısıtlar)
+
+  -> If the access modifier is public, this class can be accessed by anyone.
+
+2) class, Indicates that the code we wrote is a class.(Yazdigimiz kodun class oldugunu belirtir)
+
+3) MyFirstClass is class name, everytime start eith uppercase to name it. 
+ -> Class name should be relation with class content. 
+ -> Start with uppercase.
+ -> If you are using multiple world in your class name, all world should start uppercases. That's it.
+
+ We can give the Class any name we want.
+however, when naming, it is generally a suitable name for the operation done in the class.
+attention is paid to the selection.(Class’a istedigimiz ismi verebiliriz ancak isim verilirken genelde class’da yapilan isleme uygun bir isim 
+secilmesine dikkat edilir.) 
+
+You can use any name no problem. It works. But your class name should be suitabe with the class functionality. For example you are creating a class. To create coin object. Class name should be coin class. Name should be match with the functionality. 
+
+Camel Case:  The name must begin with a capital letter, if it consists of more than one word, the next first letters of words are also capitalized. (Isim mutlaka buyuk harfle baslar, birden fazla kelimeden olusursa sonraki kelimelerin ilk harfleri de buyuk harf yazilir ) 
+
+4) The part starts with "{" and ends with"}" is called body. 

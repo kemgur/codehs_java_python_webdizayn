@@ -1,0 +1,89 @@
+
+Benefits of Classes
+
+Using and creating classes allows us to save both behavior and state of objects to make it easier to write our programs.
+(Sınıfları kullanmak ve oluşturmak, programlarımızı yazmayı kolaylaştırmak için hem nesnelerin davranışını hem de durumunu kaydetmemizi sağlar.)
+
+ (hayırärki) diagram: asama sıralaması
+
+//////
+Using extends
+Public class MyProgram extends Karel
+-To show how one class relates to another, we can use the keyword extends. 
+Bir sınıfın diğeriyle nasıl ilişkili olduğunu göstermek için,"extends" anahtar sözcüğünü kullanabiliriz.
+
+//////
+What can you do with subclasses?
+1) Subclasses inherit all of the public instance methods of superclass.
+(Alt sınıflar, üst sınıfın tüm genel örnek yöntemlerini devralır.)
+inherit: miras
+
+Subclasses inherit the instance and class variables, but since they are usually private, need to be accessed and modified through methods.
+(Alt sınıflar, örnek ve sınıf değişkenlerini devralır, ancak genellikle özel olduklarından, yöntemlerle erişilmeleri ve değiştirilmeleri gerekir.)
+
+Subclasses can add their own instance variables. 
+(Alt sınıflar kendi örnek değişkenlerini ekleyebilir.)
+
+Subclasses can add their own methods. 
+
+Subclasses can override superclass methods.
+(Alt sınıflar, üst sınıf yöntemlerini geçersiz kılabilir.)
+
+
+ /////////////SA Notes:
+The parent-child relationship between the two classes.
+Inheritance is very important subject everyone.
+You should understand it well. 
+/////////////
+In the last lesson, we learned about Inheritance. I will explain briefly now.
+Can anyone look at the board?
+  1.Picture
+  1) This is Animal class
+  2) Dogs is another class.
+  3) Cat is another class.
+  4) Birds is another class.
+  5) Dogs drink water.Cats drink water.Birds drink water.
+  6) Let's type over here drink() method.
+  7) If you will create a method about dogs, 
+     Definitely you application should have drink() method.
+  8) One more methods, Dogs eat.  Cats eat.  Birds eat.
+  9) I can increase those common methods. 
+  10) Everybody what do you think about that structure. 
+  11) I am typing drink(),drink(),drink() multiple times.
+  12) Over here there are only 3 animal names. 
+  13) If you create an animal project, maybe you need to 2000 classes and for every class you will type 2000 drink() method.It is not good. 
+  14) For example, when you want to change something in the drink() method, you have to make the same change in all drink() methods. This is a big problem.
+  15) In coding area, if you repeat something, you are making mistake. Repeating is not good practice in coding area.   
+
+ /////////////
+  2.Picture
+  1) How does Java solve this repetition problem?
+  2) Java created drink() method over here. 
+  3) Java creates the drink() method in the parent class.
+  4) When the dog class needs the drink() method, it can call it from its parent class.
+  5) Can you see there is no repletion. repletion was a problem now fix it.
+  6) When you want to update the drink() method, you only need to fix one method.
+  7) In conclusion, using inheritance logic is a very useful and fast way.
+
+   
+ 
+  
+
+
+Interview Questions:
+1) From Parent class, which classes members can bu used by child. classes?
+Child inherited parent.
+-> Public and protected ones can be used without any issue.
+   Private one can cot be used by child classes.
+   Default one can be use only from in the same pages. 
+
+2) How can we make a class, child of another class.
+-> You will use "extends" keyword.
+Dog extends Animal=> Java will understand "Dog is child of Animal"     
+
+Dog class inherited drink() method.
+
+
+
+
+

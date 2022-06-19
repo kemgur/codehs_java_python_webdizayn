@@ -1,0 +1,100 @@
+
+List Comprehensions(kämprihenşın):anlama, kavrama
+
+Hi This video focuses on a neat trick you can do with lots called list comprehensions.  
+(Merhaba Bu video, liste anlama denilen birçok şeyle yapabileceğiniz güzel bir numaraya odaklanıyor.)
+
+Positive Numbers
+Say you want to create a list of the first five positive numbers. 
+(İlk beş pozitif sayının bir listesini oluşturmak istediğinizi varsayalım.)
+
+nums=[]
+You could start out with an empty list. 
+(Boş bir listeyle başlayabilirsiniz.)
+
+For I in rahge(1,6):
+  nus.append(i)
+print(nums)
+And then use a for loop to append the numbers. 
+(Ardından sayıları eklemek için bir for döngüsü kullanın.)
+
+Quick review on this species of for loop.
+(Bu for döngüsü türü hakkında hızlı bir inceleme.)
+
+We start at one and go up two but not including six.  
+(Birden başlayıp ikiye çıkıyoruz ama altıyı dahil etmiyoruz.)
+//////
+nums=[i for i in range(1,6)]
+As you see we reduces three line of code to just one line.
+(Gördüğünüz gibi üç satırlık kodu tek satıra indiriyoruz.)
+
+Granted(Diyelim ki) the one line is pretty dense so let's take a closer look. 
+(Bir çizgi oldukça yoğun olduğu için daha yakından bakalım.)
+
+Let's break this down into pieces this part is basically a for loop in disguise.(Bunu parçalara ayıralım, bu kısım temelde bir for döngüsü kılık değiştirmiş.)
+disguise(disgays): kılık değiştirmek, gizlemek
+
+It should look weird because it doesn't have a body it appears in the middle  of a bunch of code but it still behaves similarly it assigns numbers to I from a range starting at 1 and going up 2 but not including 6.
+(Garip görünmelidir, çünkü bir grup kodun ortasında görünen bir gövdesi yoktur, ancak yine de benzer şekilde davranır, 1'den başlayıp 2'ye çıkan ancak 6'yı içermeyen bir aralıktan I'e sayılar atar.)
+
+//////
+The thing to the left of the for loop is the thing we want to append to our list each time the for loop ticks.
+(For döngüsünün solundaki şey, for döngüsü her tıklandığında listemize eklemek istediğimiz şeydir.)
+
+In this case we want to just take whatever number the for loop throws at us and append it to our list. 
+(Bu durumda, for döngüsünün bize attığı sayıyı almak ve onu listemize eklemek istiyoruz.)
+
+/////
+Finally you can think of the square brackets as indicators that this is in fact an expression that evaluates to a list. 
+(Son olarak köşeli parantezleri bunun aslında bir liste olarak değerlendirilen bir ifade olduğunun göstergesi olarak düşünebilirsiniz.)
+
+/////
+Let's see what happens when we change different parts of this.
+(Bakalım bunun farklı kısımlarını değiştirdiğimizde ne olacak.)
+
+
+List Comprehensions(kämprihenşın):anlama, kavrama
+/////////////////////////////////
+4.Slide
+When we want to create a list with a normal for loop, we have to write 4 lines of code.
+
+5.Slide
+But when we use List Comprehensions(kämprihenşın), these 2 lines decrease.
+
+6.Slide
+As you see, when you put the for loop inside the list brackets, you must put the i before the "for" keyword. Thus, you can create list elements from 1 to 5.
+
+11.
+You can create double the "i" values ​​as a list element.
+
+14.
+If you create a condition with the % sign, you will get a boolean result.
+
+16.
+You can also create list elements as strings.
+
+Now review the example solutions given in the codehs.
+(Simdi codehs'te verilen ornek cozumleri gozden gecirin. )
+
+Then you should try to solve the questions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

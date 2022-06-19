@@ -1,0 +1,21 @@
+
+Iteration:yenileme
+In this lesson we are going to learn how variables can be used to store values and execute our code with specific data.
+(Bu derste, değerleri depolamak ve kodumuzu belirli verilerle yürütmek için değişkenlerin nasıl kullanılabileceğini öğreneceğiz.)
+
+For loops Refresher:
+For loops allow us to repeat code a specific amount ot times.
+
+When you run this code you will get a square shape.
+
+Each side of the square will be 50px.
+
+
+i is changing its value on every iteration(yenileme).
+
+Each time the loop runs, the i value will increase one by one.
+
+
+The initial value of i is 0.
+
+When the value of i is 4, the loop ends.

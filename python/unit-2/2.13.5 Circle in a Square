@@ -1,3 +1,17 @@
+"""
+Assignment:
+Write a program that asks a user for a radius value and then draws a blue circle inside a red square in the center of the canvas.
+Make sure to use parameters so that the circle-square combo can be altered to any size.
+
+Hint: You can only collect one value named radius from the user, so you may first need to determine a mathematical relationship between these two shapes.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
 inputs =[100]
 
 #speed(0)

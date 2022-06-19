@@ -1,3 +1,24 @@
+"""
+Assignment:
+Write a program that will have Tracy fill the canvas with squares centered around the middle of the screen.
+Use a while loop to have Tracy keep drawing squares from the center of the canvas as long as the length variable is under 400 pixels.
+
+Follow these guidelines:
+-The smallest square closest to the center should have a length of 50 pixels.
+-The squares should increase in length by 50 pixels with every iteration.
+-The largest square should have a length of 350 pixels.
+
+Hints:
+-Start Tracy at the bottom left hand corner of each square before drawing. It might help to draw out your image on graph paper before getting to coding to determine how we can get her to this spot!
+-Use a variable called length in your code.
+-Make sure to increase the value of the length variable after drawing each square.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
 speed(0)
 length=20
 

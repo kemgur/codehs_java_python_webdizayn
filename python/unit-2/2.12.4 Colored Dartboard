@@ -1,3 +1,26 @@
+"""
+Assignment:
+Write a program that draws a colored dartboard!
+Alter the “Dartboard” program you wrote previously so that each circle is filled in with a color that a user has given
+
+Remember that your dartboard:
+
+-Consists of 4 concentric circles
+-Has the center circle placed in the middle of the canvas with a radius of 25
+-Has three circles surrounding the middle, that each increase in radius by 25 pixels
+
+Hints:
+-Circles stack on top of one another, so you will need to start with the largest circle rather than the smallest in order to see each circle drawn!
+-Use a variable called color_choice to save the user input.
+-A variable called radius shoud be used to control each circle’s size.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
+
 #inputs = ["black", "blue", "yellow", "red"]
 
 # Set initial value of variable to 25

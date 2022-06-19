@@ -1,3 +1,22 @@
+"""
+Assignment:
+Write a code that will check if a user guessed the secret number.
+Follow these guidelines:
+
+-Ask user for a number 1 - 10.
+-If they did not guess the secret number, the user will be asked to keep guessing.
+-When they guess the secret number, a checkmark will appear and the user will stop being asked to guess.
+-Save user input to a variable called user_number.
+-Save the number the user is trying to guess in a variable called secret_number.
+
+Hint: To ask the user to keep guessing, use another call to input!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+
 #speed(0)
 user_number = int(input("Pls enter your secret number: "))
 secret_number = user_number

@@ -1,0 +1,48 @@
+ Primitive Data Types
+
+boolean Data Type: They are used to store only two possible values which are true and false. Represents only 1 bit.
+boolean isExpensive = true;
+
+
+char Data Type: It stores a single character and generally requires a single byte of memory. Represents only 16 bit
+char letter = ‘a’ ;
+boolean isCold = false; char digit = ‘3’ ;
+Note: Put the char value between single quotes.
+
+
+byte Data Type: Its value-range lies between -128 to 127 (inclusive).Represents only 8 bit
+byte age = 73;
+byte heightOfBuilding = 112;
+
+
+short Data Type: Its value-range lies between -32,768 to 32,767 (inclusive).Represents only 16 bit
+short populationOfTown = 27,324;
+short lossOfCompany = -15,675;
+
+int Data Type: Its value-range lies between -2,147,483,648 to 2,147,483,647 (inclusive).Represents only 32 bit
+int profitOfApple = $1,342,345,000;
+int lossOfNokia = -1,125,675,765;
+
+
+long Data Type: Its value-range lies between -9,223,372,036,854,755,808 to 9,223,372,036,854,755,807 (inclusive). 
+Represents only 64 bit
+long profitOfApple = $1,342,345,000;
+long lossOfNokia = -1,125,675,765;
+
+
+float Data Type: The float data type is up to 7 decimal digits. Represents only 32 bit
+float floatVar1 = 2.123 f; Note: Put “f” at the end of the float value, otherwise it is accepted as 
+float floatVar2 = -2.1 2 3 4 5 6 f;
+Note: Put “f” at the end of the float value, otherwise it is accepted as double.
+
+
+double Data Type: The float data type is up to 16 decimal digits. Represents only 64 bit
+double doubleVar1 = 2.123;
+double doubleVar2 = -2.12345679078000000000123;
+
+
+
+
+
+
+
