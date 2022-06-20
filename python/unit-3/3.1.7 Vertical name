@@ -1,0 +1,22 @@
+"""
+Assignment:
+In this exercise, you will write a program that displays your name written vertically.
+
+For example, if your name was Maria, the output should be:
+
+M
+a
+r
+i
+a
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+print("M")
+print("a")
+print("r")
+print("i")
+print("a")

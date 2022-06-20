@@ -1,0 +1,48 @@
+3.2.2 Variables and Types
+Score: 2 / 2
+Question: 1
+What type is the following variable?
+
+x = "Hi there"
+
+
+float
+
+
+integer
+
+
+boolean
+
+
++string
+
+Great work!
+
+
+Question: 2
+What does the following Python program print?
+
+x = "I am"
+y = 6
+z = "feet tall"
+
+print(x)
+print(y)
+print(z)
+
+
+I am 6 feet tall
+
+
+I am6feet tall
+
++
+I am
+6
+feet tall
+
+
+x
+y
+z

@@ -1,0 +1,29 @@
+3.6.2 Comments
+Score: 2 / 2
+Question: 1
+Which of the following is NOT a valid type of comment in Python?
+
+
+
++%% This is a comment
+
+# This is a comment
+
+"""
+This is a comment
+"""
+Great work! We can only use “”” for multiline comments and # for in-line comments.
+
+
+Question: 2
+Which of the following best describes the main purpose of comments?
+
+
+
+Comments create better spacing in programs.
+
+
++Comments describe your program so other people can read it more easily.
+
+
+Comments warn the people running the program about potential problems with the program.

@@ -1,0 +1,14 @@
+"""
+Assignment:
+Write a program that prints your name and something about yourself. Here’s an example of what your program could display:
+
+My name is Eleanor.
+I like writing Python programs!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+print("My name is Eleanor.")
+print("I like writing Python programs!")

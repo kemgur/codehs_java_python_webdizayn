@@ -1,0 +1,16 @@
+"""
+Assignment:
+The program in this exercise doesn’t run! It looks like this:
+
+print("Hi there!")
+print(My favorite color is magenta.)
+Try to run it, and see what happens. Then see if you can fix it.
+
+Starter Code:
+print("Hi there!")
+print(My favorite color is magenta.)
+
+Solution Code:
+"""
+print("Hi there!")
+print("My favorite color is magenta.")

@@ -1,0 +1,21 @@
+"""
+Assignment:
+Your friend is about to have a birthday! Write a program that asks them how old they are. Once they enter their age, print how many candles they’ll need for their birthday cake. (This should be one more than their current age.)
+
+You will have to use input to retrieve information from the user, and int to convert what they type into an integer. Finally, you’ll have to alter their age variable to tell the user how many candles they will need.
+
+Here is what running your program should look like:
+
+Enter your age: 117
+
+You will need this many candles for your birthday cake:
+118
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+age = int(input("Enter your age: "))
+print("You will need this many candles for your birthday cake:")
+print(age+1)

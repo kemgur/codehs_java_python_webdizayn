@@ -1,0 +1,349 @@
+Question: 1
+What is the final result of the expression 4 + 5 * 3?
+
+
+
+27
+
+
+12
+
+
+21
+
+
++19
+
+Question: 2
+What is the final result of the expression 7 / 2 + 6?
+
+
+
+0
+
+
++9.5
+
+
+9
+
+
+0.875
+
+Question: 3
+Choose the print statement below that will cause an error. Assume that num has the value 6, and name has the value Isabella.
+
+
+
+print(name + ":" )
+print(num)
+
+print(name + " wants " + "num " + "candies")
+
+print(name + ": " + str(num))
+
++print(name + ": " + num)
+Question: 4
+Which one of the statements below will cause an error?
+
+
+
+ans = “hi” * 8
+
+
++ans = “hi” + 9
+
+
+ans = “hi” + “hi” + “hi”
+
+
+ans = (“a” * 4) + “b”
+
+Question: 5
+What does the following program print?
+
+a = "hi"
+b = 4
+c = a * b
+
+print(type(c))
+
+
++<type 'str'>
+
+
+<type 'int'>
+
+
+<type 'float'>
+
+
+The program crashes and doesn’t print anything.
+
+Question: 6
+Suppose you have a variable defined a = "4". What is the variable type of a?
+
+
+
++str
+
+
+int
+
+
+float
+
+
+number
+
+Question: 7
+Choose the option that correctly prints out the variable(s).
+
+
+
+x = "codehs"
+print(int(x))
+
+num = 8
+print("num")
+
+name = "Alyx"
+age = 32
+print(name + "is " + age)
+
++
+language = "Python"
+print("I'm learning " + language)
+Question: 8
+What kind of data does a float variable contain?
+
+
+
+Whole numbers
+
+
+Words
+
+
++Numbers that can have decimal components
+
+
+A float is not a Python variable type
+
+Question: 9
+What does the following code print?
+
+x = 3.4
+y = 1
+print(int(x))
+print(x + y)
+
+
+3.4
+4.4
+
++
+3
+4.4
+
+
+3
+4
+
+
+The code causes an error
+
+Question: 10
+Which of the following options is the best way to get a number from the user that you plan to use in a mathematical equation?
+
+
+
+num = str(input(“Enter a number: “))
+
+
+num = number(input(“Enter a number: “))
+
+
+num = input(“Enter a number: “)
+
+
++num = int(input(“Enter a number: “))
+
+Question: 11
+What is the final result of the expression 2**3?
+
+
+
+6
+
+
++8
+
+
+2
+
+
+That is not a valid Python expression.
+
+Question: 12
+What is the character that in-line Python comments begin with?
+
+
+
++#
+
+
+%
+
+
+-
+
+
+“
+
+Question: 13
+What is the difference between a binary operator and a unary operator?
+
+
+
+A computer can use binary operators, but it cannot use unary operators.
+
+
+A unary operator needs two things, while a binary operator only needs one.
+
+
++A binary operator needs two things, while a unary operator only needs one.
+
+
+Binary operators are used for arithmetic expressions, while unary operators are for strings.
+
+Question: 14
+On which line of code will Python error?
+
+weight = input("How much do you weigh? ")
+oz_water = weight / 2
+print("You should drink " + str(oz_water))
+print("ounces of water every day if you weigh " + weight)
+
+
+Line 1
+
+
++Line 2
+
+
+Line 3
+
+
+Line 4
+
+Question: 15
+In what order should these statements be executed in order to get input from the user and print out the result?
+
+A) response = input("Do you like cheese? ")
+B) print("You have chosen " + confirm)
+C) print("You responded " + response)
+D) confirm = input("Are you sure? ")
+
+
+
+A, B, C, D
+
+
+B, C, A, D
+
+
++A, C, D, B
+
+
+C, B, A, D
+
+Question: 16
+What is the output of the following program? Assume the user enters “Florence”, then “Fernandez”.
+
+first_name = input("What is your first name? ")
+last_name = input("What is your last name? ")
+whole_name = first_name + last_name
+print(whole_name)
+
+
+Fernandez Florence
+
+
+Florence
+Fernandez
+
+
++FlorenceFernandez
+
+
+Florence Fernandez
+
+Question: 17
+Which of the following statements is true about print statements?
+
+I. In order to print a string literal, the string must be enclosed in quotes.
+II. Each print statement will be printed on its own line.
+III. Print statements will not let you print string and number characters in the same statement.
+IV. Print statements are how you display text on the screen.
+
+
+
+I, IV
+
+
+II, III
+
+
++I, II, IV
+
+
+I, III, IV
+
+Question: 18
+Which of the following choices is a properly formed Python variable name, meaning it is both legal in the Python language and considered good style?
+
+
+
++user_age
+
+
+uSeRaGe
+
+
+user!age!
+
+
+1user_age
+
+Question: 19
+Which of the following choices is NOT a Python variable type?
+
+
+
+int
+
+
+str
+
+
+float
+
+
++number
+
+Question: 20
+Choose the correct declaration of a float variable with the value 3.14.
+
+
+
+pi = “3.14”
+
+
+pi = int(3.14)
+
+
++pi = 3.14
+
+
+float pi = 3.14

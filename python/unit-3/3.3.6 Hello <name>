@@ -1,0 +1,21 @@
+"""
+Assignment:
+Write a program that takes a user’s name and says hello to them. You should save their name in a variable called user_name.
+
+An example call for input should look like this:
+
+What is your name?: Andre
+With the previous name, the following output should be given:
+
+Hello
+Andre
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+user_name = input("What is your name?: ")
+
+print("Hello")
+print(user_name)

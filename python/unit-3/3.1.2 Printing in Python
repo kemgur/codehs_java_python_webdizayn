@@ -1,0 +1,35 @@
+3.1.2 Printing in Python
+Score: 2 / 2
+Question: 1
+Which Python code segment will display “Hello, world!” on the screen?
+
+
+
+display Hello, world!
+
++print("Hello, world!")
+
+print "Hello, world!"
+
+"Hello, world!"
+Great work!
+
+
+Question: 2
+What does the following Python code display?
+
+print("Hello")
+print("World")
+
++
+Hello
+World
+
+HelloWorld
+
+Hello World
+
+Hello
+
+World
++

@@ -1,0 +1,20 @@
+"""
+Assignment:
+Alter the Rectangle program you wrote in the last lesson to print out the names of each number being printed. Remember, length is set to 10 and width is set to 5.
+
+Your output should look like this:
+
+Area: 50
+Perimeter: 30
+Note that you should be printing a string and a variable on the same line each time!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+length = 10
+width = 5
+
+print("Area: " + str(length * width))
+print("Perimeter: " + str(2 * (length + width)))

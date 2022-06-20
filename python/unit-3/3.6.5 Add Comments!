@@ -1,0 +1,30 @@
+"""
+Assignment:
+Add a big multi-line comment at the top of the program, describing what the program does.
+
+Add a small single-line comment above each contiguous block of code, describing what that block does.
+
+Starter Code:
+first_name = input("Enter your first name: ")
+middle_name = input("Enter your middle name: ")
+last_name = input("Enter your last name: ")
+
+
+full_name = first_name + " " + middle_name + " " + last_name
+print(full_name)
+
+Solution Code:
+"""
+"""
+This program asks the user for their first, middle,
+and last names. It then prints their full name.
+"""
+
+# Ask the user for first, middle, and last names
+first_name = input("Enter your first name: ")
+middle_name = input("Enter your middle name: ")
+last_name = input("Enter your last name: ")
+
+# Print their full name
+full_name = first_name + " " + middle_name + " " + last_name
+print(full_name)

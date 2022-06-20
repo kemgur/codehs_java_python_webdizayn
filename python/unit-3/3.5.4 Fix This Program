@@ -1,0 +1,18 @@
+"""
+Assignment:
+This Python program has a problem! See if you can find and fix it. It should ultimately print:
+
+I have played the kazoo since I was 7 years old.
+
+Starter Code:
+instrument = "kazoo"
+age = 7
+
+print("I have played the " + instrument + " since I was " + age + " years old.")
+
+Solution Code:
+"""
+instrument = "kazoo"
+age = 7
+
+print("I have played the " + instrument + " since I was " + str(age) + " years old.")
