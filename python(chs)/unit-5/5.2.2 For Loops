@@ -1,0 +1,36 @@
+5.2.2 For Loops
+Score: 2 / 2
+Question: 1
+Which of the following programs prints ten lines?
+
+
++
+for i in range(10):
+    print("hi")
+
+for i = 1 to 10:
+    print("hi")
+
+for i in 1 - 10:
+    print("hi")
+
+for i from 0 to 9:
+    print("hi")
+Great work! The range values counts from 0 to 9 and then stops when it reaches 10!
+
+
+Question: 2
+Which of the following best describes the purpose of a for loop?
+
+
+
+A for loop is for doing something an indeterminate number of times.
+
+
+A for loop is doing something an infinite number of times.
+
+
++A for loop is for doing something a fixed number of times.
+
+
+A for loop is for doing something three times.

@@ -1,0 +1,45 @@
+"""
+Assignment:
+Write a program that lets you know if you can have a key or not, based on your role at the school.
+
+First ask for the user’s role at the school. They can be a student, administrator, or a teacher. (And remember that capitalization is important! ‘Student’ is not the same as ‘student’.)
+
+Example 1: Administrator or Teacher
+For example, if this was the input:
+
+Are you an administrator, teacher, or student?: teacher
+This should be the output:
+
+Administrators and teachers get keys!
+Example 2: Student
+And if this was the input:
+
+Are you an administrator, teacher, or student?: student
+This should be the output:
+
+Students do not get keys!
+(Note: You should also be able to handle a situation where the user enters a value other than administrator, teacher or student and tell them they must be one of the three choices!)
+
+Example 3: Other
+If they input anything else:
+
+Are you an administrator, teacher, or student?: secretary
+This should be the output:
+
+You can only be an administrator, teacher, or student!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+role = input("Are you an administrator, teacher, or student? ")
+
+# The role must be teacher, administrator, or  student. If it is none of
+# these, the program will say so.
+if role == "teacher" or role == "administrator":
+    print("Administrators and teachers get keys!")
+elif role == "student":
+    print("Students do not get keys!")
+else:
+    print("You can only be an administrator, a teacher, or a student!")

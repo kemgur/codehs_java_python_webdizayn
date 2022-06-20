@@ -1,0 +1,24 @@
+4.2.2 If Statements
+Score: 0 / 2
+Question: 1
+Assume you are writing a program, and you have a boolean variable called b, defined like so:
+
+b = True
+Pick the correct if statement to follow the code above. The if statement should be correct Python, and the body of the if statement should only run if b is True.
+
+
++
+if b:
+    print("b is True!")
+Python
+
+if b:
+print("b is True!")
+Python
+
+if True:
+    print(b)
+Python
+
+if True:
+print(b)

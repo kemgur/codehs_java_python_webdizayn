@@ -1,0 +1,19 @@
+"""
+Assignment:
+Booleans, like integers, have to be converted to strings before they can be added to strings. See if you can fix this program, which should print whether or not someone brought food to a party and whether or not they brought a drink.
+
+Starter Code:
+brought_food = True
+brought_drink = False
+
+# These lines don't work! Fix them so that they do.
+print("Did the person bring food? " + brought_food)
+print("Did the person bring a drink? " + brought_drink)
+
+Solution Code:
+"""
+brought_food = True
+brought_drink = False
+
+print("Did the person bring food? " + str(brought_food))
+print("Did the person bring a drink? " + str(brought_drink))

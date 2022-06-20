@@ -1,0 +1,385 @@
+4.6.1 Conditionals Quiz
+Score: 0 / 15
+Question: 1
+What does this program print?
+
+favorite_color = "blue"
+
+if favorite_color != "blue":
+    if favorite_color != "red":
+        print("Must be yellow")
+elif favorite_color == "blue":
+    if favorite_color != "yellow":
+        print("Must be blue")
+elif favorite_color == "blue":
+    if favorite_color != "yellow":
+        print("I like purple")
+else:
+    if favorite_color == "blue":
+        print("Blue is the best")
+
+
+Must be yellow
++Must be blue
+I like purple
+Blue is the best
+
+
+Must be blue
+
+
+Blue is the best
+
+Question: 2
+How would you round the number held in the variable pi to 3.14?
+
+pi = 3.14159265
+
+
+round(pi)
+
+
+round(pi, 3)
+
+
+round(3, pi)
+
+
++round(pi, 2)
+
+Question: 3
+Why should you use round when you compare two numbers that have type float?
+
+
+
+If you don’t, Python will only compare the whole part and discard the decimal part.
+
+
+You don’t have to, but it’s good style. All of the comparisons will still work out the same way.
+
+
++Sometimes numbers can be rounded in unexpected ways based on how Python computes them. Therefore, it is best to use round in order to make sure both numbers are rounded the same way.
+
+
+You should always use round when you compare two numbers, even if they are of type int.
+
+Question: 4
+What will print to the screen when the following program is run?
+
+number = 5
+greater_than_zero = number > 0
+print(type(number))
+
+
+5
+
+
+True
+
+
++<type ‘int’>
+
+
+<type ‘bool’>
+
+Question: 5
+What will print to the screen when the following program is run?
+
+number = 5
+less_than_zero = number < 0
+print(type(less_than_zero))
+
+
+5
+
+
+False
+
+
+<type ‘int’>
+
+
++<type ‘bool’>
+
+Question: 6
+What will be the output of this program?
+
+number = 5
+greater_than_zero = number > 0
+
+if greater_than_zero:
+    print(number)
+
+
+0
+
+
++5
+
+
+True
+
+
+Nothing will print
+
+Question: 7
+What will be the output of this program?
+
+number = 5
+greater_than_zero = number > 0
+
+if greater_than_zero:
+    if number > 5:
+        print(number)
+
+
+0
+
+
+5
+
+
+True
+
+
++Nothing will print
+
+Question: 8
+What will be the output of this program?
+
+number = 5
+less_than_zero = number < 0
+
+if less_than_zero:
+    print(number)
+
+number = number-10
+less_than_zero = number < 0
+
+if less_than_zero:
+    print(number)
+
+
+5
+5
+
+
++-5
+
+
+5
+-5
+
+
+Nothing will print
+
+Question: 9
+What will be the output of this program?
+
+number = 5
+greater_than_zero = number > 0
+less_than_zero = number < 0
+
+if greater_than_zero:
+    print(number)
+if less_than_zero:
+    print(number + 1)
+if greater_than_zero and less_than_zero:
+    print(number + 2)
+if greater_than_zero or less_than_zero:
+    print(number + 3)
+
+
+5
+
+
+5
+7
+
+
+5
+7
+8
+
++
+5
+8
+
+Question: 10
+What will the following program print when run?
+
+above_16 = True
+has_permit = True
+passed_test = False
+
+if above_16 and has_permit and passed_test:
+    print("Issue Driver's License")
+elif above_16 or has_permit or passed_test:
+    print("Almost eligible for Driver's License")
+else:
+    print("No requirements met.")
+
+
+Issue Driver’s License
+
+
++Almost eligible for Driver’s License
+
+
+No requirements met
+
+
+Nothing will print
+
+Question: 11
+What will the following program print when run?
+
+number_one = 5
+number_two = 10
+
+if number_one == 5:
+    print(1)
+if number_one > 5:
+    print(2)
+if number_two < 5:
+    print(3)
+if number_one < number_two: 
+    print(4)
+if number_one != number_two:
+    print(5)
+
+
+1
+
+
+1
+3
+5
+
+
+1
+4
+
++
+1
+4
+5
+
+Question: 12
+What will the following program print when run?
+
+number_one = 5
+number_two = 10
+
+if number_one == 5:
+    print(1)
+elif number_one > 5:
+    print(2)
+elif number_two < 5:
+    print(3)
+elif number_one < number_two: 
+    print(4)
+elif number_one != number_two:
+    print(5)
+else:
+    print(6)
+
++
+1
+
+
+1
+3
+5
+
+
+1
+4
+
+
+1
+4
+5
+
+Question: 13
+What does this program print?
+
+height = 65
+gender = "female"
+
+if height < 62:
+    print("You are below average height")
+elif height > 69:
+    print("You are above average height")
+else:
+    print("You are average height")
+
+
+You are below average height
+
+
+You are above average height
+
++
+You are average height
+
+
+You are below average height
+You are above average height
+
+Question: 14
+What does this program print?
+
+height = 65
+gender = "female"
+
+if height < 62 or (height < 69 and gender == "male"):
+    print("You are below average height")
+elif height > 69 or (height > 62 and gender == "female"):
+    print("You are above average height")
+else:
+    print("You are average height")
+
+
+You are below average height
+
++
+You are above average height
+
+
+You are average height
+
+
+You are below average height
+You are above average height
+
+Question: 15
+What does this program print?
+
+favorite_color = "blue"
+
+if favorite_color != "green":
+    print("But green is the color of grass!")
+if favorite_color == "red":
+    print("I like red, too!")
+if favorite_color == "blue":
+    print("Blue is the best")
+if favorite_color != "yellow":
+    print("But yellow is the color of school buses!")
+
++
+But green is the color of grass!
+Blue is the best
+But yellow is the color of school buses!
+
+
+But green is the color of grass!
+
+
+But green is the color of grass!
+I like red, too!
+Blue is the best
+But yellow is the color of school buses!
+
+
+Blue is the best

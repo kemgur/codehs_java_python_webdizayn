@@ -1,0 +1,48 @@
+"""
+Assignment:
+Write a program that makes the user guess a particular number between 1 and 100. Save the number to be guessed in a variable called magic_number.
+
+If the user guesses a number higher than the secret number, you should say Too high!. Similarly, you should say Too low! if they guess a number lower than the secret number. Once they guess the number, say Correct!
+
+Here is an example run of your final program, assuming that your number is 3:
+
+Enter a guess: 5
+Too high!
+Enter a guess: 2
+Too low!
+Enter a guess: 4
+Too high!
+Enter a guess: 3
+Correct!
+Use the loop and a half structure for your program. You should have a while loop that looks something like this:
+
+while True:
+    ...
+
+    if ...:
+        break
+
+    ...
+Be careful - you may end up with an infinite loop in your program if you don’t break correctly! If you run a program with an infinite loop in it, the page might freeze and you might have to refresh it to continue.
+
+
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+magic_number = 3
+
+# Your code here...
+while True:
+    guess = int(input("Guess my number:"))
+    if guess == magic_number:
+        print("Correct!")
+        break
+    elif guess >  magic_number:
+        print("Too high!")
+    else:
+        print("Too low")
+    
+print("Great job guessing my number")

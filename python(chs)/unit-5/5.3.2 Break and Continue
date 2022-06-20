@@ -1,0 +1,27 @@
+5.3.2 Break and Continue
+Score: 2 / 2
+Question: 1
+If I am using the following condition in my program:
+
+while True:
+which keyword should I use to make sure I don’t create an infinite loop?
+
+
+
++break
+
+
+continue
+
+Great work!
+
+
+Question: 2
+Which Python keyword skips back to the beginning of a loop?
+
+
+
+break
+
+
++continue

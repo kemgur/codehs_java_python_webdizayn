@@ -1,0 +1,21 @@
+"""
+Assignment:
+Write a program that has a Boolean variable that represents whether or not it is raining outside. Your program should print I'm going to dance in the rain! if it is raining, and I'm going to dance in the sun! if it is not raining.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+# This is a program that has a boolean variable that
+# represents whether or not it is raining outside. 
+# It prints "I'm going to dance in the rain!" if it is 
+# raining, and "I'm going to dance in the sun!" if it 
+# is not raining.
+
+is_raining = True
+
+if is_raining:
+    print("I'm going to dance in the rain!")
+else:
+    print("I'm going to dance in the sun!")

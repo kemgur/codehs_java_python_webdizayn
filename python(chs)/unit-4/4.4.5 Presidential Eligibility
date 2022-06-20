@@ -1,0 +1,44 @@
+"""
+Assignment:
+
+Write a program that reports whether or not someone is eligible to run for president in the U.S. You should do the following in your program:
+
+Ask the user for their age, and store it in a variable
+Ask the user if they are a citizen of the U.S.
+Ask the user how long they’ve been a resident in the U.S.
+Use an if/else statement with the proper comparison operator to print You are eligible to run for president! if they have the following credentials:
+They are at least 35 years old
+They were born in the U.S.
+They have been a resident for at least 14 years
+An example run of your program might look like this:
+
+Age: 19
+Born in the U.S.? (Yes/No): Yes
+Years of Residency: 19
+You are not eligible to run for president.
+… or like this:
+
+Age: 40
+Born in the U.S.? (Yes/No): Yes
+Years of Residency: 20
+You are eligible to run for president!
+Note:
+Remember that capitalization is very important! Make sure to check if the user replied ‘Yes’ or ‘No’, not ‘yes’ or ‘no’. You will not pass the autograder if your capitalization is off!
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+# This program determines whether or not someone is eligible to run for president
+# in the U.S.
+
+age = int(input("Age: "))
+citizen = input("Born in the U.S.? (Yes/No): ")
+years_resident = int(input("Years of Residency: "))
+
+
+if age >= 35 and citizen == "Yes" and years_resident >= 14:
+    print ("You are eligible to run for president!")
+else:
+    print ("You are not eligible to run for president.")

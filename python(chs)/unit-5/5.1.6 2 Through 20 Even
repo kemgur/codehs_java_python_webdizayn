@@ -1,0 +1,13 @@
+"""
+Assignment:
+Write a program that prints even numbers 2 through 20 using a while loop.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+x = 2
+while x <= 20:
+    print(x)
+    x = x + 2

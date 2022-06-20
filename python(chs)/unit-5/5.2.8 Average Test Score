@@ -1,0 +1,21 @@
+"""
+Assignment:
+Write a program that asks the user for three test scores. The program should then report the average of these three scores. You will need:
+
+A call to input. You should only have one line that has this!
+A for loop.
+Arithmetic operators.
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+total = 0
+
+for i in range(3):
+    score = int(input("Enter a score: "))
+    total = total + score
+
+average = total / 3
+print("Average: " + str(average))

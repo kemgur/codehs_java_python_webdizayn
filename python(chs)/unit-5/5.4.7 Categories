@@ -1,0 +1,36 @@
+"""
+Assignment:
+Write a program that asks the user for three categories. For each category, ask the user for three things in that category. You should print something for each category that states the category and the three things in that category.
+
+Here is what running your final program should look like:
+
+Enter a category: animals
+Enter something in that category: cheetah
+Enter something in that category: pelican
+Enter something in that category: red panda
+animals: cheetah pelican red panda
+Enter a category: noises
+Enter something in that category: vroom!
+Enter something in that category: whirrr!
+Enter something in that category: whooosh!
+noises: vroom! whirrr! whooosh!
+Enter a category: programming languages
+Enter something in that category: Python
+Enter something in that category: Java
+Enter something in that category: C++
+programming languages: Python Java C++
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+for i in range(3):
+    category = input("Enter a category: ")
+    things = category + " : "
+    
+    for j in range(3):
+        thing = input("Enter something in that category: ")
+        things =things + thing + " "
+        
+    print(things)

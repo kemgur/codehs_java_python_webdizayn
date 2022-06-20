@@ -1,0 +1,38 @@
+4.5.2 Floating Point Numbers and Rounding
+Score: 2 / 2
+Question: 1
+Which of the following evaluates to the variable x rounded to two decimal places?
+
+
+
++round(x, 2)
+
+
+round(2, x)
+
+
+round(x), 2
+
+
+round(2), x
+
+Great work!
+
+
+Question: 2
+Which of the following values is rounded to 3 decimal places?
+
+
+
+2.3
+
+
++3.000
+
+
+3.0001
+
+
+3
+
+Great work! Even though the decimal places are all zeroes, they still count! This value has 3 decimal places.

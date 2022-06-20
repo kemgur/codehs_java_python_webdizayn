@@ -1,0 +1,45 @@
+"""
+Assignment:
+We want to ask a user for two numbers and then divide them. The issue is that we cannot divide a number by 0.
+
+The code has been started for you. You’ll now need to add in a while loop that forces a user to continue entering a denominator value until their input is not zero.
+
+Right now, the program looks like this:
+
+numerator = int(input("Enter a numerator: "))
+denominator = int(input("Enter denominator: "))
+
+if int(numerator / denominator) * denominator == numerator:
+    print("Divides evenly!")
+else:
+    print("Doesn't divide evenly.")
+
+Starter Code:
+numerator = int(input("Enter a numerator: "))
+denominator = int(input("Enter denominator: "))
+
+# Use a while loop here to repeatedly ask the user for
+# a denominator for as long as the denominator is 0
+# (or, put another way, until the denominator is not
+# equal to 0).
+
+
+
+if int(numerator / denominator) * denominator == numerator:
+    print("Divides evenly!")
+else:
+    print("Doesn't divide evenly.")
+
+Solution Code:
+"""
+numerator = int(input("Enter a numerator: "))
+denominator = int(input("Enter denominator: "))
+
+while denominator == 0:
+    print("Denominator cannot be zero!")
+    denominator = int(input("Enter denominator: "))
+
+if int(numerator / denominator) * denominator == numerator:
+    print("Divides evenly!")
+else:
+    print("Doesn't divide evenly.")

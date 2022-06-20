@@ -1,0 +1,333 @@
+5.5.1 Looping Unit Test
+Answered: 0 / 15
+Question: 1
+Which of the following for loops would print the following numbers?
+
+0
+1
+2
+3
+4
+5
+
+
+for i in range(5):
+    print(i)
+
+for i in range(1, 5, 1):
+    print(i)
+
++for i in range(6):
+    print(i)
+
+for i in range(0, 5, 1):
+    print(i)
+Question: 2
+Which of the following for loops would print the following numbers?
+
+3
+5
+7
+9
+
++
+for i in range(3, 10, 2):
+    print(i)
+
+for i in range(3, 9, 2):
+    print(i)
+
+for i in range(9):
+    print(i)
+
+for i in range(3,9):
+    print(i)
+Question: 3
+What is the value of num when this loop completes?
+
+num = 0
+
+for i in range(2, 8, 2):
+    num = num + i
+
+
+2
+
+
+8
+
+
++12
+
+
+20
+
+Question: 4
+Which of the following for loops will give the same values for i as the loop below?
+
+for i in range(10):
+
+
+for i in range(11, 0):
+
+for i in range(10, 0, -1):
+
++for i in range(0, 10):
+
+for i in range(0, 11, 1):
+Question: 5
+Three of the for loops below will provide identical values for i. Which for loop will provide values that do not match the others?
+
+
+
+for i in range(0, 5):
+
+for i in range(5):
+
+for i in range(0, 5, 1):
+
++for i in range(5, 0, 1):
+Question: 6
+What does this program print?
+
+temperature = 65
+
+while temperature < 80:
+    print("It's still a nice day")
+    if temperature < 70:
+        temperature = temperature + 5
+    elif temperature > 75:
+        break
+    else:
+        temperature = temperature + 3
+
+
+It’s still a nice day
+It’s still a nice day
+
+
+It’s still a nice day
+It’s still a nice day
+It’s still a nice day
+
+
+It’s still a nice day
+It’s still a nice day
+It’s still a nice day
+It’s still a nice day
+It’s still a nice day
+
++
+It’s still a nice day
+It’s still a nice day
+It’s still a nice day
+It’s still a nice day
+
+Question: 7
+Which of the following while loops would continue to loop as long as num has values between the range of 3-12, exclusive?
+
+
+
+while num > 12 and num < 3:
+    # do something with num
+
+while num < 12 or num < 3:
+    # do something with num
+
+while num <= 12 and num >= 3:
+    # do something with num
+
+while num < 12 and num > 3:
+    # do something with num
+Question: 8
+Which of the following while loops will cause an infinite loop?
+
+
+
+secret_num = 10
+while secret_num == 10:
+    secret_num = secret_num - 1
+
++
+secret_num = 10
+while secret_num == 10:
+    print(secret_num)
+
+
+secret_num = 10
+while secret_num > 0:
+    secret_num = secret_num - 1
+
+
+secret_num = 10
+while secret_num != 10:
+    print(secret_num)
+Question: 9
+When would a while loop be a better control structure to use than a for loop?
+
+
+
+When you need to repeat multiple commands
+
+
+When you need to repeat something 5 times
+
++
+When you don’t know how many times something will need to repeat
+
+
+When the user is inputting how many times to repeat something
+
+Question: 10
+What will be printed to the screen when this program is run?
+
+for j in range(2):
+    for i in range(0, 2, 1):
+        print(i)
+
++
+0
+1
+0
+1
+
+0
+2
+
+0
+1
+0
+1
+0
+1
+
+1
+2
+1
+2
+1
+2
+Question: 11
+What is the value of sum when this loop completes?
+
+sum = 0
+
+for i in range(3):
+    sum = sum + 5
+    for j in range(2):
+        sum = sum - 1
+
+
+8
+
++
+9
+
+
+20
+
+
+0
+
+Question: 12
+What will be printed to the screen when this program is run?
+
+num = 100
+
+while num > 0:
+    for i in range(100, 0, -25):
+        num = num - i
+print(num)
+
+
+100
+0
+-75
+-125
+-150
+
++
+-150
+
+-175
+
+175
+Question: 13
+What does this program print?
+
+for i in range(10):
+    if i == 3:
+        continue
+    print(i)
+
+
+0
+1
+2
+
++
+0
+1
+2
+4
+5
+6
+7
+8
+9
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+0
+1
+2
+3
+Question: 14
+What is the benefit of using the break command as in the program below?
+
+magic_number = 10
+
+while True:
+    guess = int(input("Guess my number: "))
+    if guess == magic_number:
+        print("You got it!")
+        break
+    print("Try again!")
+
+
+The user can enter as many answers as they want
+
++
+The program will break out of the loop as soon as the user enters the magic_number
+
+
+The loop will prompt the user to enter a number no matter what input they give
+
+
+The loop will give the magic_number after a certain number of tries
+
+Question: 15
+If the user enters ‘4’, I want the loop to exit. Where should the break command be placed in order to end the loop when the user enters this value?
+Break and Continue
+
+
+
+On line 3
+
+
+On line 5
+
+
+On line 7
+
++
+On line 9

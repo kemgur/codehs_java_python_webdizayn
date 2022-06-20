@@ -1,0 +1,50 @@
+"""
+Assignment:
+Write a program that makes the user guess a particular float. Now, recall that you should not compare floats to determine if they are exactly equal. In this program, the user wins if their guess is accurate to within 2 decimal places. You will have to use round in your comparison of their guess to your number.
+
+If the user’s guess was too high, you should say so. Similarly, you should tell them if their guess was too low.
+
+Here is an example run of your final program, assuming that your float is 3.3312:
+
+Enter a guess: 5.0
+Too high!
+Enter a guess: 3.0
+Too low!
+Enter a guess: 4.0
+Too high!
+Enter a guess: 3.5
+Too high!
+Enter a guess: 3.25
+Too low!
+Enter a guess: 3.33
+Correct!
+Use the loop and a half structure for your program. You should have a while loop that looks something like this:
+
+while True:
+    ...
+
+    if ...:
+        break
+
+    ...
+Be careful - you may end up with an infinite loop in your program if you don’t break correctly! If you run a program with an infinite loop in it, the page might freeze and you might have to refresh it to continue.
+
+Before running Check Code, make sure to set the value of the number to guess to 3.3312
+
+Starter Code:
+No starter code.
+
+Solution Code:
+"""
+my_float = 3.3312
+
+# Your code here...
+while True:
+    guess = float(input("Enter a guess: "))
+    if round(guess,2) > round(my_float,2):
+        print("Too high!")
+    elif round(guess,2) < round(my_float,2):
+        print("Too low!")
+    else:
+        print("Correct!")
+        break

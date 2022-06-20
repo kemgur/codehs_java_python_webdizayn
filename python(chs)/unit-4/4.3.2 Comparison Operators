@@ -1,0 +1,34 @@
+4.3.2 Comparison Operators
+Score: 0 / 2
+Question: 1
+What does this Python expression evaluate to?
+
+100 != 100
+
+
+True
+
+
++False
+
+
+“True”
+
+
+“False”
+
+Question: 2
+Which of the following is not a comparison operator?
+
+
+
+<=
+
+
+!=
+
+
++?
+
+
+>
